@@ -47,6 +47,12 @@ Check your mastery scores and see which words need more work:
 ./venv/bin/python3 summary.py
 ```
 
+### Reset Progress
+If you want to start over and reset all your mastery scores:
+```bash
+./venv/bin/python3 reset_progress.py
+```
+
 ## Version Control
 This project is initialized with Git. To connect it to your GitHub account:
 ```bash
