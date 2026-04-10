@@ -1,4 +1,4 @@
-# Bangla Bot: Kolkata Dialect Tutor 🇧🇩
+# Bangla Bot: Kolkata Dialect Tutor 🇮🇳
 
 An interactive, programmatic Bengali language learning environment focused on the Kolkata dialect. This project uses Gemini to generate contextual practice sessions, track progress, and provide real-time audio feedback.
 
