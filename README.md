@@ -1,6 +1,8 @@
 # Bangla Bot: Kolkata Dialect Tutor 🇮🇳
 
-An interactive, programmatic Bengali language learning environment focused on the Kolkata dialect. This project uses Gemini to generate contextual practice sessions, track progress, and provide real-time audio feedback.
+> **Note:** This project was created with the assistance of Gemini, partly as a way to experiment with agent-assisted coding techniques.
+
+An interactive, programmatic Bengali language learning environment focused on the Kolkata dialect. This project uses the Gemini API to generate contextual practice sessions, track progress, and provide real-time audio feedback.
 
 ## Features
 
@@ -29,14 +31,22 @@ sudo apt update && sudo apt install -y python3-venv python3-pip mpg123
 The project uses a virtual environment to manage dependencies:
 ```bash
 python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+./venv/bin/pip install -r requirements.txt
 ```
+
+### 3. API Key Configuration
+This project requires a Google Gemini API key. You can obtain one for free (within certain limits) from the [Google AI Studio](https://aistudio.google.com/).
+
+To use the key, set it as an environment variable in your terminal:
+```bash
+export GOOGLE_API_KEY="your_api_key_here"
+```
+Alternatively, the `practice.py` script will prompt you for the key if it's not found in your environment.
 
 ## How to Use
 
 ### Start a Practice Session
-Run the main script and follow the prompts. Type "Start session" to begin.
+Run the main script and follow the prompts. The AI will automatically read your `progress.json` to tailor the session.
 ```bash
 ./venv/bin/python3 practice.py
 ```
@@ -51,13 +61,4 @@ Check your mastery scores and see which words need more work:
 If you want to start over and reset all your mastery scores:
 ```bash
 ./venv/bin/python3 reset_progress.py
-```
-
-## Version Control
-This project is initialized with Git. To connect it to your GitHub account:
-```bash
-git remote add origin <your-repo-url>
-git add .
-git commit -m "Initial commit"
-git push -u origin main
 ```
