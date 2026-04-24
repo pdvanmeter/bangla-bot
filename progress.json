@@ -1,14 +1,19 @@
 {
   "vocabulary": {
-    "খুব (khub)": {
+    "ami": {
+      "last_practiced": "2024-05-23",
       "encounters": 2,
-      "last_practiced": "2024-04-18",
-      "mastery_score": 1
+      "mastery_score": 0.7
     },
-    "ভাত (bhaat)": {
+    "khai": {
       "encounters": 2,
-      "last_practiced": "2024-04-18",
-      "mastery_score": 1
+      "mastery_score": 0.7,
+      "last_practiced": "2024-05-23"
+    },
+    "maach": {
+      "encounters": 1,
+      "mastery_score": 0.5,
+      "last_practiced": "2024-05-23"
     }
   }
 }

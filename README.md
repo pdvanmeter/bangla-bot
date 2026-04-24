@@ -9,56 +9,87 @@ An interactive, programmatic Bengali language learning environment focused on th
 -   **Structured Learning:** Vocabulary and grammar concepts are tracked in `progress.json` with mastery scores.
 -   **Contextual Practice:** Gemini generates sentences based on your weakest areas, ensuring efficient learning.
 -   **Audio Feedback:** Automated Text-to-Speech (TTS) using `gTTS` to help with pronunciation.
+-   **GUI & CLI:** Choose between a graphical interface or a terminal environment.
 -   **Progress Analytics:** A dedicated summary script to visualize your learning journey.
 -   **Dialect Specific:** Explicitly configured for the Kolkata dialect (e.g., preferring "Jol" over "Pani").
 
 ## Project Structure
 
--   `practice.py`: The main interaction script for practice sessions.
+-   `gui_practice.py`: The main Flet-based graphical interface.
+-   `practice.py`: Terminal-based practice environment.
 -   `summary.py`: Generates statistics and identifies areas for improvement.
 -   `progress.json`: The database tracking your vocabulary and grammar mastery.
 -   `GEMINI.md`: Instructions and rules for the AI tutor.
--   `venv/`: Python virtual environment.
+-   `venv/`: Python virtual environment (Linux).
 
 ## Setup & Installation
 
-### 1. System Dependencies (Linux/Ubuntu)
-```bash
-sudo apt update && sudo apt install -y python3-venv python3-pip mpg123
-```
+### Windows (Recommended for GUI)
+Running natively on Windows provides the best support for **Bangla Script rendering** and **Windows Input Methods (IME)**.
 
-### 2. Python Environment
-The project uses a virtual environment to manage dependencies:
-```bash
-python3 -m venv venv
-./venv/bin/pip install -r requirements.txt
-```
+> [!TIP]
+> **Working with WSL Paths:** Windows tools often struggle with UNC paths (e.g., `\\wsl.localhost\...`). 
+> For the best experience, map your WSL root to a drive letter:
+> 1. Open PowerShell as Admin: `net use U: \\wsl.localhost\Ubuntu /persistent:yes`
+> 2. Navigate via the drive letter: `cd U:\home\<user>\projects\bangla_bot`
+> 3. Now run the setup and launch scripts from the `U:` drive.
 
-### 3. API Key Configuration
-This project requires a Google Gemini API key. You can obtain one for free (within certain limits) from the [Google AI Studio](https://aistudio.google.com/).
+1.  **Open PowerShell** and navigate to your project folder.
+2.  **Run the Setup Script**:
+    ```powershell
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process; .\setup_windows.ps1
+    ```
+3.  **Launch the App**:
+    ```powershell
+    .\launch_windows.ps1
+    ```
 
-To use the key, set it as an environment variable in your terminal:
-```bash
-export GOOGLE_API_KEY="your_api_key_here"
-```
-Alternatively, the `practice.py` script will prompt you for the key if it's not found in your environment.
+### Linux / WSL
+1.  **System Dependencies**:
+    ```bash
+    sudo apt update && sudo apt install -y python3-venv python3-pip mpg123
+    ```
+2.  **Python Environment**:
+    ```bash
+    python3 -m venv venv
+    ./venv/bin/pip install -r requirements.txt
+    ```
+
+## API Key Configuration
+This project requires a Google Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+
+-   **Windows (Permanent)**: 
+    ```powershell
+    [System.Environment]::SetEnvironmentVariable('GOOGLE_API_KEY', 'your-key-here', 'User')
+    ```
+-   **Linux/WSL**:
+    ```bash
+    export GOOGLE_API_KEY="your_api_key_here"
+    ```
 
 ## How to Use
 
-### Start a Practice Session
-Run the main script and follow the prompts. The AI will automatically read your `progress.json` to tailor the session.
+### Start the GUI (Windows)
+```powershell
+.\launch_windows.ps1
+```
+
+### Start the GUI (Linux/WSL)
+```bash
+./launch.sh
+```
+
+### Start the CLI Practice
 ```bash
 ./venv/bin/python3 practice.py
 ```
 
 ### View Progress Summary
-Check your mastery scores and see which words need more work:
 ```bash
 ./venv/bin/python3 summary.py
 ```
 
 ### Reset Progress
-If you want to start over and reset all your mastery scores:
 ```bash
 ./venv/bin/python3 reset_progress.py
 ```
