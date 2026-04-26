@@ -21,24 +21,28 @@ if ($dir.StartsWith("\\")) {
 }
 
 if (-not $env:GOOGLE_API_KEY) {
-    Write-Host "Warning: GOOGLE_API_KEY not found in environment." -ForegroundColor Yellow
-    $env:GOOGLE_API_KEY = Read-Host "Please enter your Google API Key"
+    Write-Host "GOOGLE_API_KEY not found in environment." -ForegroundColor Yellow
+    $env:GOOGLE_API_KEY = Read-Host "Please paste your Google API Key"
+} else {
+    Write-Host "Using existing GOOGLE_API_KEY from environment." -ForegroundColor Green
 }
 
 if (Get-Command conda -ErrorAction SilentlyContinue) {
     Write-Host "Attempting to start with Conda..." -ForegroundColor Cyan
     $json = conda info --json | ConvertFrom-Json
     $envRoot = $json.envs | Where-Object { $_.EndsWith("bangla_bot") -or $_.EndsWith("\bangla_bot") }
-    
+
     if ($envRoot) {
         $pythonPath = Join-Path $envRoot "python.exe"
         Write-Host "Found Python at: $pythonPath" -ForegroundColor Gray
+        # Use direct execution to keep the environment variables in the same process
         & "$pythonPath" gui_practice.py
     } else {
         Write-Host "Conda environment 'bangla_bot' not found. Falling back to 'conda run'..." -ForegroundColor Yellow
-        conda run -n bangla_bot python gui_practice.py
+        conda run --no-capture-output -n bangla_bot python gui_practice.py
     }
-} else {
+}
+ else {
     Write-Host "Starting with Venv..." -ForegroundColor Cyan
     $pythonPath = ".\venv\Scripts\python.exe"
     if (Test-Path $pythonPath) {

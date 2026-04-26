@@ -1,19 +1,19 @@
 {
   "vocabulary": {
     "ami": {
-      "last_practiced": "2024-05-23",
-      "encounters": 2,
-      "mastery_score": 0.7
+      "encounters": 4,
+      "mastery_score": 0.9,
+      "last_practiced": "2024-05-24"
+    },
+    "bhaat": {
+      "last_practiced": "2024-05-24",
+      "encounters": 1,
+      "mastery_score": 0.8
     },
     "khai": {
-      "encounters": 2,
-      "mastery_score": 0.7,
-      "last_practiced": "2024-05-23"
-    },
-    "maach": {
-      "encounters": 1,
-      "mastery_score": 0.5,
-      "last_practiced": "2024-05-23"
+      "last_practiced": "2024-05-24",
+      "mastery_score": 0.8,
+      "encounters": 3
     }
   }
 }

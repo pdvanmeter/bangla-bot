@@ -71,8 +71,12 @@ def play_audio_file(path):
         return
     
     if os.name == 'nt':
-        os.system(f'start /wait {path}')
-    elif os.uname().sysname == 'Darwin':
+        # Use PowerShell to play audio and wait for it to finish (playState 1 is Stopped/MediaEnded)
+        # We use a simplified version that is more likely to work across different PS versions
+        path = os.path.abspath(path)
+        cmd = f'powershell -c "$m = New-Object -ComObject WMPlayer.OCX; $m.url = \'{path}\'; $m.controls.play(); while($m.playState -ne 1 -and $m.playState -ne 10 -and $m.playState -ne 8){{Start-Sleep -m 100}}"'
+        os.system(cmd)
+    elif sys.platform == 'darwin':
         os.system(f'afplay {path}')
     else:
         # Using -q for quiet mode
@@ -90,10 +94,16 @@ class Message(ft.Column):
         self.is_user = is_user
         self.audio_segments = audio_segments or []
         
-        clean_text = strip_audio_tags(text)
-        
         # Internal controls for updating
-        self.text_display = ft.Text(clean_text, color=ft.Colors.WHITE, selectable=True, width=400, no_wrap=False)
+        self.text_display = ft.Text("", color=ft.Colors.WHITE, selectable=True, width=450, no_wrap=False)
+        self.play_button = ft.IconButton(
+            icon=ft.Icons.PLAY_CIRCLE_FILL_OUTLINED,
+            icon_color=ft.Colors.BLUE_400,
+            icon_size=20,
+            on_click=self.on_message_click,
+            visible=bool(self.audio_segments),
+            tooltip="Play audio"
+        )
         
         # Alignment and colors
         alignment = ft.MainAxisAlignment.END if is_user else ft.MainAxisAlignment.START
@@ -102,24 +112,33 @@ class Message(ft.Column):
         self.container = ft.Container(
             content=self.text_display,
             bgcolor=bg_color,
-            padding=10,
-            border_radius=ft.BorderRadius.all(10),
-            on_click=self.on_message_click if self.audio_segments else None
+            padding=12,
+            border_radius=ft.BorderRadius.all(12),
         )
+        
+        # Row for the message bubble and the play button
+        # For bot messages (is_user=False), play button on the right
+        row_controls = [self.container, self.play_button] if not is_user else [self.play_button, self.container]
         
         self.controls = [
             ft.Row(
-                controls=[self.container],
-                alignment=alignment
+                controls=row_controls,
+                alignment=alignment,
+                vertical_alignment=ft.CrossAxisAlignment.CENTER,
+                spacing=5
             )
         ]
+        self._update_content()
+
+    def _update_content(self):
+        clean_text = strip_audio_tags(self.text)
+        self.text_display.value = clean_text
+        self.play_button.visible = bool(self.audio_segments)
 
     def update_message(self, text, audio_segments=None):
         self.text = text
         self.audio_segments = audio_segments or []
-        clean_text = strip_audio_tags(text)
-        self.text_display.value = clean_text
-        self.container.on_click = self.on_message_click if self.audio_segments else None
+        self._update_content()
         self.update()
 
     def on_message_click(self, e):
@@ -138,18 +157,19 @@ def main(page: ft.Page):
     _page_ref[0] = page
     page.title = "Bangla Bot - Practice"
     page.theme_mode = ft.ThemeMode.DARK
-    page.vertical_alignment = ft.MainAxisAlignment.END
+    page.padding = 20
+    page.window_width = 600
+    page.window_height = 800
     
     if not api_key:
-        chat_history.controls.append(ft.Text("Error: GOOGLE_API_KEY not found in environment variables.", color=ft.Colors.RED))
+        page.add(ft.Text("Error: GOOGLE_API_KEY not found in environment variables.", color=ft.Colors.RED))
         page.update()
         return
 
     try:
         client = genai.Client(api_key=api_key)
-        # Test the client with a dummy call or just proceed
     except Exception as e:
-        chat_history.controls.append(ft.Text(f"Failed to initialize Gemini Client: {str(e)}", color=ft.Colors.RED))
+        page.add(ft.Text(f"Failed to initialize Gemini Client: {str(e)}", color=ft.Colors.RED))
         page.update()
         return
     
@@ -163,9 +183,19 @@ def main(page: ft.Page):
         automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=False)
     )
 
-    current_model = [PRIMARY_MODEL] # Use list to be mutable in nested scopes
-    chat_session = [client.chats.create(model=current_model[0], config=config)]
+    current_model_name = [PRIMARY_MODEL]
+    chat_session = [client.chats.create(model=current_model_name[0], config=config)]
     
+    # UI Elements
+    model_indicator = ft.Text(f"Model: {current_model_name[0]}", size=12, italic=True, color=ft.Colors.GREY_500)
+    
+    welcome_header = ft.Column([
+        ft.Text("Bangla Bot", size=32, weight=ft.FontWeight.BOLD),
+        ft.Text("Learn the Kolkata dialect (Cholitobhasha) through practice.", size=16),
+        ft.Row([model_indicator], alignment=ft.MainAxisAlignment.END),
+        ft.Divider()
+    ])
+
     chat_history = ft.ListView(
         expand=True,
         spacing=10,
@@ -188,6 +218,9 @@ def main(page: ft.Page):
         thinking_msg = Message("...", is_user=False)
         chat_history.controls.append(thinking_msg)
         page.update()
+        
+        # Explicitly scroll to bottom
+        chat_history.scroll_to(offset=-1, duration=300)
 
         # Start thinking thread
         threading.Thread(target=process_response, args=(msg_text, thinking_msg), daemon=True).start()
@@ -208,15 +241,10 @@ def main(page: ft.Page):
             user_input.disabled = False
             send_button.disabled = False
             page.update()
+            
+            # Explicitly scroll to bottom to ensure the new message is visible
+            chat_history.scroll_to(offset=-1, duration=300)
 
-            # Play audio automatically if present
-            if audio_segments:
-                for segment in audio_segments:
-                    path = get_audio_path(segment)
-                    if path:
-                        play_audio_file(path)
-                        try: os.remove(path)
-                        except: pass
         except Exception as ex:
             error_text = f"Error: {str(ex)}"
             if thinking_msg:
@@ -226,6 +254,7 @@ def main(page: ft.Page):
             user_input.disabled = False
             send_button.disabled = False
             page.update()
+            chat_history.scroll_to(offset=-1, duration=300)
 
     def send_with_handling(message_text):
         while True:
@@ -234,13 +263,16 @@ def main(page: ft.Page):
             except Exception as e:
                 error_str = str(e)
                 if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
-                    time.sleep(10) # Simple wait for GUI
+                    time.sleep(10)
                     continue
                 if "503" in error_str or "UNAVAILABLE" in error_str:
-                    if current_model[0] == PRIMARY_MODEL:
-                        current_model[0] = FALLBACK_MODEL
+                    if current_model_name[0] == PRIMARY_MODEL:
+                        current_model_name[0] = FALLBACK_MODEL
+                        model_indicator.value = f"Model: {current_model_name[0]} (Fallback)"
+                        model_indicator.color = ft.Colors.ORANGE_300
+                        page.update()
                         history = chat_session[0].get_history()
-                        chat_session[0] = client.chats.create(model=current_model[0], config=config, history=history)
+                        chat_session[0] = client.chats.create(model=current_model_name[0], config=config, history=history)
                         continue
                 raise e
 
@@ -248,10 +280,12 @@ def main(page: ft.Page):
         hint_text="Type your response here...",
         expand=True,
         on_submit=send_message,
+        border_radius=20,
     )
     send_button = ft.IconButton(
         icon=ft.Icons.SEND,
-        on_click=send_message
+        on_click=send_message,
+        icon_color=ft.Colors.BLUE_400,
     )
 
     input_row = ft.Row(
@@ -262,6 +296,7 @@ def main(page: ft.Page):
     )
 
     page.add(
+        welcome_header,
         ft.Container(
             content=chat_history,
             expand=True,

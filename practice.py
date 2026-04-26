@@ -43,14 +43,17 @@ def play_audio(bengali_text):
     """Generates and plays TTS audio for the given Bengali text."""
     try:
         tts = gTTS(text=bengali_text, lang='bn')
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
-            temp_path = fp.name
+        fd, temp_path = tempfile.mkstemp(suffix=".mp3")
+        os.close(fd)
         
         tts.save(temp_path)
         
         if os.name == 'nt':
-            os.system(f'start /wait {temp_path}')
-        elif os.uname().sysname == 'Darwin':
+            # Use PowerShell to play audio and wait for it to finish
+            path = os.path.abspath(temp_path)
+            cmd = f'powershell -c "$m = New-Object -ComObject WMPlayer.OCX; $m.url = \'{path}\'; $m.controls.play(); while($m.playState -ne 1 -and $m.playState -ne 10 -and $m.playState -ne 8){{Start-Sleep -m 100}}"'
+            os.system(cmd)
+        elif sys.platform == 'darwin':
             os.system(f'afplay {temp_path}')
         else:
             os.system(f'mpg123 -q {temp_path}') 
@@ -58,11 +61,11 @@ def play_audio(bengali_text):
     except Exception as e:
         print(f"\n[Audio Error: Could not play audio. {e}]")
     finally:
-        if os.name == 'nt':
-             try: os.remove(temp_path)
-             except: pass
-        elif os.path.exists(temp_path):
-            os.remove(temp_path)
+        try:
+            if os.path.exists(temp_path):
+                os.remove(temp_path)
+        except:
+            pass
 
 def strip_audio_tags(text):
     """Removes <audio>...</audio> tags from the text for clean display."""
