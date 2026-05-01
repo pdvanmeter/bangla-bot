@@ -104,9 +104,9 @@ def play_audio(bengali_text):
         tts.save(temp_path)
         
         if os.name == 'nt':
-            # Use PowerShell to play audio and wait for it to finish
+            # Use PowerShell with MediaPlayer for more robust playback
             path = os.path.abspath(temp_path)
-            cmd = f'powershell -c "$m = New-Object -ComObject WMPlayer.OCX; $m.url = \'{path}\'; $m.controls.play(); while($m.playState -ne 1 -and $m.playState -ne 10 -and $m.playState -ne 8){{Start-Sleep -m 100}}"'
+            cmd = f'powershell -c "Add-Type -AssemblyName PresentationCore; $player = New-Object System.Windows.Media.MediaPlayer; $player.Open(\'{path}\'); $player.Play(); Start-Sleep -s 5"'
             os.system(cmd)
         elif sys.platform == 'darwin':
             os.system(f'afplay {temp_path}')

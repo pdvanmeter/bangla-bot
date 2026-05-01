@@ -5,6 +5,8 @@ import time
 import sys
 import tempfile
 import threading
+import base64
+from io import BytesIO
 from google import genai
 from google.genai import types, errors
 from gtts import gTTS
@@ -108,34 +110,17 @@ def read_grammar_curriculum():
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def get_audio_path(bengali_text):
-    """Generates TTS audio and returns the path."""
+def get_audio_base64(bengali_text):
+    """Generates TTS audio and returns it as a Base64 string."""
     try:
         tts = gTTS(text=bengali_text, lang='bn')
-        fd, temp_path = tempfile.mkstemp(suffix=".mp3")
-        os.close(fd)
-        tts.save(temp_path)
-        return temp_path
+        fp = BytesIO()
+        tts.write_to_fp(fp)
+        fp.seek(0)
+        return base64.b64encode(fp.read()).decode()
     except Exception as e:
         print(f"TTS Error: {e}")
         return None
-
-def play_audio_file(path):
-    """Plays an audio file based on OS."""
-    if not path or not os.path.exists(path):
-        return
-    
-    if os.name == 'nt':
-        # Use PowerShell to play audio and wait for it to finish (playState 1 is Stopped/MediaEnded)
-        # We use a simplified version that is more likely to work across different PS versions
-        path = os.path.abspath(path)
-        cmd = f'powershell -c "$m = New-Object -ComObject WMPlayer.OCX; $m.url = \'{path}\'; $m.controls.play(); while($m.playState -ne 1 -and $m.playState -ne 10 -and $m.playState -ne 8){{Start-Sleep -m 100}}"'
-        os.system(cmd)
-    elif sys.platform == 'darwin':
-        os.system(f'afplay {path}')
-    else:
-        # Using -q for quiet mode
-        os.system(f'mpg123 -q {path}')
 
 def strip_audio_tags(text):
     """Removes <audio>...</audio> tags from the text for clean display."""
@@ -202,11 +187,11 @@ class Message(ft.Column):
 
     def play_all_audio(self):
         for segment in self.audio_segments:
-            path = get_audio_path(segment)
-            if path:
-                play_audio_file(path)
-                try: os.remove(path)
-                except: pass
+            b64 = get_audio_base64(segment)
+            if b64:
+                audio = ft.Audio(src_base64=b64, autoplay=True)
+                self.page.overlay.append(audio)
+                self.page.update()
 
 def main(page: ft.Page):
     _page_ref[0] = page
