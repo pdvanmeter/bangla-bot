@@ -27,30 +27,69 @@ def read_progress():
     with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def write_progress(data: dict):
-    """Updates the progress.json file with new scores or stats."""
+def record_practice_result(category: str, item_key: str, is_correct: bool, initial_mastery: float = 0.3):
+    """
+    Updates progress for a vocabulary word or grammar concept.
+    
+    Args:
+        category: "vocabulary" or "grammar"
+        item_key: The transliterated word or grammar concept name.
+        is_correct: Whether the user was correct.
+        initial_mastery: (0.0 to 0.5) Optional initial score for the first encounter.
+    """
     try:
-        if isinstance(data, str):
-            data = json.loads(data)
-            
+        if not os.path.exists(PROGRESS_FILE):
+            data = {"vocabulary": {}, "grammar": {}}
+        else:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+        # Ensure categories exist
+        if "vocabulary" not in data: data["vocabulary"] = {}
+        if "grammar" not in data: data["grammar"] = {}
+        
+        target_cat = data.get(category)
+        if target_cat is None:
+            return f"Error: Invalid category '{category}'."
+
+        today = time.strftime('%Y-%m-%d')
+        
+        if item_key not in target_cat:
+            # First encounter
+            mastery = max(0.0, min(0.5, initial_mastery))
+            target_cat[item_key] = {
+                "encounters": 1,
+                "mastery_score": round(mastery, 2),
+                "last_practiced": today
+            }
+        else:
+            # Subsequent encounter
+            stats = target_cat[item_key]
+            stats["encounters"] += 1
+            adjustment = 0.1 if is_correct else -0.1
+            new_mastery = stats["mastery_score"] + adjustment
+            stats["mastery_score"] = round(max(0.0, min(1.0, new_mastery)), 2)
+            stats["last_practiced"] = today
+
         with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
-        print(f"--- [Disk] progress.json updated at {time.strftime('%H:%M:%S')} ---")
+        print(f"--- [Disk] Updated {category}: {item_key} (Mastery: {data[category][item_key]['mastery_score']}) ---")
         
         # Trigger UI notification if page is available
         if _page_ref[0]:
             page = _page_ref[0]
+            status_txt = "Correct!" if is_correct else "Incorrect."
             page.snack_bar = ft.SnackBar(
-                content=ft.Text("Progress saved to database."),
+                content=ft.Text(f"Progress updated: {item_key} - {status_txt}"),
                 duration=2000
             )
             page.snack_bar.open = True
             page.update()
             
-        return "Progress updated successfully."
+        return "Progress recorded successfully."
     except Exception as e:
-        print(f"Error writing progress: {e}")
+        print(f"Error recording progress: {e}")
         return f"Error: {str(e)}"
 
 def read_vocabulary_curriculum():
@@ -192,7 +231,7 @@ def main(page: ft.Page):
     with open("GEMINI.md", "r", encoding="utf-8") as f:
         system_instructions = f.read()
 
-    tools = [read_progress, write_progress, read_vocabulary_curriculum, read_grammar_curriculum]
+    tools = [read_progress, record_practice_result, read_vocabulary_curriculum, read_grammar_curriculum]
     config = types.GenerateContentConfig(
         system_instruction=system_instructions,
         tools=tools,
