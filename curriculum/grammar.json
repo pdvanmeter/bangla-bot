@@ -1,0 +1,47 @@
+{
+  "beginner": [
+    {
+      "concept": "Subject-Verb Agreement (Present Indefinite)",
+      "description": "In the Kolkata dialect (Cholitobhasha), verbs are conjugated based on the person and the level of formality of the subject.",
+      "rules": [
+        { "person": "First (I/We)", "suffix": "-i", "example": "আমি খাই (ami khai) - I eat" },
+        { "person": "Second - Informal (You/You all)", "suffix": "-o", "example": "তুমি খাও (tumi khao) - You eat" },
+        { "person": "Second - Formal (You/You all)", "suffix": "-en", "example": "আপনি খান (apni khan) - You eat" },
+        { "person": "Second - Intimate (You/You all)", "suffix": "-ish", "example": "তুই খাস (tui khas) - You eat" },
+        { "person": "Third - Informal/Common (He/She/They)", "suffix": "-ey / -e", "example": "সে খায় (she khay) - He/She eats" },
+        { "person": "Third - Formal (He/She/They)", "suffix": "-en", "example": "তিনি খান (tini khan) - He/She eats" }
+      ]
+    },
+    {
+      "concept": "Pronouns and Formality",
+      "description": "Bengali uses three levels of formality for second-person pronouns. 'Tumi' is the most common for general use in Kolkata.",
+      "levels": [
+        { "level": "Formal (Apni)", "usage": "Elders, strangers, superiors." },
+        { "level": "Informal (Tumi)", "usage": "Friends, peers, family members of similar age." },
+        { "level": "Intimate (Tui)", "usage": "Very close friends, younger siblings, children." }
+      ]
+    },
+    {
+      "concept": "Sentence Structure (SOV)",
+      "description": "Bengali follows a Subject-Object-Verb order.",
+      "examples": [
+        { "bengali": "আমি ভাত খাই।", "transliteration": "ami bhaat khai.", "english": "I eat rice. (I rice eat)" }
+      ]
+    },
+    {
+      "concept": "Adjective Usage",
+      "description": "Adjectives usually precede the noun they describe. They do not change based on gender or number of the noun.",
+      "examples": [
+        { "bengali": "ভালো ছেলে", "transliteration": "bhalo chele", "english": "Good boy" },
+        { "bengali": "ভালো মেয়ে", "transliteration": "bhalo meye", "english": "Good girl" }
+      ]
+    },
+    {
+      "concept": "Negation (Present Indefinite)",
+      "description": "To negate a sentence in the present indefinite, add 'na' after the verb.",
+      "examples": [
+        { "bengali": "আমি ভাত খাই না।", "transliteration": "ami bhaat khai na.", "english": "I do not eat rice." }
+      ]
+    }
+  ]
+}

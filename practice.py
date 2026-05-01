@@ -39,6 +39,22 @@ def write_progress(data: dict):
         json.dump(data, f, ensure_ascii=False, indent=2)
     return "Progress updated successfully."
 
+def read_vocabulary_curriculum():
+    """Reads the stable vocabulary curriculum from curriculum/vocabulary.json."""
+    path = os.path.join("curriculum", "vocabulary.json")
+    if not os.path.exists(path):
+        return {"error": "Vocabulary curriculum file not found."}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def read_grammar_curriculum():
+    """Reads the stable grammar curriculum from curriculum/grammar.json."""
+    path = os.path.join("curriculum", "grammar.json")
+    if not os.path.exists(path):
+        return {"error": "Grammar curriculum file not found."}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 def play_audio(bengali_text):
     """Generates and plays TTS audio for the given Bengali text."""
     try:
@@ -89,7 +105,7 @@ def main():
     with open("GEMINI.md", "r", encoding="utf-8") as f:
         system_instructions = f.read()
 
-    tools = [read_progress, write_progress]
+    tools = [read_progress, write_progress, read_vocabulary_curriculum, read_grammar_curriculum]
     config = types.GenerateContentConfig(
         system_instruction=system_instructions,
         tools=tools,

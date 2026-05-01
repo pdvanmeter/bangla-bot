@@ -53,6 +53,22 @@ def write_progress(data: dict):
         print(f"Error writing progress: {e}")
         return f"Error: {str(e)}"
 
+def read_vocabulary_curriculum():
+    """Reads the stable vocabulary curriculum from curriculum/vocabulary.json."""
+    path = os.path.join("curriculum", "vocabulary.json")
+    if not os.path.exists(path):
+        return {"error": "Vocabulary curriculum file not found."}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def read_grammar_curriculum():
+    """Reads the stable grammar curriculum from curriculum/grammar.json."""
+    path = os.path.join("curriculum", "grammar.json")
+    if not os.path.exists(path):
+        return {"error": "Grammar curriculum file not found."}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 def get_audio_path(bengali_text):
     """Generates TTS audio and returns the path."""
     try:
@@ -176,7 +192,7 @@ def main(page: ft.Page):
     with open("GEMINI.md", "r", encoding="utf-8") as f:
         system_instructions = f.read()
 
-    tools = [read_progress, write_progress]
+    tools = [read_progress, write_progress, read_vocabulary_curriculum, read_grammar_curriculum]
     config = types.GenerateContentConfig(
         system_instruction=system_instructions,
         tools=tools,
