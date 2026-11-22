@@ -125,5 +125,8 @@ def generate_summary(progress_data: dict | None):
 
 
 if __name__ == "__main__":
+    if not os.path.exists(PROGRESS_FILE):
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+            json.dump({"vocabulary": {}, "grammar": {}}, f, ensure_ascii=False, indent=2)
     progress_data = load_json(PROGRESS_FILE)
     generate_summary(progress_data)

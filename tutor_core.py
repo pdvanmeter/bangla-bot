@@ -36,12 +36,37 @@ def register_progress_callback(callback):
     _progress_callbacks.append(callback)
 
 
-def read_progress():
-    """Reads the current learner's progress from progress.json."""
+def ensure_progress_file() -> dict:
+    """Ensures progress.json exists on disk with the initial schema and returns its contents."""
+    default_data = {"vocabulary": {}, "grammar": {}}
     if not os.path.exists(PROGRESS_FILE):
-        return {"vocabulary": {}, "grammar": {}}
-    with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+            json.dump(default_data, f, ensure_ascii=False, indent=2)
+        return default_data
+    try:
+        with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, dict):
+            data = default_data
+    except (json.JSONDecodeError, OSError):
+        data = default_data
+
+    changed = False
+    if "vocabulary" not in data or not isinstance(data["vocabulary"], dict):
+        data["vocabulary"] = {}
+        changed = True
+    if "grammar" not in data or not isinstance(data["grammar"], dict):
+        data["grammar"] = {}
+        changed = True
+    if changed:
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    return data
+
+
+def read_progress():
+    """Reads the current learner's progress from progress.json, creating it if missing."""
+    return ensure_progress_file()
 
 
 def record_practice_result(
@@ -60,16 +85,7 @@ def record_practice_result(
         initial_mastery: (0.0 to 0.5) Optional initial score for the first encounter.
     """
     try:
-        if not os.path.exists(PROGRESS_FILE):
-            data = {"vocabulary": {}, "grammar": {}}
-        else:
-            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-
-        if "vocabulary" not in data:
-            data["vocabulary"] = {}
-        if "grammar" not in data:
-            data["grammar"] = {}
+        data = ensure_progress_file()
 
         target_cat = data.get(category)
         if target_cat is None:
