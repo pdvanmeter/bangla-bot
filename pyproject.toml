@@ -1,0 +1,11 @@
+[project]
+name = "bangla-bot"
+version = "0.1.0"
+description = "Interactive Kolkata dialect Bengali language tutor powered by Gemini"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flet",
+    "google-genai",
+    "gTTS>=2.5.4",
+]

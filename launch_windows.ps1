@@ -4,20 +4,10 @@ Set-Location $dir
 
 Write-Host "Working Directory: $dir" -ForegroundColor Gray
 
-# UNC Path Compatibility Hack (for WSL)
-if ($dir.StartsWith("\\")) {
-    Write-Host "UNC path detected. Mapping temporary drive for compatibility..." -ForegroundColor Yellow
-    $driveLetter = "Z"
-    for ($i = 90; $i -ge 65; $i--) {
-        $letter = [char]$i + ":"
-        if (-not (Test-Path $letter)) {
-            $driveLetter = [char]$i
-            break
-        }
-    }
-    New-PSDrive -Name $driveLetter -PSProvider FileSystem -Root $dir -Scope Global | Out-Null
-    Set-Location ("$driveLetter" + ":\")
-    Write-Host "Mapped to $driveLetter:\" -ForegroundColor Gray
+# Ensure ~/.local/bin is on PATH so uv is found even if not globally refreshed
+$uvLocalBin = "$HOME\.local\bin"
+if ((Test-Path $uvLocalBin) -and ($env:PATH -notlike "*$uvLocalBin*")) {
+    $env:PATH = "$uvLocalBin;$env:PATH"
 }
 
 if (-not $env:GOOGLE_API_KEY) {
@@ -27,28 +17,13 @@ if (-not $env:GOOGLE_API_KEY) {
     Write-Host "Using existing GOOGLE_API_KEY from environment." -ForegroundColor Green
 }
 
-if (Get-Command conda -ErrorAction SilentlyContinue) {
-    Write-Host "Attempting to start with Conda..." -ForegroundColor Cyan
-    $json = conda info --json | ConvertFrom-Json
-    $envRoot = $json.envs | Where-Object { $_.EndsWith("bangla_bot") -or $_.EndsWith("\bangla_bot") }
-
-    if ($envRoot) {
-        $pythonPath = Join-Path $envRoot "python.exe"
-        Write-Host "Found Python at: $pythonPath" -ForegroundColor Gray
-        # Use direct execution to keep the environment variables in the same process
-        & "$pythonPath" gui_practice.py
-    } else {
-        Write-Host "Conda environment 'bangla_bot' not found. Falling back to 'conda run'..." -ForegroundColor Yellow
-        conda run --no-capture-output -n bangla_bot python gui_practice.py
-    }
-}
- else {
-    Write-Host "Starting with Venv..." -ForegroundColor Cyan
-    $pythonPath = ".\venv\Scripts\python.exe"
-    if (Test-Path $pythonPath) {
-        & "$pythonPath" gui_practice.py
-    } else {
-        Write-Error "Virtual environment not found at .\venv"
-    }
+if (Get-Command uv -ErrorAction SilentlyContinue) {
+    Write-Host "Starting Bangla Bot GUI with uv..." -ForegroundColor Cyan
+    uv run python gui_practice.py
+} elseif (Test-Path ".\.venv\Scripts\python.exe") {
+    Write-Host "Starting Bangla Bot GUI from .venv..." -ForegroundColor Cyan
+    & ".\.venv\Scripts\python.exe" gui_practice.py
+} else {
+    Write-Error "Neither 'uv' nor '.venv' was found. Please run .\setup_windows.ps1 first."
 }
 pause
