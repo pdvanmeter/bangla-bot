@@ -1,133 +1,29 @@
 import os
 import re
-import json
-import time
 import sys
-import tempfile
+import time
 from google import genai
-from google.genai import types, errors
-from gtts import gTTS
 
-# Configure Gemini API
-api_key = os.environ.get("GOOGLE_API_KEY")
-if not api_key:
-    api_key = input("Enter your Google API Key: ")
-    os.environ["GOOGLE_API_KEY"] = api_key
+from tutor_core import (
+    AVAILABLE_MODELS,
+    PRIMARY_MODEL,
+    build_generate_config,
+    extract_audio_segments,
+    load_system_instructions,
+    play_audio_segments,
+    prefetch_audio_segments,
+    strip_audio_tags,
+)
 
-client = genai.Client(api_key=api_key)
-
-PROGRESS_FILE = "progress.json"
-PRIMARY_MODEL = "gemini-3-flash-preview"
-FALLBACK_MODEL = "gemini-2.5-flash"
-
-def read_progress():
-    """Reads the current learner's progress from progress.json."""
-    if not os.path.exists(PROGRESS_FILE):
-        return {"error": "Progress file not found."}
-    with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def record_practice_result(category: str, item_key: str, is_correct: bool, initial_mastery: float = 0.3):
-    """
-    Updates progress for a vocabulary word or grammar concept.
-    
-    Args:
-        category: "vocabulary" or "grammar"
-        item_key: The transliterated word or grammar concept name.
-        is_correct: Whether the user was correct.
-        initial_mastery: (0.0 to 0.5) Optional initial score for the first encounter.
-    """
-    try:
-        if not os.path.exists(PROGRESS_FILE):
-            data = {"vocabulary": {}, "grammar": {}}
-        else:
-            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-
-        # Ensure categories exist
-        if "vocabulary" not in data: data["vocabulary"] = {}
-        if "grammar" not in data: data["grammar"] = {}
-        
-        target_cat = data.get(category)
-        if target_cat is None:
-            return f"Error: Invalid category '{category}'."
-
-        today = time.strftime('%Y-%m-%d')
-        
-        if item_key not in target_cat:
-            # First encounter
-            mastery = max(0.0, min(0.5, initial_mastery))
-            target_cat[item_key] = {
-                "encounters": 1,
-                "mastery_score": round(mastery, 2),
-                "last_practiced": today
-            }
-        else:
-            # Subsequent encounter
-            stats = target_cat[item_key]
-            stats["encounters"] += 1
-            adjustment = 0.1 if is_correct else -0.1
-            new_mastery = stats["mastery_score"] + adjustment
-            stats["mastery_score"] = round(max(0.0, min(1.0, new_mastery)), 2)
-            stats["last_practiced"] = today
-
-        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        
-        return f"Progress recorded for {item_key}."
-    except Exception as e:
-        return f"Error: {str(e)}"
-
-def read_vocabulary_curriculum():
-    """Reads the stable vocabulary curriculum from curriculum/vocabulary.json."""
-    path = os.path.join("curriculum", "vocabulary.json")
-    if not os.path.exists(path):
-        return {"error": "Vocabulary curriculum file not found."}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def read_grammar_curriculum():
-    """Reads the stable grammar curriculum from curriculum/grammar.json."""
-    path = os.path.join("curriculum", "grammar.json")
-    if not os.path.exists(path):
-        return {"error": "Grammar curriculum file not found."}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def play_audio(bengali_text):
-    """Generates and plays TTS audio for the given Bengali text."""
-    try:
-        tts = gTTS(text=bengali_text, lang='bn')
-        fd, temp_path = tempfile.mkstemp(suffix=".mp3")
-        os.close(fd)
-        
-        tts.save(temp_path)
-        
-        if os.name == 'nt':
-            # Use PowerShell with MediaPlayer for more robust playback
-            path = os.path.abspath(temp_path)
-            cmd = f'powershell -c "Add-Type -AssemblyName PresentationCore; $player = New-Object System.Windows.Media.MediaPlayer; $player.Open(\'{path}\'); $player.Play(); Start-Sleep -s 5"'
-            os.system(cmd)
-        elif sys.platform == 'darwin':
-            os.system(f'afplay {temp_path}')
-        else:
-            os.system(f'mpg123 -q {temp_path}') 
-            
-    except Exception as e:
-        print(f"\n[Audio Error: Could not play audio. {e}]")
-    finally:
-        try:
-            if os.path.exists(temp_path):
-                os.remove(temp_path)
-        except:
-            pass
-
-def strip_audio_tags(text):
-    """Removes <audio>...</audio> tags from the text for clean display."""
-    if not text: return ""
-    return re.sub(r'<audio>.*?</audio>', '', text).strip()
 
 def main():
+    api_key = os.environ.get("GOOGLE_API_KEY")
+    if not api_key:
+        api_key = input("Enter your Google API Key: ").strip()
+        os.environ["GOOGLE_API_KEY"] = api_key
+
+    client = genai.Client(api_key=api_key)
+
     print("=====================================================")
     print(" 🇧🇩  Bengali Tutor: Practice Environment  🇧🇩")
     print("=====================================================")
@@ -141,118 +37,123 @@ def main():
         print("Error: GEMINI.md not found. Please ensure it's in the current directory.")
         return
 
-    with open("GEMINI.md", "r", encoding="utf-8") as f:
-        system_instructions = f.read()
-
-    tools = [read_progress, record_practice_result, read_vocabulary_curriculum, read_grammar_curriculum]
-    config = types.GenerateContentConfig(
-        system_instruction=system_instructions,
-        tools=tools,
-        automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=False)
+    system_instructions = load_system_instructions()
+    current_model = PRIMARY_MODEL
+    chat = client.chats.create(
+        model=current_model,
+        config=build_generate_config(current_model, system_instructions),
     )
 
-    current_model = PRIMARY_MODEL
-    chat = client.chats.create(model=current_model, config=config)
-    
-    last_audio_segments = []
-    
+    last_audio_segments: list[str] = []
     print(f"Initializing with {current_model}...")
-    
-    def send_with_handling(message_text):
+
+    def send_with_handling(message_text: str):
         nonlocal chat, current_model
+        tried_models = {current_model}
         while True:
             try:
                 return chat.send_message(message=message_text)
             except Exception as e:
                 error_str = str(e)
-                
-                # Handle 429 (Rate Limit)
-                if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                recoverable = any(
+                    code in error_str
+                    for code in (
+                        "404",
+                        "NOT_FOUND",
+                        "503",
+                        "UNAVAILABLE",
+                        "429",
+                        "RESOURCE_EXHAUSTED",
+                    )
+                )
+                if recoverable:
                     if "PerDay" in error_str:
                         print("\n[Daily Quota Exceeded] Please try again tomorrow.")
                         sys.exit(0)
-                    
-                    wait_time = 60
+
+                    next_model = next(
+                        (m for m in AVAILABLE_MODELS if m not in tried_models),
+                        None,
+                    )
+                    if next_model:
+                        tried_models.add(next_model)
+                        print(f"\n[Model Switch] Switching from {current_model} to {next_model}...")
+                        try:
+                            history = chat.get_history()
+                            current_model = next_model
+                            chat = client.chats.create(
+                                model=current_model,
+                                config=build_generate_config(current_model, system_instructions),
+                                history=history,
+                            )
+                        except Exception:
+                            current_model = next_model
+                            chat = client.chats.create(
+                                model=current_model,
+                                config=build_generate_config(current_model, system_instructions),
+                            )
+                        continue
+
+                    wait_time = 10
                     match = re.search(r"retry in ([\d\.]+)s", error_str)
                     if match:
                         wait_time = int(float(match.group(1))) + 1
-                    
-                    print(f"\n[Rate Limit Hit] Waiting {wait_time}s...")
-                    for i in range(wait_time, 0, -1):
-                        sys.stdout.write(f"\rRetrying in {i}s... [{'#' * (wait_time-i)}{'-' * i}]")
-                        sys.stdout.flush()
-                        time.sleep(1)
-                    sys.stdout.write("\r" + " " * 80 + "\r")
+
+                    print(f"\n[Rate Limit / Busy] Waiting {wait_time}s...")
+                    time.sleep(wait_time)
                     continue
 
-                # Handle 503 (High Demand / Fallback)
-                if "503" in error_str or "UNAVAILABLE" in error_str:
-                    if current_model == PRIMARY_MODEL:
-                        print(f"\n[High Demand] {PRIMARY_MODEL} is currently busy.")
-                        print(f"Falling back to {FALLBACK_MODEL} to continue your session...")
-                        
-                        try:
-                            # Capture history and switch models
-                            history = chat.get_history()
-                            current_model = FALLBACK_MODEL
-                            chat = client.chats.create(model=current_model, config=config, history=history)
-                        except Exception as history_error:
-                            print(f"[Fallback Error] Could not retrieve history: {history_error}")
-                            print("Starting a fresh session with the fallback model...")
-                            current_model = FALLBACK_MODEL
-                            chat = client.chats.create(model=current_model, config=config)
-                        
-                        # Immediate retry with new model
-                        continue
-                    else:
-                        # If fallback model is also 503, wait briefly
-                        print("\n[Service Busy] Both models are under high demand. Waiting 10s before retrying...")
-                        time.sleep(10)
-                        continue
-                
-                # If we get here, it's an unhandled error
                 raise e
 
     try:
-        response = send_with_handling("The user is about to start. Acknowledge and wait for their first request.")
+        response = send_with_handling(
+            "The user is about to start. Acknowledge briefly and wait for their first request."
+        )
     except Exception as e:
         print(f"\nError during initialization: {e}")
         return
 
     while True:
-        clean_text = strip_audio_tags(response.text)
+        resp_text = response.text or ""
+        clean_text = strip_audio_tags(resp_text)
         if clean_text:
             print(f"\nTutor:\n{clean_text}")
 
-        if response.text:
-            current_audio = re.findall(r'<audio>(.*?)</audio>', response.text)
-            if current_audio:
-                last_audio_segments = current_audio
-                print("\n[Playing Audio...]")
-                for segment in last_audio_segments:
-                    play_audio(segment)
+        current_audio = extract_audio_segments(resp_text)
+        if current_audio:
+            last_audio_segments = current_audio
+            prefetch_audio_segments(last_audio_segments)
+            print("\n[Playing Audio...]")
+            play_audio_segments(last_audio_segments)
 
-        user_input = input("\nYou: ").strip()
-        
-        if user_input.lower() in ['r', 'repeat']:
+        try:
+            user_input = input("\nYou: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nEnding session. Bhalo thakben (Stay well)!")
+            break
+
+        if not user_input:
+            continue
+
+        if user_input.lower() in ["r", "repeat"]:
             if last_audio_segments:
                 print("\n[Repeating Audio...]")
-                for segment in last_audio_segments:
-                    play_audio(segment)
+                play_audio_segments(last_audio_segments)
             else:
                 print("\n[No audio to repeat.]")
             continue
 
-        if user_input.lower() in ['quit', 'exit', 'q']:
+        if user_input.lower() in ["quit", "exit", "q"]:
             print("\nEnding session. Bhalo thakben (Stay well)!")
             break
-            
+
         print(f"\nThinking ({current_model})...")
         try:
             response = send_with_handling(user_input)
         except Exception as e:
             print(f"\nError during API call: {e}")
             break
+
 
 if __name__ == "__main__":
     main()

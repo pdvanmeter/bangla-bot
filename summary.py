@@ -1,57 +1,129 @@
 import json
 import os
 
-def load_progress(file_path='progress.json'):
+PROGRESS_FILE = "progress.json"
+VOCAB_FILE = os.path.join("curriculum", "vocabulary.json")
+GRAMMAR_FILE = os.path.join("curriculum", "grammar.json")
+
+
+def load_json(file_path: str):
     if not os.path.exists(file_path):
         return None
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def generate_summary(data):
-    if not data:
+
+def build_vocab_lookup(vocab_curriculum: dict | None) -> dict[str, dict]:
+    """Maps transliteration key -> {'bengali': ..., 'english': ..., 'category': ...}."""
+    lookup: dict[str, dict] = {}
+    if not vocab_curriculum:
+        return lookup
+    for level, categories in vocab_curriculum.items():
+        if not isinstance(categories, dict):
+            continue
+        for category, items in categories.items():
+            if not isinstance(items, list):
+                continue
+            for entry in items:
+                key = entry.get("transliteration")
+                if key:
+                    lookup[key] = {
+                        "bengali": entry.get("bengali", ""),
+                        "english": entry.get("english", ""),
+                        "category": category,
+                        "level": level,
+                    }
+    return lookup
+
+
+def count_grammar_curriculum(grammar_curriculum: dict | None) -> int:
+    if not grammar_curriculum:
+        return 0
+    total = 0
+    for items in grammar_curriculum.values():
+        if isinstance(items, list):
+            total += len(items)
+    return total
+
+
+def generate_summary(progress_data: dict | None):
+    if not progress_data:
         print("No progress data found.")
         return
 
-    vocab = data.get('vocabulary', {})
-    grammar = data.get('grammar', {})
+    vocab_curriculum = load_json(VOCAB_FILE)
+    grammar_curriculum = load_json(GRAMMAR_FILE)
+    vocab_lookup = build_vocab_lookup(vocab_curriculum)
 
-    total_words = len(vocab)
-    practiced_words = [w for w, stats in vocab.items() if stats['encounters'] > 0]
-    avg_mastery = sum(stats['mastery_score'] for stats in vocab.values()) / total_words if total_words > 0 else 0
+    vocab_progress = progress_data.get("vocabulary", {})
+    grammar_progress = progress_data.get("grammar", {})
+
+    total_curriculum_words = len(vocab_lookup) or len(vocab_progress)
+    practiced_words = [
+        (w, stats)
+        for w, stats in vocab_progress.items()
+        if stats.get("encounters", 0) > 0
+    ]
+    avg_vocab_mastery = (
+        sum(stats.get("mastery_score", 0.0) for _, stats in practiced_words)
+        / len(practiced_words)
+        if practiced_words
+        else 0.0
+    )
 
     print("=====================================================")
     print(" Bengali Learning Progress Summary")
     print("=====================================================")
-    print(f"Total Vocabulary Words: {total_words}")
-    print(f"Words Encountered:      {len(practiced_words)} ({(len(practiced_words)/total_words)*100:.1f}%)")
-    print(f"Overall Mastery Score:  {avg_mastery:.2f}/1.0")
+    print(f"Curriculum Vocabulary:  {total_curriculum_words} words")
+    if total_curriculum_words > 0:
+        pct = (len(practiced_words) / total_curriculum_words) * 100
+        print(f"Words Encountered:      {len(practiced_words)} ({pct:.1f}%)")
+    else:
+        print(f"Words Encountered:      {len(practiced_words)}")
+    print(f"Average Word Mastery:   {avg_vocab_mastery:.2f} / 1.00")
     print("-----------------------------------------------------")
 
-    # Weakest words (encountered at least once, sorted by mastery)
     weak_words = sorted(
-        [{"word": w, **stats} for w, stats in vocab.items() if stats['encounters'] > 0],
-        key=lambda x: x['mastery_score']
+        [{"word": w, **stats} for w, stats in practiced_words],
+        key=lambda x: (x.get("mastery_score", 0.0), x.get("encounters", 0)),
     )[:5]
 
     if weak_words:
         print("\nTop 5 Weakest Words (Focus Areas):")
         for item in weak_words:
-            print(f"- {item['word']} ({item['meaning']}): {item['mastery_score']:.2f}")
+            word = item["word"]
+            meta = vocab_lookup.get(word, {})
+            bengali = meta.get("bengali", "")
+            meaning = meta.get("english", "custom/unlisted")
+            label = f"{bengali} ({word} - {meaning})" if bengali else f"{word} ({meaning})"
+            print(
+                f"- {label}: mastery {item.get('mastery_score', 0.0):.2f} "
+                f"({item.get('encounters', 0)} encounters)"
+            )
     else:
         print("\nPractice more to see weakest words!")
 
-    # Grammar Status
+    total_grammar = count_grammar_curriculum(grammar_curriculum)
+    practiced_grammar = [
+        (g, stats)
+        for g, stats in grammar_progress.items()
+        if stats.get("encounters", 0) > 0
+    ]
     print("\nGrammar Concepts Status:")
-    status_counts = {"learning": 0, "not_started": 0, "mastered": 0}
-    for g, stats in grammar.items():
-        status = stats.get('status', 'not_started')
-        status_counts[status] = status_counts.get(status, 0) + 1
-    
-    for status, count in status_counts.items():
-        print(f"- {status.capitalize().replace('_', ' ')}: {count}")
+    print(f"- Total in Curriculum: {total_grammar}")
+    print(f"- Encountered:         {len(practiced_grammar)}")
+    if practiced_grammar:
+        for concept, stats in sorted(
+            practiced_grammar, key=lambda x: x[1].get("mastery_score", 0.0)
+        ):
+            print(
+                f"  * {concept}: mastery {stats.get('mastery_score', 0.0):.2f} "
+                f"({stats.get('encounters', 0)} encounters)"
+            )
 
     print("=====================================================")
 
+
 if __name__ == "__main__":
-    progress_data = load_progress()
+    progress_data = load_json(PROGRESS_FILE)
     generate_summary(progress_data)
