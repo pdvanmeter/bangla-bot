@@ -1,0 +1,497 @@
+[
+  {
+    "id": "conj_0001",
+    "bengali": "আর",
+    "transliteration": "ar",
+    "english": "and / more / else",
+    "pos": "conjunction",
+    "frequency": 22637,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0002",
+    "bengali": "কিন্তু",
+    "transliteration": "kintu",
+    "english": "but",
+    "pos": "conjunction",
+    "frequency": 12976,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0003",
+    "bengali": "তো",
+    "transliteration": "to",
+    "english": "so / then / indeed",
+    "pos": "conjunction",
+    "frequency": 11934,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0004",
+    "bengali": "যদি",
+    "transliteration": "jodi",
+    "english": "if",
+    "pos": "conjunction",
+    "frequency": 7580,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0005",
+    "bengali": "এবং",
+    "transliteration": "ebong",
+    "english": "and",
+    "pos": "conjunction",
+    "frequency": 7365,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0006",
+    "bengali": "তাহলে",
+    "transliteration": "tahole",
+    "english": "then / in that case",
+    "pos": "conjunction",
+    "frequency": 6887,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0007",
+    "bengali": "তাই",
+    "transliteration": "tai",
+    "english": "so / therefore",
+    "pos": "conjunction",
+    "frequency": 5886,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0008",
+    "bengali": "ও",
+    "transliteration": "o",
+    "english": "and / he / she / that",
+    "pos": "conjunction",
+    "frequency": 5230,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0009",
+    "bengali": "কারণ",
+    "transliteration": "karon",
+    "english": "because / reason",
+    "pos": "conjunction",
+    "frequency": 4164,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0010",
+    "bengali": "নাকি",
+    "transliteration": "naki",
+    "english": "or / is it that",
+    "pos": "conjunction",
+    "frequency": 2817,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0011",
+    "bengali": "যেন",
+    "transliteration": "jeno",
+    "english": "as if / so that",
+    "pos": "conjunction",
+    "frequency": 1654,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0012",
+    "bengali": "বা",
+    "transliteration": "ba",
+    "english": "or",
+    "pos": "conjunction",
+    "frequency": 1327,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0013",
+    "bengali": "অথবা",
+    "transliteration": "othoba",
+    "english": "or",
+    "pos": "conjunction",
+    "frequency": 974,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0014",
+    "bengali": "তবে",
+    "transliteration": "tobe",
+    "english": "however / then",
+    "pos": "conjunction",
+    "frequency": 936,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0015",
+    "bengali": "এমনকি",
+    "transliteration": "emonki",
+    "english": "even",
+    "pos": "conjunction",
+    "frequency": 794,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0016",
+    "bengali": "কিনা",
+    "transliteration": "kina",
+    "english": "whether / if",
+    "pos": "conjunction",
+    "frequency": 783,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0017",
+    "bengali": "যাতে",
+    "transliteration": "jate",
+    "english": "so that",
+    "pos": "conjunction",
+    "frequency": 776,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0018",
+    "bengali": "যদিও",
+    "transliteration": "jodi-o",
+    "english": "although / even though",
+    "pos": "conjunction",
+    "frequency": 461,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0019",
+    "bengali": "যতক্ষণ",
+    "transliteration": "jotokhono",
+    "english": "as long as",
+    "pos": "conjunction",
+    "frequency": 374,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0020",
+    "bengali": "বরং",
+    "transliteration": "borong",
+    "english": "rather / instead",
+    "pos": "conjunction",
+    "frequency": 295,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0021",
+    "bengali": "যেই",
+    "transliteration": "jei",
+    "english": "as soon as / whichever",
+    "pos": "conjunction",
+    "frequency": 288,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0022",
+    "bengali": "কিংবা",
+    "transliteration": "kingba",
+    "english": "or / either",
+    "pos": "conjunction",
+    "frequency": 281,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0023",
+    "bengali": "নাহলে",
+    "transliteration": "nahole",
+    "english": "otherwise",
+    "pos": "conjunction",
+    "frequency": 271,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0024",
+    "bengali": "যেহেতু",
+    "transliteration": "jehutu",
+    "english": "since / because",
+    "pos": "conjunction",
+    "frequency": 262,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0025",
+    "bengali": "তবুও",
+    "transliteration": "tobuo",
+    "english": "still / yet / nevertheless",
+    "pos": "conjunction",
+    "frequency": 261,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0026",
+    "bengali": "এজন্য",
+    "transliteration": "ejonno",
+    "english": "therefore / for this reason",
+    "pos": "conjunction",
+    "frequency": 221,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0027",
+    "bengali": "সুতরাং",
+    "transliteration": "shutorang",
+    "english": "therefore / so",
+    "pos": "conjunction",
+    "frequency": 204,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0028",
+    "bengali": "যাইহোক",
+    "transliteration": "jaihok",
+    "english": "anyway / however",
+    "pos": "conjunction",
+    "frequency": 187,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0029",
+    "bengali": "তাছাড়া",
+    "transliteration": "tachhara",
+    "english": "besides / moreover",
+    "pos": "conjunction",
+    "frequency": 178,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0030",
+    "bengali": "তাও",
+    "transliteration": "tao",
+    "english": "still / even then",
+    "pos": "conjunction",
+    "frequency": 173,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0031",
+    "bengali": "নয়তো",
+    "transliteration": "noyto",
+    "english": "otherwise / or else",
+    "pos": "conjunction",
+    "frequency": 166,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0032",
+    "bengali": "নইলে",
+    "transliteration": "noile",
+    "english": "otherwise / or else",
+    "pos": "conjunction",
+    "frequency": 130,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0033",
+    "bengali": "তারমানে",
+    "transliteration": "tarmane",
+    "english": "that means",
+    "pos": "conjunction",
+    "frequency": 113,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0034",
+    "bengali": "ফলে",
+    "transliteration": "phole",
+    "english": "as a result",
+    "pos": "conjunction",
+    "frequency": 110,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0035",
+    "bengali": "এন্ড",
+    "transliteration": "end",
+    "english": "and",
+    "pos": "conjunction",
+    "frequency": 105,
+    "is_loanword": true
+  },
+  {
+    "id": "conj_0036",
+    "bengali": "এইজন্য",
+    "transliteration": "eijonno",
+    "english": "therefore / for this reason",
+    "pos": "conjunction",
+    "frequency": 99,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0037",
+    "bengali": "অথচ",
+    "transliteration": "othoco",
+    "english": "yet / nevertheless",
+    "pos": "conjunction",
+    "frequency": 88,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0038",
+    "bengali": "সেজন্য",
+    "transliteration": "shejonno",
+    "english": "therefore / for that reason",
+    "pos": "conjunction",
+    "frequency": 73,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0039",
+    "bengali": "কাজেই",
+    "transliteration": "kajei",
+    "english": "therefore / so",
+    "pos": "conjunction",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0040",
+    "bengali": "তাইতো",
+    "transliteration": "taito",
+    "english": "that is why / naturally",
+    "pos": "conjunction",
+    "frequency": 66,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0041",
+    "bengali": "এছাড়া",
+    "transliteration": "echara",
+    "english": "besides / apart from this",
+    "pos": "conjunction",
+    "frequency": 66,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0042",
+    "bengali": "আরকি",
+    "transliteration": "arki",
+    "english": "so to speak / as it were",
+    "pos": "conjunction",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0043",
+    "bengali": "কেননা",
+    "transliteration": "kenona",
+    "english": "because",
+    "pos": "conjunction",
+    "frequency": 56,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0044",
+    "bengali": "সো",
+    "transliteration": "so",
+    "english": "so",
+    "pos": "conjunction",
+    "frequency": 50,
+    "is_loanword": true
+  },
+  {
+    "id": "conj_0045",
+    "bengali": "অন্যথায়",
+    "transliteration": "onnothay",
+    "english": "otherwise",
+    "pos": "conjunction",
+    "frequency": 49,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0046",
+    "bengali": "অর্থাৎ",
+    "transliteration": "orthat",
+    "english": "that is to say / i.e.",
+    "pos": "conjunction",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0047",
+    "bengali": "এছাড়াও",
+    "transliteration": "echarao",
+    "english": "besides / apart from this",
+    "pos": "conjunction",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0048",
+    "bengali": "ইত্যাদি",
+    "transliteration": "ittadi",
+    "english": "etcetera / and so on",
+    "pos": "conjunction",
+    "frequency": 43,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0049",
+    "bengali": "নাহয়",
+    "transliteration": "nahoy",
+    "english": "otherwise / or else",
+    "pos": "conjunction",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0050",
+    "bengali": "অ্যান্ড",
+    "transliteration": "and",
+    "english": "and",
+    "pos": "conjunction",
+    "frequency": 34,
+    "is_loanword": true
+  },
+  {
+    "id": "conj_0051",
+    "bengali": "তবু",
+    "transliteration": "tobu",
+    "english": "still / yet",
+    "pos": "conjunction",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0052",
+    "bengali": "যদিনা",
+    "transliteration": "jodina",
+    "english": "unless",
+    "pos": "conjunction",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0053",
+    "bengali": "বরঞ্চ",
+    "transliteration": "boroncho",
+    "english": "rather / instead",
+    "pos": "conjunction",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0054",
+    "bengali": "যখন",
+    "transliteration": "jokhon",
+    "english": "whenever / when",
+    "pos": "conjunction",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "conj_0055",
+    "bengali": "নতুবা",
+    "transliteration": "notuba",
+    "english": "otherwise / else",
+    "pos": "conjunction",
+    "frequency": 19,
+    "is_loanword": false
+  }
+]

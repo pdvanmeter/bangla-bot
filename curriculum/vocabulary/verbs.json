@@ -1,0 +1,2387 @@
+[
+  {
+    "id": "verb_0001",
+    "bengali": "করা",
+    "transliteration": "kora",
+    "english": "to do",
+    "pos": "verb",
+    "frequency": 90082,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0002",
+    "bengali": "হওয়া",
+    "transliteration": "howa",
+    "english": "to be / to become / will happen",
+    "pos": "verb",
+    "frequency": 63642,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0003",
+    "bengali": "থাকা",
+    "transliteration": "thaka",
+    "english": "to have / to exist / to stay",
+    "pos": "verb",
+    "frequency": 47918,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0004",
+    "bengali": "যাওয়া",
+    "transliteration": "jawa",
+    "english": "to go",
+    "pos": "verb",
+    "frequency": 44354,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0005",
+    "bengali": "বলা",
+    "transliteration": "bola",
+    "english": "to say / to speak",
+    "pos": "verb",
+    "frequency": 30207,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0006",
+    "bengali": "দেওয়া",
+    "transliteration": "dewa",
+    "english": "to give",
+    "pos": "verb",
+    "frequency": 30048,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0007",
+    "bengali": "পারা",
+    "transliteration": "para",
+    "english": "to be able to",
+    "pos": "verb",
+    "frequency": 23144,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0008",
+    "bengali": "আসা",
+    "transliteration": "asha",
+    "english": "to come",
+    "pos": "verb",
+    "frequency": 20989,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0009",
+    "bengali": "দেখা",
+    "transliteration": "dekha",
+    "english": "to see / to look",
+    "pos": "verb",
+    "frequency": 19827,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0010",
+    "bengali": "নেওয়া",
+    "transliteration": "newa",
+    "english": "to take",
+    "pos": "verb",
+    "frequency": 16572,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0011",
+    "bengali": "জানা",
+    "transliteration": "jana",
+    "english": "to know",
+    "pos": "verb",
+    "frequency": 14419,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0012",
+    "bengali": "চাওয়া",
+    "transliteration": "chawa",
+    "english": "to want",
+    "pos": "verb",
+    "frequency": 13436,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0013",
+    "bengali": "পাওয়া",
+    "transliteration": "pawa",
+    "english": "to get / to receive",
+    "pos": "verb",
+    "frequency": 12534,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0014",
+    "bengali": "চলা",
+    "transliteration": "chola",
+    "english": "to move / to walk / to depart",
+    "pos": "verb",
+    "frequency": 8951,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0015",
+    "bengali": "নেই",
+    "transliteration": "nei",
+    "english": "to not exist / there is not",
+    "pos": "verb",
+    "frequency": 7883,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0016",
+    "bengali": "রাখা",
+    "transliteration": "rakha",
+    "english": "to keep / to put",
+    "pos": "verb",
+    "frequency": 6698,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0017",
+    "bengali": "মারা",
+    "transliteration": "mara",
+    "english": "to kill / to hit",
+    "pos": "verb",
+    "frequency": 5684,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0018",
+    "bengali": "লাগা",
+    "transliteration": "laga",
+    "english": "to need / to feel / to attach",
+    "pos": "verb",
+    "frequency": 5534,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0019",
+    "bengali": "শোনা",
+    "transliteration": "shona",
+    "english": "to listen / to hear",
+    "pos": "verb",
+    "frequency": 5485,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0020",
+    "bengali": "ধরা",
+    "transliteration": "dhora",
+    "english": "to catch / to hold",
+    "pos": "verb",
+    "frequency": 4994,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0021",
+    "bengali": "বোঝা",
+    "transliteration": "bojha",
+    "english": "to understand",
+    "pos": "verb",
+    "frequency": 4941,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0022",
+    "bengali": "ফেলা",
+    "transliteration": "phela",
+    "english": "to throw / to drop",
+    "pos": "verb",
+    "frequency": 4722,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0023",
+    "bengali": "পড়া",
+    "transliteration": "pora",
+    "english": "to fall / to read",
+    "pos": "verb",
+    "frequency": 4386,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0024",
+    "bengali": "নয়",
+    "transliteration": "noy",
+    "english": "to be not",
+    "pos": "verb",
+    "frequency": 3935,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0025",
+    "bengali": "ভাবা",
+    "transliteration": "bhaba",
+    "english": "to think",
+    "pos": "verb",
+    "frequency": 3777,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0026",
+    "bengali": "খোঁজা",
+    "transliteration": "khoja",
+    "english": "to search / to find",
+    "pos": "verb",
+    "frequency": 3510,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0027",
+    "bengali": "ফেরা",
+    "transliteration": "phera",
+    "english": "to return",
+    "pos": "verb",
+    "frequency": 3121,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0028",
+    "bengali": "খাওয়া",
+    "transliteration": "khawa",
+    "english": "to eat / to drink",
+    "pos": "verb",
+    "frequency": 3093,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0029",
+    "bengali": "দাঁড়ানো",
+    "transliteration": "darano",
+    "english": "to stand",
+    "pos": "verb",
+    "frequency": 2829,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0030",
+    "bengali": "বসা",
+    "transliteration": "bosha",
+    "english": "to sit",
+    "pos": "verb",
+    "frequency": 2703,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0031",
+    "bengali": "ছাড়া",
+    "transliteration": "chhara",
+    "english": "to leave / to release",
+    "pos": "verb",
+    "frequency": 2517,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0032",
+    "bengali": "দেখানো",
+    "transliteration": "dekhano",
+    "english": "to show",
+    "pos": "verb",
+    "frequency": 2468,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0033",
+    "bengali": "ওঠা",
+    "transliteration": "otha",
+    "english": "to get up / to rise",
+    "pos": "verb",
+    "frequency": 2237,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0034",
+    "bengali": "আনা",
+    "transliteration": "ana",
+    "english": "to bring",
+    "pos": "verb",
+    "frequency": 2219,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0035",
+    "bengali": "খোলা",
+    "transliteration": "khola",
+    "english": "to open",
+    "pos": "verb",
+    "frequency": 1926,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0036",
+    "bengali": "থামা",
+    "transliteration": "thama",
+    "english": "to stop",
+    "pos": "verb",
+    "frequency": 1885,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0037",
+    "bengali": "বানানো",
+    "transliteration": "banano",
+    "english": "to make / to build",
+    "pos": "verb",
+    "frequency": 1829,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0038",
+    "bengali": "মরা",
+    "transliteration": "mora",
+    "english": "to die",
+    "pos": "verb",
+    "frequency": 1679,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0039",
+    "bengali": "পাঠানো",
+    "transliteration": "pathano",
+    "english": "to send",
+    "pos": "verb",
+    "frequency": 1652,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0040",
+    "bengali": "হারানো",
+    "transliteration": "harano",
+    "english": "to lose / to get lost",
+    "pos": "verb",
+    "frequency": 1466,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0041",
+    "bengali": "বাঁচা",
+    "transliteration": "bãcha",
+    "english": "to survive / to live",
+    "pos": "verb",
+    "frequency": 1391,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0042",
+    "bengali": "চেনা",
+    "transliteration": "chena",
+    "english": "to recognize / to know",
+    "pos": "verb",
+    "frequency": 1313,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0043",
+    "bengali": "জানানো",
+    "transliteration": "janano",
+    "english": "to inform / to let know",
+    "pos": "verb",
+    "frequency": 1258,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0044",
+    "bengali": "বাঁচানো",
+    "transliteration": "bãchano",
+    "english": "to save / to rescue",
+    "pos": "verb",
+    "frequency": 1226,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0045",
+    "bengali": "ঘটা",
+    "transliteration": "ghota",
+    "english": "to happen / to occur",
+    "pos": "verb",
+    "frequency": 1200,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0046",
+    "bengali": "তোলা",
+    "transliteration": "tola",
+    "english": "to lift / to raise",
+    "pos": "verb",
+    "frequency": 1194,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0047",
+    "bengali": "ভোলা",
+    "transliteration": "bhola",
+    "english": "to forget",
+    "pos": "verb",
+    "frequency": 1153,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0048",
+    "bengali": "তাকানো",
+    "transliteration": "takano",
+    "english": "to look",
+    "pos": "verb",
+    "frequency": 1152,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0049",
+    "bengali": "পালানো",
+    "transliteration": "palano",
+    "english": "to flee / to escape",
+    "pos": "verb",
+    "frequency": 1144,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0050",
+    "bengali": "চালানো",
+    "transliteration": "chalano",
+    "english": "to drive / to operate / to run",
+    "pos": "verb",
+    "frequency": 1126,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0051",
+    "bengali": "ডাকা",
+    "transliteration": "daka",
+    "english": "to call",
+    "pos": "verb",
+    "frequency": 1083,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0052",
+    "bengali": "লেখা",
+    "transliteration": "lekha",
+    "english": "to write",
+    "pos": "verb",
+    "frequency": 1043,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0053",
+    "bengali": "রওয়া",
+    "transliteration": "rowa",
+    "english": "to remain / to stay",
+    "pos": "verb",
+    "frequency": 1021,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0054",
+    "bengali": "সরা",
+    "transliteration": "shora",
+    "english": "to move aside / to shift",
+    "pos": "verb",
+    "frequency": 957,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0055",
+    "bengali": "কাটা",
+    "transliteration": "kata",
+    "english": "to cut",
+    "pos": "verb",
+    "frequency": 946,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0056",
+    "bengali": "করানো",
+    "transliteration": "korano",
+    "english": "to make someone do",
+    "pos": "verb",
+    "frequency": 891,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0057",
+    "bengali": "ভাঙা",
+    "transliteration": "bhanga",
+    "english": "to break",
+    "pos": "verb",
+    "frequency": 868,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0058",
+    "bengali": "নওয়া",
+    "transliteration": "nowa",
+    "english": "to bend / to bow down",
+    "pos": "verb",
+    "frequency": 857,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0059",
+    "bengali": "থামানো",
+    "transliteration": "thamano",
+    "english": "to stop",
+    "pos": "verb",
+    "frequency": 804,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0060",
+    "bengali": "ঢোকা",
+    "transliteration": "dhoka",
+    "english": "to enter",
+    "pos": "verb",
+    "frequency": 754,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0061",
+    "bengali": "মানা",
+    "transliteration": "mana",
+    "english": "to obey / to accept",
+    "pos": "verb",
+    "frequency": 692,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0062",
+    "bengali": "পৌঁছানো",
+    "transliteration": "pounchano",
+    "english": "to reach / to arrive",
+    "pos": "verb",
+    "frequency": 669,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0063",
+    "bengali": "ঘুমানো",
+    "transliteration": "ghumano",
+    "english": "to sleep",
+    "pos": "verb",
+    "frequency": 669,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0064",
+    "bengali": "আটকানো",
+    "transliteration": "atkhano",
+    "english": "to trap / to obstruct",
+    "pos": "verb",
+    "frequency": 668,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0065",
+    "bengali": "খেলা",
+    "transliteration": "khela",
+    "english": "to play",
+    "pos": "verb",
+    "frequency": 657,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0066",
+    "bengali": "লুকানো",
+    "transliteration": "lukano",
+    "english": "to hide",
+    "pos": "verb",
+    "frequency": 649,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0067",
+    "bengali": "লাগানো",
+    "transliteration": "lagano",
+    "english": "to apply / to attach",
+    "pos": "verb",
+    "frequency": 629,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0068",
+    "bengali": "পরা",
+    "transliteration": "pora",
+    "english": "to wear",
+    "pos": "verb",
+    "frequency": 618,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0069",
+    "bengali": "কেনা",
+    "transliteration": "kena",
+    "english": "to buy",
+    "pos": "verb",
+    "frequency": 605,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0070",
+    "bengali": "বোঝানো",
+    "transliteration": "bojhano",
+    "english": "to explain / to make understand",
+    "pos": "verb",
+    "frequency": 596,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0071",
+    "bengali": "ঘোরা",
+    "transliteration": "ghora",
+    "english": "to turn / to roam",
+    "pos": "verb",
+    "frequency": 583,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0072",
+    "bengali": "ফেরানো",
+    "transliteration": "pherano",
+    "english": "to return / to bring back",
+    "pos": "verb",
+    "frequency": 558,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0073",
+    "bengali": "নামা",
+    "transliteration": "nama",
+    "english": "to descend / to get down",
+    "pos": "verb",
+    "frequency": 547,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0074",
+    "bengali": "সরানো",
+    "transliteration": "shorano",
+    "english": "to remove / to move away",
+    "pos": "verb",
+    "frequency": 540,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0075",
+    "bengali": "এগানো",
+    "transliteration": "egano",
+    "english": "to advance / to move forward",
+    "pos": "verb",
+    "frequency": 534,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0076",
+    "bengali": "দৌড়ানো",
+    "transliteration": "dourano",
+    "english": "to run",
+    "pos": "verb",
+    "frequency": 511,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0077",
+    "bengali": "সামলানো",
+    "transliteration": "samlano",
+    "english": "to manage / to handle / carefully",
+    "pos": "verb",
+    "frequency": 468,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0078",
+    "bengali": "বাছা",
+    "transliteration": "bacha",
+    "english": "to select / to choose",
+    "pos": "verb",
+    "frequency": 463,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0079",
+    "bengali": "বেরোনো",
+    "transliteration": "berono",
+    "english": "to exit / to go out",
+    "pos": "verb",
+    "frequency": 428,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0080",
+    "bengali": "ওড়া",
+    "transliteration": "ora",
+    "english": "to fly",
+    "pos": "verb",
+    "frequency": 416,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0081",
+    "bengali": "হাঁটা",
+    "transliteration": "hata",
+    "english": "to walk",
+    "pos": "verb",
+    "frequency": 402,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0082",
+    "bengali": "জেতা",
+    "transliteration": "jeta",
+    "english": "to win",
+    "pos": "verb",
+    "frequency": 393,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0083",
+    "bengali": "কাটানো",
+    "transliteration": "katano",
+    "english": "to spend / to pass (time)",
+    "pos": "verb",
+    "frequency": 369,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0084",
+    "bengali": "টানা",
+    "transliteration": "tana",
+    "english": "to pull",
+    "pos": "verb",
+    "frequency": 360,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0085",
+    "bengali": "বাড়া",
+    "transliteration": "bara",
+    "english": "to grow / to increase",
+    "pos": "verb",
+    "frequency": 354,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0086",
+    "bengali": "শেখা",
+    "transliteration": "shekha",
+    "english": "to learn",
+    "pos": "verb",
+    "frequency": 333,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0087",
+    "bengali": "জাগা",
+    "transliteration": "jaga",
+    "english": "to wake up / to stay awake",
+    "pos": "verb",
+    "frequency": 327,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0088",
+    "bengali": "নামানো",
+    "transliteration": "namano",
+    "english": "to lower / to bring down",
+    "pos": "verb",
+    "frequency": 324,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0089",
+    "bengali": "শেখানো",
+    "transliteration": "shekhano",
+    "english": "to teach",
+    "pos": "verb",
+    "frequency": 306,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0090",
+    "bengali": "মেলা",
+    "transliteration": "mela",
+    "english": "to meet / to unite",
+    "pos": "verb",
+    "frequency": 302,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0091",
+    "bengali": "বেড়ানো",
+    "transliteration": "berano",
+    "english": "to travel / to wander",
+    "pos": "verb",
+    "frequency": 288,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0092",
+    "bengali": "বাঁধা",
+    "transliteration": "bandha",
+    "english": "to bind / to tie",
+    "pos": "verb",
+    "frequency": 285,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0093",
+    "bengali": "শোওয়া",
+    "transliteration": "showa",
+    "english": "to lie down / to sleep",
+    "pos": "verb",
+    "frequency": 283,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0094",
+    "bengali": "হাসা",
+    "transliteration": "hasha",
+    "english": "to laugh / to smile",
+    "pos": "verb",
+    "frequency": 277,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0095",
+    "bengali": "পাল্টানো",
+    "transliteration": "paltano",
+    "english": "to change",
+    "pos": "verb",
+    "frequency": 265,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0096",
+    "bengali": "ছড়ানো",
+    "transliteration": "chorano",
+    "english": "to spread / to scatter",
+    "pos": "verb",
+    "frequency": 244,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0097",
+    "bengali": "বাড়ানো",
+    "transliteration": "barano",
+    "english": "to increase / to extend",
+    "pos": "verb",
+    "frequency": 238,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0098",
+    "bengali": "বেচা",
+    "transliteration": "becha",
+    "english": "to sell",
+    "pos": "verb",
+    "frequency": 232,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0099",
+    "bengali": "নড়া",
+    "transliteration": "nora",
+    "english": "to move / to stir",
+    "pos": "verb",
+    "frequency": 227,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0100",
+    "bengali": "লড়া",
+    "transliteration": "lora",
+    "english": "to fight",
+    "pos": "verb",
+    "frequency": 212,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0101",
+    "bengali": "গাওয়া",
+    "transliteration": "gawa",
+    "english": "to sing",
+    "pos": "verb",
+    "frequency": 211,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0102",
+    "bengali": "কাঁদা",
+    "transliteration": "kada",
+    "english": "to cry / to weep",
+    "pos": "verb",
+    "frequency": 209,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0103",
+    "bengali": "বাজানো",
+    "transliteration": "bajano",
+    "english": "to play (an instrument) / to ring",
+    "pos": "verb",
+    "frequency": 207,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0104",
+    "bengali": "বদলানো",
+    "transliteration": "bodlano",
+    "english": "to change / to alter",
+    "pos": "verb",
+    "frequency": 201,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0105",
+    "bengali": "নাচা",
+    "transliteration": "nacha",
+    "english": "to dance",
+    "pos": "verb",
+    "frequency": 197,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0106",
+    "bengali": "শিখা",
+    "transliteration": "shikha",
+    "english": "to learn",
+    "pos": "verb",
+    "frequency": 196,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0107",
+    "bengali": "বাজা",
+    "transliteration": "baja",
+    "english": "to sound / to ring",
+    "pos": "verb",
+    "frequency": 186,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0108",
+    "bengali": "ওড়ানো",
+    "transliteration": "orano",
+    "english": "to fly / to blow up",
+    "pos": "verb",
+    "frequency": 182,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0109",
+    "bengali": "মোছা",
+    "transliteration": "mochha",
+    "english": "to wipe / to erase",
+    "pos": "verb",
+    "frequency": 174,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0110",
+    "bengali": "বওয়া",
+    "transliteration": "bowa",
+    "english": "to carry / to flow",
+    "pos": "verb",
+    "frequency": 172,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0111",
+    "bengali": "ভরা",
+    "transliteration": "bhora",
+    "english": "to fill",
+    "pos": "verb",
+    "frequency": 170,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0112",
+    "bengali": "মানানো",
+    "transliteration": "manano",
+    "english": "to adapt / to persuade",
+    "pos": "verb",
+    "frequency": 155,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0113",
+    "bengali": "ঢোকানো",
+    "transliteration": "dhokano",
+    "english": "to insert / to put in",
+    "pos": "verb",
+    "frequency": 147,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0114",
+    "bengali": "জড়ানো",
+    "transliteration": "jorano",
+    "english": "to involve / to entangle",
+    "pos": "verb",
+    "frequency": 140,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0115",
+    "bengali": "চাপা",
+    "transliteration": "chapa",
+    "english": "to press / to suppress",
+    "pos": "verb",
+    "frequency": 139,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0116",
+    "bengali": "ভাগা",
+    "transliteration": "bhaga",
+    "english": "to run away / to flee",
+    "pos": "verb",
+    "frequency": 138,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0117",
+    "bengali": "হারা",
+    "transliteration": "hara",
+    "english": "to lose / to be defeated",
+    "pos": "verb",
+    "frequency": 137,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0118",
+    "bengali": "ঘোরানো",
+    "transliteration": "ghorano",
+    "english": "to rotate / to turn",
+    "pos": "verb",
+    "frequency": 131,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0119",
+    "bengali": "ডোবা",
+    "transliteration": "doba",
+    "english": "to sink / to drown",
+    "pos": "verb",
+    "frequency": 130,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0120",
+    "bengali": "কমা",
+    "transliteration": "koma",
+    "english": "to decrease / to lessen",
+    "pos": "verb",
+    "frequency": 127,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0121",
+    "bengali": "সাজানো",
+    "transliteration": "shajano",
+    "english": "to decorate / to arrange",
+    "pos": "verb",
+    "frequency": 124,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0122",
+    "bengali": "জ্বালানো",
+    "transliteration": "jwalano",
+    "english": "to light / to ignite / to irritate",
+    "pos": "verb",
+    "frequency": 123,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0123",
+    "bengali": "রাগা",
+    "transliteration": "raga",
+    "english": "to get angry",
+    "pos": "verb",
+    "frequency": 122,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0124",
+    "bengali": "উঠানো",
+    "transliteration": "uthano",
+    "english": "to lift / to raise",
+    "pos": "verb",
+    "frequency": 120,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0125",
+    "bengali": "পিছানো",
+    "transliteration": "pichano",
+    "english": "to step back / to fall behind",
+    "pos": "verb",
+    "frequency": 119,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0126",
+    "bengali": "পোড়া",
+    "transliteration": "pora",
+    "english": "to burn",
+    "pos": "verb",
+    "frequency": 119,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0127",
+    "bengali": "টেকা",
+    "transliteration": "teka",
+    "english": "to survive / to endure",
+    "pos": "verb",
+    "frequency": 117,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0128",
+    "bengali": "মেলানো",
+    "transliteration": "melano",
+    "english": "to match / to blend",
+    "pos": "verb",
+    "frequency": 113,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0129",
+    "bengali": "পোড়ানো",
+    "transliteration": "porano",
+    "english": "to burn",
+    "pos": "verb",
+    "frequency": 110,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0130",
+    "bengali": "ছিনানো",
+    "transliteration": "chhinano",
+    "english": "to snatch / to wrest",
+    "pos": "verb",
+    "frequency": 108,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0131",
+    "bengali": "শোনানো",
+    "transliteration": "shonano",
+    "english": "to recite / to sound like",
+    "pos": "verb",
+    "frequency": 106,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0132",
+    "bengali": "কমানো",
+    "transliteration": "komano",
+    "english": "to reduce / to decrease",
+    "pos": "verb",
+    "frequency": 104,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0133",
+    "bengali": "ঘেরা",
+    "transliteration": "ghera",
+    "english": "to surround / to enclose",
+    "pos": "verb",
+    "frequency": 102,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0134",
+    "bengali": "ছোঁয়া",
+    "transliteration": "chowa",
+    "english": "to touch",
+    "pos": "verb",
+    "frequency": 100,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0135",
+    "bengali": "গড়া",
+    "transliteration": "gora",
+    "english": "to build / to shape",
+    "pos": "verb",
+    "frequency": 98,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0136",
+    "bengali": "এড়ানো",
+    "transliteration": "erano",
+    "english": "to avoid / to bypass",
+    "pos": "verb",
+    "frequency": 97,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0137",
+    "bengali": "ছিঁড়ে ফেলা",
+    "transliteration": "chirha",
+    "english": "to tear",
+    "pos": "verb",
+    "frequency": 96,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0138",
+    "bengali": "কাড়া",
+    "transliteration": "kara",
+    "english": "to snatch / to take away",
+    "pos": "verb",
+    "frequency": 89,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0139",
+    "bengali": "জ্বলা",
+    "transliteration": "jola",
+    "english": "to burn / to glow",
+    "pos": "verb",
+    "frequency": 86,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0140",
+    "bengali": "ফলো",
+    "transliteration": "folo",
+    "english": "to follow",
+    "pos": "verb",
+    "frequency": 85,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0141",
+    "bengali": "খাওয়ানো",
+    "transliteration": "khawano",
+    "english": "to feed",
+    "pos": "verb",
+    "frequency": 85,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0142",
+    "bengali": "ছুঁড়ে মারা",
+    "transliteration": "chure mara",
+    "english": "to throw",
+    "pos": "verb",
+    "frequency": 84,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0143",
+    "bengali": "জমা",
+    "transliteration": "joma",
+    "english": "to gather / to accumulate / to freeze",
+    "pos": "verb",
+    "frequency": 84,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0144",
+    "bengali": "ছাড়ানো",
+    "transliteration": "charano",
+    "english": "to release / to surpass",
+    "pos": "verb",
+    "frequency": 84,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0145",
+    "bengali": "ছোটা",
+    "transliteration": "chota",
+    "english": "to run / to rush",
+    "pos": "verb",
+    "frequency": 82,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0146",
+    "bengali": "চড়া",
+    "transliteration": "chora",
+    "english": "to climb / to ride",
+    "pos": "verb",
+    "frequency": 82,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0147",
+    "bengali": "ছুঁড়ে ফেলা",
+    "transliteration": "chhũre phela",
+    "english": "to throw",
+    "pos": "verb",
+    "frequency": 78,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0148",
+    "bengali": "ভাসা",
+    "transliteration": "bhasa",
+    "english": "to float",
+    "pos": "verb",
+    "frequency": 77,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0149",
+    "bengali": "ধোয়া",
+    "transliteration": "dhowa",
+    "english": "to wash",
+    "pos": "verb",
+    "frequency": 77,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0150",
+    "bengali": "মনে করা",
+    "transliteration": "mone kora",
+    "english": "to think / to assume",
+    "pos": "verb",
+    "frequency": 75,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0151",
+    "bengali": "ঘুরানো",
+    "transliteration": "ghurano",
+    "english": "to turn / to spin",
+    "pos": "verb",
+    "frequency": 73,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0152",
+    "bengali": "শুকানো",
+    "transliteration": "shukano",
+    "english": "to dry up",
+    "pos": "verb",
+    "frequency": 69,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0153",
+    "bengali": "মেশা",
+    "transliteration": "mesha",
+    "english": "to blend / to mingle",
+    "pos": "verb",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0154",
+    "bengali": "মিটানো",
+    "transliteration": "mitano",
+    "english": "to settle / to resolve",
+    "pos": "verb",
+    "frequency": 65,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0155",
+    "bengali": "তাড়ানো",
+    "transliteration": "tarano",
+    "english": "to chase away / to drive out",
+    "pos": "verb",
+    "frequency": 61,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0156",
+    "bengali": "আঁকা",
+    "transliteration": "ãka",
+    "english": "to draw / to paint",
+    "pos": "verb",
+    "frequency": 61,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0157",
+    "bengali": "মনে হওয়া",
+    "transliteration": "mone howa",
+    "english": "to seem / to feel like",
+    "pos": "verb",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0158",
+    "bengali": "মেশানো",
+    "transliteration": "meshano",
+    "english": "to mix / to blend",
+    "pos": "verb",
+    "frequency": 59,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0159",
+    "bengali": "পিটানো",
+    "transliteration": "pitano",
+    "english": "to beat up / to thrash",
+    "pos": "verb",
+    "frequency": 59,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0160",
+    "bengali": "ঢাকা",
+    "transliteration": "dhaka",
+    "english": "to cover",
+    "pos": "verb",
+    "frequency": 58,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0161",
+    "bengali": "ফোটা",
+    "transliteration": "phota",
+    "english": "to bloom / to boil",
+    "pos": "verb",
+    "frequency": 57,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0162",
+    "bengali": "ঘুমোনো",
+    "transliteration": "ghumono",
+    "english": "to sleep",
+    "pos": "verb",
+    "frequency": 55,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0163",
+    "bengali": "জিজ্ঞাসা করা",
+    "transliteration": "jiggasha kora",
+    "english": "to ask",
+    "pos": "verb",
+    "frequency": 54,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0164",
+    "bengali": "ছেঁড়া",
+    "transliteration": "chera",
+    "english": "to tear",
+    "pos": "verb",
+    "frequency": 54,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0165",
+    "bengali": "ঠেলা",
+    "transliteration": "thela",
+    "english": "to push",
+    "pos": "verb",
+    "frequency": 53,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0166",
+    "bengali": "ফাটা",
+    "transliteration": "fhata",
+    "english": "to burst / to crack",
+    "pos": "verb",
+    "frequency": 52,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0167",
+    "bengali": "গুছানো",
+    "transliteration": "guchano",
+    "english": "to organize / to arrange",
+    "pos": "verb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0168",
+    "bengali": "ঝুলানো",
+    "transliteration": "jhulano",
+    "english": "to hang / to suspend",
+    "pos": "verb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0169",
+    "bengali": "জিতে নেওয়া",
+    "transliteration": "jite newa",
+    "english": "to win",
+    "pos": "verb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0170",
+    "bengali": "বসানো",
+    "transliteration": "boshano",
+    "english": "to seat / to set",
+    "pos": "verb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0171",
+    "bengali": "গোনা",
+    "transliteration": "gona",
+    "english": "to count",
+    "pos": "verb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0172",
+    "bengali": "ফাঁসা",
+    "transliteration": "fasha",
+    "english": "to get trapped / to get implicated",
+    "pos": "verb",
+    "frequency": 48,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0173",
+    "bengali": "বুঝানো",
+    "transliteration": "bujhano",
+    "english": "to explain / to convince",
+    "pos": "verb",
+    "frequency": 48,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0174",
+    "bengali": "আশা করা",
+    "transliteration": "asha kora",
+    "english": "to hope",
+    "pos": "verb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0175",
+    "bengali": "ওঠানো",
+    "transliteration": "othano",
+    "english": "to lift / to raise",
+    "pos": "verb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0176",
+    "bengali": "লাফানো",
+    "transliteration": "lafano",
+    "english": "to jump / to leap",
+    "pos": "verb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0177",
+    "bengali": "মেরে ফেলা",
+    "transliteration": "mere phela",
+    "english": "to kill",
+    "pos": "verb",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0178",
+    "bengali": "খাটানো",
+    "transliteration": "khatano",
+    "english": "to make work / to utilize",
+    "pos": "verb",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0179",
+    "bengali": "পোষা",
+    "transliteration": "posha",
+    "english": "to tame / to pet",
+    "pos": "verb",
+    "frequency": 44,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0180",
+    "bengali": "সওয়া",
+    "transliteration": "sowa",
+    "english": "to tolerate / to bear",
+    "pos": "verb",
+    "frequency": 44,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0181",
+    "bengali": "পেরানো",
+    "transliteration": "perano",
+    "english": "to cross / to pass",
+    "pos": "verb",
+    "frequency": 42,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0182",
+    "bengali": "জাগানো",
+    "transliteration": "jagano",
+    "english": "to awaken / to rouse",
+    "pos": "verb",
+    "frequency": 42,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0183",
+    "bengali": "ভোগা",
+    "transliteration": "bhoga",
+    "english": "to suffer",
+    "pos": "verb",
+    "frequency": 42,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0184",
+    "bengali": "প্রপোজ",
+    "transliteration": "propoj",
+    "english": "to propose",
+    "pos": "verb",
+    "frequency": 41,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0185",
+    "bengali": "লুকোনো",
+    "transliteration": "lukono",
+    "english": "to hide",
+    "pos": "verb",
+    "frequency": 41,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0186",
+    "bengali": "ঝোঁলা",
+    "transliteration": "jholano",
+    "english": "to hang / to dangle",
+    "pos": "verb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0187",
+    "bengali": "ভাসানো",
+    "transliteration": "bhasano",
+    "english": "to float / to launch on water",
+    "pos": "verb",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0188",
+    "bengali": "লাগে",
+    "transliteration": "lage",
+    "english": "is required / feels / hits",
+    "pos": "verb",
+    "frequency": 38,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0189",
+    "bengali": "ভাজা",
+    "transliteration": "bhaja",
+    "english": "to fry",
+    "pos": "verb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0190",
+    "bengali": "নিভানো",
+    "transliteration": "nibhano",
+    "english": "to extinguish / to put out",
+    "pos": "verb",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0191",
+    "bengali": "সারা",
+    "transliteration": "shara",
+    "english": "to finish / to cure",
+    "pos": "verb",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0192",
+    "bengali": "টিকা",
+    "transliteration": "tika",
+    "english": "to survive / to endure",
+    "pos": "verb",
+    "frequency": 35,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0193",
+    "bengali": "চমকানো",
+    "transliteration": "chomkano",
+    "english": "to startle / to surprise",
+    "pos": "verb",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0194",
+    "bengali": "উপড়ানো",
+    "transliteration": "uprano",
+    "english": "to uproot / to pull out",
+    "pos": "verb",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0195",
+    "bengali": "জয়েন করা",
+    "transliteration": "join kora",
+    "english": "to join",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0196",
+    "bengali": "ধরানো",
+    "transliteration": "dhorano",
+    "english": "to ignite / to hand over",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0197",
+    "bengali": "সারানো",
+    "transliteration": "sharano",
+    "english": "to cure / to repair",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0198",
+    "bengali": "ফুরানো",
+    "transliteration": "furano",
+    "english": "to run out / to exhaust",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0199",
+    "bengali": "পটানো",
+    "transliteration": "potano",
+    "english": "to woo / to persuade / to charm",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0200",
+    "bengali": "জন্মানো",
+    "transliteration": "jonmano",
+    "english": "to be born",
+    "pos": "verb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0201",
+    "bengali": "চাখা",
+    "transliteration": "chakha",
+    "english": "to taste",
+    "pos": "verb",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0202",
+    "bengali": "ঢালা",
+    "transliteration": "dhala",
+    "english": "to pour",
+    "pos": "verb",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0203",
+    "bengali": "ডিস্টার্ব",
+    "transliteration": "distarb",
+    "english": "to disturb",
+    "pos": "verb",
+    "frequency": 29,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0204",
+    "bengali": "গেলা",
+    "transliteration": "gela",
+    "english": "to swallow",
+    "pos": "verb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0205",
+    "bengali": "ফাটানো",
+    "transliteration": "fatano",
+    "english": "to burst / to crack",
+    "pos": "verb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0206",
+    "bengali": "গলা",
+    "transliteration": "gola",
+    "english": "to melt",
+    "pos": "verb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0207",
+    "bengali": "ভেজা",
+    "transliteration": "bheja",
+    "english": "to get wet",
+    "pos": "verb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0208",
+    "bengali": "ঘটানো",
+    "transliteration": "ghotano",
+    "english": "to cause to happen / to instantiate",
+    "pos": "verb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0209",
+    "bengali": "রিলাক্স",
+    "transliteration": "rilaks",
+    "english": "relax",
+    "pos": "verb",
+    "frequency": 27,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0210",
+    "bengali": "ম্যানেজ",
+    "transliteration": "myanej",
+    "english": "to manage",
+    "pos": "verb",
+    "frequency": 27,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0211",
+    "bengali": "ছাপা",
+    "transliteration": "chhapa",
+    "english": "to print / to stamp",
+    "pos": "verb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0212",
+    "bengali": "তলানো",
+    "transliteration": "tolano",
+    "english": "to fathom / to delve into",
+    "pos": "verb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0213",
+    "bengali": "গুটানো",
+    "transliteration": "gutano",
+    "english": "to roll up / to fold",
+    "pos": "verb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0214",
+    "bengali": "গোলানো",
+    "transliteration": "golano",
+    "english": "to mix up / to confuse",
+    "pos": "verb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0215",
+    "bengali": "ওয়েট",
+    "transliteration": "wet",
+    "english": "wait",
+    "pos": "verb",
+    "frequency": 25,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0216",
+    "bengali": "ডুবানো",
+    "transliteration": "dubano",
+    "english": "to immerse / to drown / to dip",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0217",
+    "bengali": "লগানো",
+    "transliteration": "logano",
+    "english": "to attach / to apply",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0218",
+    "bengali": "সাজা",
+    "transliteration": "saja",
+    "english": "to dress up / to get ready",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0219",
+    "bengali": "চাবানো",
+    "transliteration": "chabano",
+    "english": "to chew",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0220",
+    "bengali": "জমানো",
+    "transliteration": "jomano",
+    "english": "to freeze / to gather / to save",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0221",
+    "bengali": "ভেদানো",
+    "transliteration": "bhedano",
+    "english": "to pierce / to penetrate",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0222",
+    "bengali": "ঝাড়া",
+    "transliteration": "jhara",
+    "english": "to dust / to shake off",
+    "pos": "verb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0223",
+    "bengali": "কিলানো",
+    "transliteration": "kilano",
+    "english": "to punch / to thrash",
+    "pos": "verb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0224",
+    "bengali": "কামড়ানো",
+    "transliteration": "kamrano",
+    "english": "to bite",
+    "pos": "verb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0225",
+    "bengali": "শাট",
+    "transliteration": "shat",
+    "english": "to shut",
+    "pos": "verb",
+    "frequency": 22,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0226",
+    "bengali": "ফসকানো",
+    "transliteration": "phoshkano",
+    "english": "to slip / to miss",
+    "pos": "verb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0227",
+    "bengali": "রিসিভ",
+    "transliteration": "rishibh",
+    "english": "to receive",
+    "pos": "verb",
+    "frequency": 22,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0228",
+    "bengali": "উল্টানো",
+    "transliteration": "ultano",
+    "english": "to overturn / to flip",
+    "pos": "verb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0229",
+    "bengali": "রোখা",
+    "transliteration": "rokha",
+    "english": "to resist / to stop",
+    "pos": "verb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0230",
+    "bengali": "পরানো",
+    "transliteration": "porano",
+    "english": "to make someone wear",
+    "pos": "verb",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0231",
+    "bengali": "ঠেকানো",
+    "transliteration": "thekano",
+    "english": "to prevent / to resist",
+    "pos": "verb",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0232",
+    "bengali": "পোরা",
+    "transliteration": "pora",
+    "english": "to insert / to stuff",
+    "pos": "verb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0233",
+    "bengali": "আঁকড়ানো",
+    "transliteration": "akrano",
+    "english": "to clasp / to cling to",
+    "pos": "verb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0234",
+    "bengali": "মেটা",
+    "transliteration": "meta",
+    "english": "to be resolved / to be fulfilled",
+    "pos": "verb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0235",
+    "bengali": "কাঁপা",
+    "transliteration": "kampa",
+    "english": "to tremble / to shiver",
+    "pos": "verb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0236",
+    "bengali": "পালটানো",
+    "transliteration": "paltano",
+    "english": "to change / to alter",
+    "pos": "verb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0237",
+    "bengali": "পিছলানো",
+    "transliteration": "pichlano",
+    "english": "to slip / to slide",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0238",
+    "bengali": "ঘনিয়ে আসা",
+    "transliteration": "ghoniye asha",
+    "english": "to approach / to gather (of clouds/danger)",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0239",
+    "bengali": "এগোনো",
+    "transliteration": "egono",
+    "english": "to advance / to move forward",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0240",
+    "bengali": "গজরানো",
+    "transliteration": "gojrano",
+    "english": "to growl / to grumble",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0241",
+    "bengali": "শোঁকা",
+    "transliteration": "shonka",
+    "english": "to sniff / to smell",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0242",
+    "bengali": "চাপানো",
+    "transliteration": "chapano",
+    "english": "to impose / to place on",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0243",
+    "bengali": "নাড়া",
+    "transliteration": "nara",
+    "english": "to shake / to move",
+    "pos": "verb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0244",
+    "bengali": "টোকা",
+    "transliteration": "toka",
+    "english": "to flick / to tap / to copy",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0245",
+    "bengali": "ঠেকা",
+    "transliteration": "theka",
+    "english": "to touch / to stall / to seem",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0246",
+    "bengali": "গড়ানো",
+    "transliteration": "gorano",
+    "english": "to roll / to spill",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0247",
+    "bengali": "মাখা",
+    "transliteration": "makha",
+    "english": "to smear / to knead / to apply",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0248",
+    "bengali": "ছিটকানো",
+    "transliteration": "chhitkano",
+    "english": "to splatter / to fling off",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0249",
+    "bengali": "আঁকানো",
+    "transliteration": "ankano",
+    "english": "to cause to draw",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0250",
+    "bengali": "আগলানো",
+    "transliteration": "aglano",
+    "english": "to protect / to guard / to shelter",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0251",
+    "bengali": "পাকানো",
+    "transliteration": "pakano",
+    "english": "to twist / to ripen / to scheme",
+    "pos": "verb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0252",
+    "bengali": "কষা",
+    "transliteration": "kosha",
+    "english": "to tighten / to calculate / to braise",
+    "pos": "verb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0253",
+    "bengali": "পচা",
+    "transliteration": "pnocha",
+    "english": "to rot / to decompose / rotten",
+    "pos": "verb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0254",
+    "bengali": "ছোড়া",
+    "transliteration": "chora",
+    "english": "to throw / to hurl",
+    "pos": "verb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0255",
+    "bengali": "ডিলিট",
+    "transliteration": "dilit",
+    "english": "to delete",
+    "pos": "verb",
+    "frequency": 16,
+    "is_loanword": true
+  },
+  {
+    "id": "verb_0256",
+    "bengali": "শোষা",
+    "transliteration": "shosha",
+    "english": "to suck / to absorb",
+    "pos": "verb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0257",
+    "bengali": "মেটানো",
+    "transliteration": "metano",
+    "english": "to settle / to satisfy / to resolve",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0258",
+    "bengali": "খোঁড়া",
+    "transliteration": "khora",
+    "english": "to dig",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0259",
+    "bengali": "ছিটানো",
+    "transliteration": "chhitano",
+    "english": "to scatter / to sprinkle",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0260",
+    "bengali": "খোঁদা",
+    "transliteration": "khoda",
+    "english": "to engrave / to carve",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0261",
+    "bengali": "ঝাঁপানো",
+    "transliteration": "jhapano",
+    "english": "to jump / to leap",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0262",
+    "bengali": "রাঁধা",
+    "transliteration": "randha",
+    "english": "to cook",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0263",
+    "bengali": "পেষা",
+    "transliteration": "pesha",
+    "english": "to crush / to grind",
+    "pos": "verb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0264",
+    "bengali": "গলানো",
+    "transliteration": "golano",
+    "english": "to melt / to dissolve",
+    "pos": "verb",
+    "frequency": 14,
+    "is_loanword": false
+  },
+  {
+    "id": "verb_0265",
+    "bengali": "টেপা",
+    "transliteration": "tepa",
+    "english": "to press / to squeeze",
+    "pos": "verb",
+    "frequency": 14,
+    "is_loanword": false
+  }
+]

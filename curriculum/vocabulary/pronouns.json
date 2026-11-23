@@ -1,0 +1,776 @@
+[
+  {
+    "id": "pron_0001",
+    "bengali": "আমি",
+    "transliteration": "ami",
+    "english": "I",
+    "pos": "pronoun",
+    "frequency": 144255,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0002",
+    "bengali": "তুমি",
+    "transliteration": "tumi",
+    "english": "you (informal)",
+    "pos": "pronoun",
+    "frequency": 73247,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0003",
+    "bengali": "সে",
+    "transliteration": "she",
+    "english": "he / she",
+    "pos": "pronoun",
+    "frequency": 46926,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0004",
+    "bengali": "কি",
+    "transliteration": "ki",
+    "english": "what (question particle)",
+    "pos": "pronoun",
+    "frequency": 27275,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0005",
+    "bengali": "এটা",
+    "transliteration": "eta",
+    "english": "this / it",
+    "pos": "pronoun",
+    "frequency": 26848,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0006",
+    "bengali": "আপনি",
+    "transliteration": "apni",
+    "english": "you (formal)",
+    "pos": "pronoun",
+    "frequency": 24706,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0007",
+    "bengali": "এই",
+    "transliteration": "ei",
+    "english": "this",
+    "pos": "pronoun",
+    "frequency": 22472,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0008",
+    "bengali": "যে",
+    "transliteration": "je",
+    "english": "who / which / that",
+    "pos": "pronoun",
+    "frequency": 13757,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0009",
+    "bengali": "কিছু",
+    "transliteration": "kichu",
+    "english": "some / something",
+    "pos": "pronoun",
+    "frequency": 13477,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0010",
+    "bengali": "ও",
+    "transliteration": "o",
+    "english": "him / her",
+    "pos": "pronoun",
+    "frequency": 9469,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0011",
+    "bengali": "কোন",
+    "transliteration": "kono",
+    "english": "which / any",
+    "pos": "pronoun",
+    "frequency": 9337,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0012",
+    "bengali": "কী",
+    "transliteration": "ki",
+    "english": "what",
+    "pos": "pronoun",
+    "frequency": 8821,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0013",
+    "bengali": "তুই",
+    "transliteration": "tui",
+    "english": "you (intimate)",
+    "pos": "pronoun",
+    "frequency": 8131,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0014",
+    "bengali": "কেউ",
+    "transliteration": "keu",
+    "english": "someone / anyone",
+    "pos": "pronoun",
+    "frequency": 6312,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0015",
+    "bengali": "কে",
+    "transliteration": "ke",
+    "english": "who",
+    "pos": "pronoun",
+    "frequency": 6292,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0016",
+    "bengali": "তিনি",
+    "transliteration": "tini",
+    "english": "he / she (formal)",
+    "pos": "pronoun",
+    "frequency": 5413,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0017",
+    "bengali": "সবাই",
+    "transliteration": "shobai",
+    "english": "everyone",
+    "pos": "pronoun",
+    "frequency": 5239,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0018",
+    "bengali": "সেটা",
+    "transliteration": "sheta",
+    "english": "that (thing)",
+    "pos": "pronoun",
+    "frequency": 5087,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0019",
+    "bengali": "যা",
+    "transliteration": "ja",
+    "english": "which / whatever",
+    "pos": "pronoun",
+    "frequency": 4540,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0020",
+    "bengali": "এ",
+    "transliteration": "e",
+    "english": "this",
+    "pos": "pronoun",
+    "frequency": 4243,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0021",
+    "bengali": "এটি",
+    "transliteration": "eti",
+    "english": "this one",
+    "pos": "pronoun",
+    "frequency": 3647,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0022",
+    "bengali": "ওটা",
+    "transliteration": "ota",
+    "english": "that thing",
+    "pos": "pronoun",
+    "frequency": 3622,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0023",
+    "bengali": "ঐ",
+    "transliteration": "oi",
+    "english": "that",
+    "pos": "pronoun",
+    "frequency": 3255,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0024",
+    "bengali": "তা",
+    "transliteration": "ta",
+    "english": "that",
+    "pos": "pronoun",
+    "frequency": 3043,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0025",
+    "bengali": "নিজে",
+    "transliteration": "nije",
+    "english": "oneself",
+    "pos": "pronoun",
+    "frequency": 2770,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0026",
+    "bengali": "সেই",
+    "transliteration": "shei",
+    "english": "that very / same",
+    "pos": "pronoun",
+    "frequency": 2500,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0027",
+    "bengali": "নিজ",
+    "transliteration": "nij",
+    "english": "own / self",
+    "pos": "pronoun",
+    "frequency": 2413,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0028",
+    "bengali": "এসব",
+    "transliteration": "eshob",
+    "english": "all these",
+    "pos": "pronoun",
+    "frequency": 2351,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0029",
+    "bengali": "সবকিছু",
+    "transliteration": "shobkichu",
+    "english": "everything",
+    "pos": "pronoun",
+    "frequency": 1790,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0030",
+    "bengali": "উনি",
+    "transliteration": "uni",
+    "english": "he / she (formal)",
+    "pos": "pronoun",
+    "frequency": 1668,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0031",
+    "bengali": "ওই",
+    "transliteration": "oi",
+    "english": "that",
+    "pos": "pronoun",
+    "frequency": 1574,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0032",
+    "bengali": "যেটি",
+    "transliteration": "jeti",
+    "english": "which one",
+    "pos": "pronoun",
+    "frequency": 1457,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0033",
+    "bengali": "এগুলো",
+    "transliteration": "egulo",
+    "english": "these",
+    "pos": "pronoun",
+    "frequency": 1455,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0034",
+    "bengali": "আমরা",
+    "transliteration": "amra",
+    "english": "we / us",
+    "pos": "pronoun",
+    "frequency": 992,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0035",
+    "bengali": "তারা",
+    "transliteration": "tara",
+    "english": "they / them",
+    "pos": "pronoun",
+    "frequency": 550,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0036",
+    "bengali": "যেটা",
+    "transliteration": "jeta",
+    "english": "that which / whichever (singular)",
+    "pos": "pronoun",
+    "frequency": 418,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0037",
+    "bengali": "এরা",
+    "transliteration": "era",
+    "english": "these people / them",
+    "pos": "pronoun",
+    "frequency": 409,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0038",
+    "bengali": "এইটি",
+    "transliteration": "eiti",
+    "english": "this one",
+    "pos": "pronoun",
+    "frequency": 395,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0039",
+    "bengali": "এইসব",
+    "transliteration": "eishob",
+    "english": "all these",
+    "pos": "pronoun",
+    "frequency": 369,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0040",
+    "bengali": "কোথা",
+    "transliteration": "kotha",
+    "english": "where",
+    "pos": "pronoun",
+    "frequency": 352,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0041",
+    "bengali": "মাই",
+    "transliteration": "mai",
+    "english": "my",
+    "pos": "pronoun",
+    "frequency": 314,
+    "is_loanword": true
+  },
+  {
+    "id": "pron_0042",
+    "bengali": "ওরা",
+    "transliteration": "ora",
+    "english": "them",
+    "pos": "pronoun",
+    "frequency": 308,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0043",
+    "bengali": "সব",
+    "transliteration": "shob",
+    "english": "everything / all",
+    "pos": "pronoun",
+    "frequency": 277,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0044",
+    "bengali": "যারা",
+    "transliteration": "jara",
+    "english": "who (plural, relative)",
+    "pos": "pronoun",
+    "frequency": 273,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0045",
+    "bengali": "কোনটা",
+    "transliteration": "konta",
+    "english": "which one",
+    "pos": "pronoun",
+    "frequency": 269,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0046",
+    "bengali": "ওসব",
+    "transliteration": "oshab",
+    "english": "all those things",
+    "pos": "pronoun",
+    "frequency": 174,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0047",
+    "bengali": "আরেকজন",
+    "transliteration": "arekjon",
+    "english": "another person",
+    "pos": "pronoun",
+    "frequency": 167,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0048",
+    "bengali": "যিনি",
+    "transliteration": "jini",
+    "english": "who (formal)",
+    "pos": "pronoun",
+    "frequency": 166,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0049",
+    "bengali": "প্রত্যেক",
+    "transliteration": "prottyek",
+    "english": "everyone / each",
+    "pos": "pronoun",
+    "frequency": 166,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0050",
+    "bengali": "কারও",
+    "transliteration": "karow",
+    "english": "anyone's / someone's",
+    "pos": "pronoun",
+    "frequency": 162,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0051",
+    "bengali": "সেখান",
+    "transliteration": "shekhan",
+    "english": "that place",
+    "pos": "pronoun",
+    "frequency": 162,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0052",
+    "bengali": "ইনি",
+    "transliteration": "ini",
+    "english": "he / she (formal, nearby)",
+    "pos": "pronoun",
+    "frequency": 157,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0053",
+    "bengali": "কিছু না",
+    "transliteration": "kichu na",
+    "english": "nothing",
+    "pos": "pronoun",
+    "frequency": 149,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0054",
+    "bengali": "ইউ",
+    "transliteration": "iu",
+    "english": "you",
+    "pos": "pronoun",
+    "frequency": 141,
+    "is_loanword": true
+  },
+  {
+    "id": "pron_0055",
+    "bengali": "অন্যকিছু",
+    "transliteration": "onnokichu",
+    "english": "something else",
+    "pos": "pronoun",
+    "frequency": 114,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0056",
+    "bengali": "কোনোকিছু",
+    "transliteration": "konokichhu",
+    "english": "anything / something",
+    "pos": "pronoun",
+    "frequency": 105,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0057",
+    "bengali": "অনেক",
+    "transliteration": "onek",
+    "english": "many people",
+    "pos": "pronoun",
+    "frequency": 105,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0058",
+    "bengali": "কতজন",
+    "transliteration": "kotojon",
+    "english": "how many people",
+    "pos": "pronoun",
+    "frequency": 89,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0059",
+    "bengali": "যেসব",
+    "transliteration": "jeshob",
+    "english": "whichever / all that",
+    "pos": "pronoun",
+    "frequency": 89,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0060",
+    "bengali": "সেসব",
+    "transliteration": "sheshob",
+    "english": "all those",
+    "pos": "pronoun",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0061",
+    "bengali": "কোনকিছু",
+    "transliteration": "konokichu",
+    "english": "anything / something",
+    "pos": "pronoun",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0062",
+    "bengali": "অন্যকেউ",
+    "transliteration": "onnokeu",
+    "english": "someone else / anyone else",
+    "pos": "pronoun",
+    "frequency": 62,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0063",
+    "bengali": "কোনটি",
+    "transliteration": "konti",
+    "english": "which one",
+    "pos": "pronoun",
+    "frequency": 51,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0064",
+    "bengali": "ওঁরা",
+    "transliteration": "onra",
+    "english": "they (formal)",
+    "pos": "pronoun",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0065",
+    "bengali": "ওগুলো",
+    "transliteration": "ogulo",
+    "english": "those things",
+    "pos": "pronoun",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0066",
+    "bengali": "ঐসব",
+    "transliteration": "oishob",
+    "english": "all those",
+    "pos": "pronoun",
+    "frequency": 43,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0067",
+    "bengali": "এইগুলো",
+    "transliteration": "eigulo",
+    "english": "these",
+    "pos": "pronoun",
+    "frequency": 38,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0068",
+    "bengali": "কয়জন",
+    "transliteration": "koyjon",
+    "english": "how many people",
+    "pos": "pronoun",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0069",
+    "bengali": "কারো",
+    "transliteration": "karo",
+    "english": "anyone's / someone's",
+    "pos": "pronoun",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0070",
+    "bengali": "ওইসব",
+    "transliteration": "oishob",
+    "english": "all those",
+    "pos": "pronoun",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0071",
+    "bengali": "সেইটি",
+    "transliteration": "sheiti",
+    "english": "that thing / that one",
+    "pos": "pronoun",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0072",
+    "bengali": "সেটি",
+    "transliteration": "sheti",
+    "english": "that thing / that one",
+    "pos": "pronoun",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0073",
+    "bengali": "এতকিছু",
+    "transliteration": "etokichu",
+    "english": "so much / so many things",
+    "pos": "pronoun",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0074",
+    "bengali": "এমনটি",
+    "transliteration": "emonti",
+    "english": "like this / such a thing",
+    "pos": "pronoun",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0075",
+    "bengali": "কিসব",
+    "transliteration": "kishob",
+    "english": "what nonsense / all sorts of things",
+    "pos": "pronoun",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0076",
+    "bengali": "স্বয়ং",
+    "transliteration": "shoyong",
+    "english": "himself / herself / personally",
+    "pos": "pronoun",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0077",
+    "bengali": "যাকিছু",
+    "transliteration": "jakichu",
+    "english": "whatever",
+    "pos": "pronoun",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0078",
+    "bengali": "তোরা",
+    "transliteration": "tora",
+    "english": "you (informal plural)",
+    "pos": "pronoun",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0079",
+    "bengali": "সেইসব",
+    "transliteration": "sheishob",
+    "english": "all those",
+    "pos": "pronoun",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0080",
+    "bengali": "এসবকিছু",
+    "transliteration": "eshobkichhu",
+    "english": "all these things",
+    "pos": "pronoun",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0081",
+    "bengali": "একটা",
+    "transliteration": "ekta",
+    "english": "one / a single thing",
+    "pos": "pronoun",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0082",
+    "bengali": "বেশিকিছু",
+    "transliteration": "beshikichhu",
+    "english": "much / many things",
+    "pos": "pronoun",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0083",
+    "bengali": "এখানটা",
+    "transliteration": "ekhanta",
+    "english": "this place",
+    "pos": "pronoun",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0084",
+    "bengali": "যেকেউ",
+    "transliteration": "jekeu",
+    "english": "anyone",
+    "pos": "pronoun",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0085",
+    "bengali": "সেইটা",
+    "transliteration": "sheita",
+    "english": "that thing",
+    "pos": "pronoun",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "pron_0086",
+    "bengali": "অনেককিছু",
+    "transliteration": "anekkichu",
+    "english": "a lot of things / many things",
+    "pos": "pronoun",
+    "frequency": 15,
+    "is_loanword": false
+  }
+]

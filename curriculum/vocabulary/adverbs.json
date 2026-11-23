@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "adv_0001",
+    "bengali": "না",
+    "transliteration": "na",
+    "english": "no / not",
+    "pos": "adverb",
+    "frequency": 55715,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0002",
+    "bengali": "এখানে",
+    "transliteration": "ekhane",
+    "english": "here",
+    "pos": "adverb",
+    "frequency": 10570,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0003",
+    "bengali": "এখন",
+    "transliteration": "ekhon",
+    "english": "now",
+    "pos": "adverb",
+    "frequency": 10042,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0004",
+    "bengali": "কেন",
+    "transliteration": "keno",
+    "english": "why",
+    "pos": "adverb",
+    "frequency": 7216,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0005",
+    "bengali": "খুব",
+    "transliteration": "khub",
+    "english": "very / much",
+    "pos": "adverb",
+    "frequency": 5728,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0006",
+    "bengali": "শুধু",
+    "transliteration": "shudhu",
+    "english": "only / just",
+    "pos": "adverb",
+    "frequency": 5223,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0007",
+    "bengali": "কোথা",
+    "transliteration": "kotha",
+    "english": "where",
+    "pos": "adverb",
+    "frequency": 4897,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0008",
+    "bengali": "আগে",
+    "transliteration": "age",
+    "english": "before / ago",
+    "pos": "adverb",
+    "frequency": 4302,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0009",
+    "bengali": "যখন",
+    "transliteration": "jokhon",
+    "english": "when",
+    "pos": "adverb",
+    "frequency": 4012,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0010",
+    "bengali": "কীভাবে",
+    "transliteration": "kibhabe",
+    "english": "how / in what way",
+    "pos": "adverb",
+    "frequency": 3824,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0011",
+    "bengali": "একটু",
+    "transliteration": "ektu",
+    "english": "a little",
+    "pos": "adverb",
+    "frequency": 3553,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0012",
+    "bengali": "আবার",
+    "transliteration": "abar",
+    "english": "again",
+    "pos": "adverb",
+    "frequency": 3458,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0013",
+    "bengali": "আসলে",
+    "transliteration": "ashole",
+    "english": "actually / in fact",
+    "pos": "adverb",
+    "frequency": 3322,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0014",
+    "bengali": "সত্যি",
+    "transliteration": "shotti",
+    "english": "really / truly",
+    "pos": "adverb",
+    "frequency": 2664,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0015",
+    "bengali": "আজ",
+    "transliteration": "aj",
+    "english": "today",
+    "pos": "adverb",
+    "frequency": 2613,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0016",
+    "bengali": "অবশ্যই",
+    "transliteration": "oboshshoi",
+    "english": "definitely / certainly",
+    "pos": "adverb",
+    "frequency": 2502,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0017",
+    "bengali": "ওখানে",
+    "transliteration": "okhane",
+    "english": "there",
+    "pos": "adverb",
+    "frequency": 2246,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0018",
+    "bengali": "তারপর",
+    "transliteration": "tarpor",
+    "english": "after that / then",
+    "pos": "adverb",
+    "frequency": 2227,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0019",
+    "bengali": "হয়তো",
+    "transliteration": "hoyto",
+    "english": "maybe / perhaps",
+    "pos": "adverb",
+    "frequency": 2119,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0020",
+    "bengali": "সেখানে",
+    "transliteration": "shekhane",
+    "english": "there",
+    "pos": "adverb",
+    "frequency": 2091,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0021",
+    "bengali": "তখন",
+    "transliteration": "tokhon",
+    "english": "then / at that time",
+    "pos": "adverb",
+    "frequency": 1993,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0022",
+    "bengali": "কেমন",
+    "transliteration": "kemon",
+    "english": "how",
+    "pos": "adverb",
+    "frequency": 1940,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0023",
+    "bengali": "কখনো",
+    "transliteration": "kokhono",
+    "english": "ever / never",
+    "pos": "adverb",
+    "frequency": 1936,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0024",
+    "bengali": "নি",
+    "transliteration": "ni",
+    "english": "not (past negative particle)",
+    "pos": "adverb",
+    "frequency": 1808,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0025",
+    "bengali": "এখনো",
+    "transliteration": "ekhono",
+    "english": "still / yet",
+    "pos": "adverb",
+    "frequency": 1803,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0026",
+    "bengali": "আরো",
+    "transliteration": "aro",
+    "english": "more / further",
+    "pos": "adverb",
+    "frequency": 1600,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0027",
+    "bengali": "সবসময়",
+    "transliteration": "shobshomoy",
+    "english": "always",
+    "pos": "adverb",
+    "frequency": 1570,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0028",
+    "bengali": "কখনও",
+    "transliteration": "kokhono",
+    "english": "never / ever",
+    "pos": "adverb",
+    "frequency": 1525,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0029",
+    "bengali": "সবচেয়ে",
+    "transliteration": "shobcheye",
+    "english": "most",
+    "pos": "adverb",
+    "frequency": 1444,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0030",
+    "bengali": "জলদি",
+    "transliteration": "joldi",
+    "english": "quickly / fast",
+    "pos": "adverb",
+    "frequency": 1356,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0031",
+    "bengali": "একদম",
+    "transliteration": "ekdom",
+    "english": "absolutely / completely",
+    "pos": "adverb",
+    "frequency": 1314,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0032",
+    "bengali": "তাড়াতাড়ি",
+    "transliteration": "taratari",
+    "english": "hurriedly / quickly",
+    "pos": "adverb",
+    "frequency": 1189,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0033",
+    "bengali": "এভাবে",
+    "transliteration": "ebhabe",
+    "english": "in this way / like this",
+    "pos": "adverb",
+    "frequency": 1178,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0034",
+    "bengali": "বেশ",
+    "transliteration": "besh",
+    "english": "quite / fine / well",
+    "pos": "adverb",
+    "frequency": 1170,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0035",
+    "bengali": "যেখানে",
+    "transliteration": "jekhane",
+    "english": "where",
+    "pos": "adverb",
+    "frequency": 1155,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0036",
+    "bengali": "মাত্র",
+    "transliteration": "matro",
+    "english": "only / just",
+    "pos": "adverb",
+    "frequency": 1110,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0037",
+    "bengali": "এবার",
+    "transliteration": "ebar",
+    "english": "this time / now",
+    "pos": "adverb",
+    "frequency": 1078,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0038",
+    "bengali": "আরও",
+    "transliteration": "aro",
+    "english": "more / further",
+    "pos": "adverb",
+    "frequency": 1039,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0039",
+    "bengali": "একবার",
+    "transliteration": "ekbar",
+    "english": "once",
+    "pos": "adverb",
+    "frequency": 981,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0040",
+    "bengali": "এখনও",
+    "transliteration": "ekhono",
+    "english": "still / even now",
+    "pos": "adverb",
+    "frequency": 933,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0041",
+    "bengali": "নিশ্চয়ই",
+    "transliteration": "nishchoyi",
+    "english": "definitely / certainly",
+    "pos": "adverb",
+    "frequency": 920,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0042",
+    "bengali": "দ্রুত",
+    "transliteration": "druto",
+    "english": "fast / quickly",
+    "pos": "adverb",
+    "frequency": 919,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0043",
+    "bengali": "দূর",
+    "transliteration": "dur",
+    "english": "far away",
+    "pos": "adverb",
+    "frequency": 867,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0044",
+    "bengali": "প্রায়",
+    "transliteration": "pray",
+    "english": "almost / nearly",
+    "pos": "adverb",
+    "frequency": 860,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0045",
+    "bengali": "যেমন",
+    "transliteration": "jemon",
+    "english": "such as / like",
+    "pos": "adverb",
+    "frequency": 816,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0046",
+    "bengali": "এদিকে",
+    "transliteration": "edike",
+    "english": "this way / over here",
+    "pos": "adverb",
+    "frequency": 776,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0047",
+    "bengali": "কোথাও",
+    "transliteration": "kothao",
+    "english": "somewhere / anywhere",
+    "pos": "adverb",
+    "frequency": 772,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0048",
+    "bengali": "কেবল",
+    "transliteration": "kebol",
+    "english": "only / just",
+    "pos": "adverb",
+    "frequency": 737,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0049",
+    "bengali": "একসাথে",
+    "transliteration": "eksathe",
+    "english": "together",
+    "pos": "adverb",
+    "frequency": 730,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0050",
+    "bengali": "শুধুমাত্র",
+    "transliteration": "shudhumatro",
+    "english": "only",
+    "pos": "adverb",
+    "frequency": 711,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0051",
+    "bengali": "সম্ভবত",
+    "transliteration": "shombhoboto",
+    "english": "probably / perhaps",
+    "pos": "adverb",
+    "frequency": 704,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0052",
+    "bengali": "বাইরে",
+    "transliteration": "baire",
+    "english": "outside",
+    "pos": "adverb",
+    "frequency": 637,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0053",
+    "bengali": "কাল",
+    "transliteration": "kal",
+    "english": "tomorrow / yesterday",
+    "pos": "adverb",
+    "frequency": 566,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0054",
+    "bengali": "একদিন",
+    "transliteration": "ekdin",
+    "english": "one day",
+    "pos": "adverb",
+    "frequency": 544,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0055",
+    "bengali": "কখন",
+    "transliteration": "kokhon",
+    "english": "when",
+    "pos": "adverb",
+    "frequency": 514,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0056",
+    "bengali": "আস্তে",
+    "transliteration": "ashte",
+    "english": "slowly / softly",
+    "pos": "adverb",
+    "frequency": 508,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0057",
+    "bengali": "ভালো",
+    "transliteration": "bhalo",
+    "english": "well / quite good",
+    "pos": "adverb",
+    "frequency": 483,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0058",
+    "bengali": "একেবারে",
+    "transliteration": "ekebare",
+    "english": "completely / absolutely",
+    "pos": "adverb",
+    "frequency": 454,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0059",
+    "bengali": "ধীরে",
+    "transliteration": "dhire",
+    "english": "slowly",
+    "pos": "adverb",
+    "frequency": 448,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0060",
+    "bengali": "অন্তত",
+    "transliteration": "ontoto",
+    "english": "at least",
+    "pos": "adverb",
+    "frequency": 436,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0061",
+    "bengali": "ঠিক",
+    "transliteration": "thik",
+    "english": "rightly / correctly",
+    "pos": "adverb",
+    "frequency": 418,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0062",
+    "bengali": "কিছু",
+    "transliteration": "kichu",
+    "english": "somewhat / a little bit",
+    "pos": "adverb",
+    "frequency": 405,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0063",
+    "bengali": "এখনই",
+    "transliteration": "ekhoni",
+    "english": "right now / immediately",
+    "pos": "adverb",
+    "frequency": 404,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0064",
+    "bengali": "সাবধানে",
+    "transliteration": "shabdhane",
+    "english": "carefully / cautiously",
+    "pos": "adverb",
+    "frequency": 386,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0065",
+    "bengali": "যেভাবে",
+    "transliteration": "jebhabe",
+    "english": "in the way that / as",
+    "pos": "adverb",
+    "frequency": 369,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0066",
+    "bengali": "কাছাকাছি",
+    "transliteration": "kachakachi",
+    "english": "nearby / close to",
+    "pos": "adverb",
+    "frequency": 352,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0067",
+    "bengali": "ভালোভাবে",
+    "transliteration": "bhalobhabe",
+    "english": "well / properly",
+    "pos": "adverb",
+    "frequency": 340,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0068",
+    "bengali": "এরপর",
+    "transliteration": "erpor",
+    "english": "after this / next",
+    "pos": "adverb",
+    "frequency": 338,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0069",
+    "bengali": "কই",
+    "transliteration": "koi",
+    "english": "where",
+    "pos": "adverb",
+    "frequency": 327,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0070",
+    "bengali": "প্রতিদিন",
+    "transliteration": "protidin",
+    "english": "everyday / daily",
+    "pos": "adverb",
+    "frequency": 314,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0071",
+    "bengali": "শীঘ্রই",
+    "transliteration": "shighroi",
+    "english": "soon / shortly",
+    "pos": "adverb",
+    "frequency": 309,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0072",
+    "bengali": "কবে",
+    "transliteration": "kobe",
+    "english": "when",
+    "pos": "adverb",
+    "frequency": 296,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0073",
+    "bengali": "হঠাৎ",
+    "transliteration": "hotat",
+    "english": "suddenly",
+    "pos": "adverb",
+    "frequency": 288,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0074",
+    "bengali": "এজন্য",
+    "transliteration": "ejonno",
+    "english": "that is why / for this reason",
+    "pos": "adverb",
+    "frequency": 284,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0075",
+    "bengali": "পুরোপুরি",
+    "transliteration": "puropuri",
+    "english": "completely / fully",
+    "pos": "adverb",
+    "frequency": 275,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0076",
+    "bengali": "কতটা",
+    "transliteration": "kotota",
+    "english": "how much",
+    "pos": "adverb",
+    "frequency": 252,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0077",
+    "bengali": "গতকাল",
+    "transliteration": "gotokal",
+    "english": "yesterday",
+    "pos": "adverb",
+    "frequency": 240,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0078",
+    "bengali": "ইতিমধ্যে",
+    "transliteration": "itimoddhe",
+    "english": "meanwhile / in the meantime",
+    "pos": "adverb",
+    "frequency": 230,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0079",
+    "bengali": "আরেকটু",
+    "transliteration": "arektu",
+    "english": "a little more",
+    "pos": "adverb",
+    "frequency": 226,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0080",
+    "bengali": "সরাসরি",
+    "transliteration": "shorashori",
+    "english": "directly / live",
+    "pos": "adverb",
+    "frequency": 224,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0081",
+    "bengali": "সেদিন",
+    "transliteration": "shedin",
+    "english": "that day",
+    "pos": "adverb",
+    "frequency": 223,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0082",
+    "bengali": "এমনি",
+    "transliteration": "emni",
+    "english": "just like that / casually",
+    "pos": "adverb",
+    "frequency": 220,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0083",
+    "bengali": "অবশেষে",
+    "transliteration": "obosheshe",
+    "english": "finally / at last",
+    "pos": "adverb",
+    "frequency": 217,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0084",
+    "bengali": "এক্ষুনি",
+    "transliteration": "ekkhuni",
+    "english": "right now / immediately",
+    "pos": "adverb",
+    "frequency": 217,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0085",
+    "bengali": "সারাজীবন",
+    "transliteration": "sharajibon",
+    "english": "whole life / lifetime",
+    "pos": "adverb",
+    "frequency": 201,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0086",
+    "bengali": "তারপরে",
+    "transliteration": "tarpore",
+    "english": "after that",
+    "pos": "adverb",
+    "frequency": 179,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0087",
+    "bengali": "যেরকম",
+    "transliteration": "jerokom",
+    "english": "just as / like",
+    "pos": "adverb",
+    "frequency": 178,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0088",
+    "bengali": "এইমাত্র",
+    "transliteration": "eimatro",
+    "english": "just now",
+    "pos": "adverb",
+    "frequency": 177,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0089",
+    "bengali": "মোটেও",
+    "transliteration": "moteo",
+    "english": "at all",
+    "pos": "adverb",
+    "frequency": 172,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0090",
+    "bengali": "কতক্ষণ",
+    "transliteration": "kotokhhon",
+    "english": "how long (time)",
+    "pos": "adverb",
+    "frequency": 172,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0091",
+    "bengali": "অত্যন্ত",
+    "transliteration": "ottyonto",
+    "english": "extremely / very",
+    "pos": "adverb",
+    "frequency": 169,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0092",
+    "bengali": "পুনরায়",
+    "transliteration": "punoray",
+    "english": "again",
+    "pos": "adverb",
+    "frequency": 166,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0093",
+    "bengali": "কতদিন",
+    "transliteration": "kotodin",
+    "english": "how many days / how long",
+    "pos": "adverb",
+    "frequency": 163,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0094",
+    "bengali": "দূরে",
+    "transliteration": "dure",
+    "english": "far away",
+    "pos": "adverb",
+    "frequency": 160,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0095",
+    "bengali": "নিশ্চয়",
+    "transliteration": "nishchoy",
+    "english": "certainly / definitely",
+    "pos": "adverb",
+    "frequency": 160,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0096",
+    "bengali": "এইবার",
+    "transliteration": "eibar",
+    "english": "this time",
+    "pos": "adverb",
+    "frequency": 154,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0097",
+    "bengali": "অনেকদিন",
+    "transliteration": "onekdin",
+    "english": "many days / a long time",
+    "pos": "adverb",
+    "frequency": 151,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0098",
+    "bengali": "এতক্ষণ",
+    "transliteration": "etokkhon",
+    "english": "this long / so long",
+    "pos": "adverb",
+    "frequency": 151,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0099",
+    "bengali": "যতদিন",
+    "transliteration": "jotodin",
+    "english": "as long as / as many days as",
+    "pos": "adverb",
+    "frequency": 150,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0100",
+    "bengali": "এখুনি",
+    "transliteration": "ekhuni",
+    "english": "right now / immediately",
+    "pos": "adverb",
+    "frequency": 149,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0101",
+    "bengali": "এতদিন",
+    "transliteration": "etodin",
+    "english": "so many days / all these days",
+    "pos": "adverb",
+    "frequency": 149,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0102",
+    "bengali": "সারাদিন",
+    "transliteration": "sharadin",
+    "english": "all day long",
+    "pos": "adverb",
+    "frequency": 147,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0103",
+    "bengali": "মুখোমুখি",
+    "transliteration": "mukhomukhi",
+    "english": "face to face",
+    "pos": "adverb",
+    "frequency": 143,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0104",
+    "bengali": "বারবার",
+    "transliteration": "barbar",
+    "english": "repeatedly / again and again",
+    "pos": "adverb",
+    "frequency": 140,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0105",
+    "bengali": "সাধারণত",
+    "transliteration": "shadharonoto",
+    "english": "usually / generally",
+    "pos": "adverb",
+    "frequency": 138,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0106",
+    "bengali": "আরেকবার",
+    "transliteration": "arekbar",
+    "english": "once more / once again",
+    "pos": "adverb",
+    "frequency": 136,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0107",
+    "bengali": "এমনিতেই",
+    "transliteration": "emnitei",
+    "english": "anyway / as it is",
+    "pos": "adverb",
+    "frequency": 131,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0108",
+    "bengali": "সেভাবে",
+    "transliteration": "shebhabe",
+    "english": "in that manner",
+    "pos": "adverb",
+    "frequency": 131,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0109",
+    "bengali": "কিছুক্ষণ",
+    "transliteration": "kichhukhon",
+    "english": "for a while",
+    "pos": "adverb",
+    "frequency": 128,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0110",
+    "bengali": "এইদিকে",
+    "transliteration": "eidike",
+    "english": "this way / over here",
+    "pos": "adverb",
+    "frequency": 126,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0111",
+    "bengali": "কোথা থেকে",
+    "transliteration": "kotha theke",
+    "english": "from where",
+    "pos": "adverb",
+    "frequency": 121,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0112",
+    "bengali": "যেদিন",
+    "transliteration": "jedin",
+    "english": "the day when",
+    "pos": "adverb",
+    "frequency": 120,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0113",
+    "bengali": "ওদিকে",
+    "transliteration": "odike",
+    "english": "that way / over there",
+    "pos": "adverb",
+    "frequency": 119,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0114",
+    "bengali": "ততক্ষণ",
+    "transliteration": "totokkhon",
+    "english": "until then",
+    "pos": "adverb",
+    "frequency": 118,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0115",
+    "bengali": "আশেপাশে",
+    "transliteration": "ashepashe",
+    "english": "around / nearby",
+    "pos": "adverb",
+    "frequency": 117,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0116",
+    "bengali": "এইখানে",
+    "transliteration": "eikhane",
+    "english": "here",
+    "pos": "adverb",
+    "frequency": 116,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0117",
+    "bengali": "পুরো",
+    "transliteration": "puro",
+    "english": "entirely / completely",
+    "pos": "adverb",
+    "frequency": 114,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0118",
+    "bengali": "একসময়",
+    "transliteration": "eksomoy",
+    "english": "at one time / once",
+    "pos": "adverb",
+    "frequency": 112,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0119",
+    "bengali": "বরাবর",
+    "transliteration": "borabor",
+    "english": "along / always",
+    "pos": "adverb",
+    "frequency": 112,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0120",
+    "bengali": "শেষবার",
+    "transliteration": "sheshbar",
+    "english": "last time",
+    "pos": "adverb",
+    "frequency": 111,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0121",
+    "bengali": "সর্বদা",
+    "transliteration": "shorboda",
+    "english": "always",
+    "pos": "adverb",
+    "frequency": 111,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0122",
+    "bengali": "প্রথমবার",
+    "transliteration": "prothombar",
+    "english": "first time",
+    "pos": "adverb",
+    "frequency": 110,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0123",
+    "bengali": "কোনভাবে",
+    "transliteration": "konobhabe",
+    "english": "anyhow / by any means",
+    "pos": "adverb",
+    "frequency": 110,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0124",
+    "bengali": "চুপচাপ",
+    "transliteration": "chupchap",
+    "english": "quietly / silently",
+    "pos": "adverb",
+    "frequency": 107,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0125",
+    "bengali": "এইভাবে",
+    "transliteration": "eibhabe",
+    "english": "in this manner / this way",
+    "pos": "adverb",
+    "frequency": 103,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0126",
+    "bengali": "তখনও",
+    "transliteration": "tokhono",
+    "english": "even then / still",
+    "pos": "adverb",
+    "frequency": 102,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0127",
+    "bengali": "ঠিকমত",
+    "transliteration": "thikmoto",
+    "english": "properly / correctly",
+    "pos": "adverb",
+    "frequency": 100,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0128",
+    "bengali": "নিঃসন্দেহে",
+    "transliteration": "nishshondehe",
+    "english": "undoubtedly",
+    "pos": "adverb",
+    "frequency": 99,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0129",
+    "bengali": "ওভাবে",
+    "transliteration": "obhabe",
+    "english": "in that way",
+    "pos": "adverb",
+    "frequency": 97,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0130",
+    "bengali": "এমনভাবে",
+    "transliteration": "emonbhabe",
+    "english": "in such a manner",
+    "pos": "adverb",
+    "frequency": 96,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0131",
+    "bengali": "প্রায়ই",
+    "transliteration": "pray-i",
+    "english": "often / frequently",
+    "pos": "adverb",
+    "frequency": 94,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0132",
+    "bengali": "সহজে",
+    "transliteration": "sohoje",
+    "english": "easily",
+    "pos": "adverb",
+    "frequency": 93,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0133",
+    "bengali": "এত",
+    "transliteration": "eto",
+    "english": "so much / so",
+    "pos": "adverb",
+    "frequency": 93,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0134",
+    "bengali": "কতবার",
+    "transliteration": "kotobar",
+    "english": "how many times",
+    "pos": "adverb",
+    "frequency": 92,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0135",
+    "bengali": "আজকাল",
+    "transliteration": "ajkal",
+    "english": "nowadays",
+    "pos": "adverb",
+    "frequency": 91,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0136",
+    "bengali": "কোনদিন",
+    "transliteration": "konodin",
+    "english": "ever / any day",
+    "pos": "adverb",
+    "frequency": 84,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0137",
+    "bengali": "কয়েকদিন",
+    "transliteration": "koyekdin",
+    "english": "a few days",
+    "pos": "adverb",
+    "frequency": 82,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0138",
+    "bengali": "একসঙ্গে",
+    "transliteration": "eksongge",
+    "english": "together",
+    "pos": "adverb",
+    "frequency": 81,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0139",
+    "bengali": "ডান দিক",
+    "transliteration": "dan dik",
+    "english": "to the right",
+    "pos": "adverb",
+    "frequency": 76,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0140",
+    "bengali": "কিছুতে",
+    "transliteration": "kichute",
+    "english": "by no means / at all",
+    "pos": "adverb",
+    "frequency": 76,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0141",
+    "bengali": "প্রথমত",
+    "transliteration": "prothomoto",
+    "english": "firstly",
+    "pos": "adverb",
+    "frequency": 75,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0142",
+    "bengali": "অতি",
+    "transliteration": "oti",
+    "english": "very / extremely",
+    "pos": "adverb",
+    "frequency": 71,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0143",
+    "bengali": "বড়",
+    "transliteration": "boro",
+    "english": "very / greatly",
+    "pos": "adverb",
+    "frequency": 71,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0144",
+    "bengali": "কমপক্ষে",
+    "transliteration": "kompokkhe",
+    "english": "at least",
+    "pos": "adverb",
+    "frequency": 69,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0145",
+    "bengali": "ওইখানে",
+    "transliteration": "oikhane",
+    "english": "there / over there",
+    "pos": "adverb",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0146",
+    "bengali": "অন্যদিকে",
+    "transliteration": "onodike",
+    "english": "on the other hand / elsewhere",
+    "pos": "adverb",
+    "frequency": 65,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0147",
+    "bengali": "এক্ষুণি",
+    "transliteration": "ekkhuni",
+    "english": "right now",
+    "pos": "adverb",
+    "frequency": 65,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0148",
+    "bengali": "চারিদিক",
+    "transliteration": "charidik",
+    "english": "all around",
+    "pos": "adverb",
+    "frequency": 63,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0149",
+    "bengali": "গোপন",
+    "transliteration": "gopon",
+    "english": "secretly",
+    "pos": "adverb",
+    "frequency": 63,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0150",
+    "bengali": "বেশিক্ষণ",
+    "transliteration": "beshikkhon",
+    "english": "for a long time",
+    "pos": "adverb",
+    "frequency": 63,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0151",
+    "bengali": "ঠিকভাবে",
+    "transliteration": "thikbhabe",
+    "english": "properly / correctly",
+    "pos": "adverb",
+    "frequency": 62,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0152",
+    "bengali": "সম্প্রতি",
+    "transliteration": "shomproti",
+    "english": "recently",
+    "pos": "adverb",
+    "frequency": 61,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0153",
+    "bengali": "যতটুকু",
+    "transliteration": "jototuku",
+    "english": "as much as",
+    "pos": "adverb",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0154",
+    "bengali": "আপাতত",
+    "transliteration": "apatoto",
+    "english": "for now / presently",
+    "pos": "adverb",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0155",
+    "bengali": "চিরদিন",
+    "transliteration": "chirodin",
+    "english": "forever / always",
+    "pos": "adverb",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0156",
+    "bengali": "মূলত",
+    "transliteration": "muloto",
+    "english": "mainly / basically",
+    "pos": "adverb",
+    "frequency": 59,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0157",
+    "bengali": "যতদূর",
+    "transliteration": "jotodur",
+    "english": "as far as",
+    "pos": "adverb",
+    "frequency": 57,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0158",
+    "bengali": "সবখানে",
+    "transliteration": "sobkhane",
+    "english": "everywhere",
+    "pos": "adverb",
+    "frequency": 57,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0159",
+    "bengali": "ইদানীং",
+    "transliteration": "idanikng",
+    "english": "lately / nowadays",
+    "pos": "adverb",
+    "frequency": 54,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0160",
+    "bengali": "দুইবার",
+    "transliteration": "duibar",
+    "english": "twice",
+    "pos": "adverb",
+    "frequency": 53,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0161",
+    "bengali": "সারারাত",
+    "transliteration": "shararat",
+    "english": "all night",
+    "pos": "adverb",
+    "frequency": 52,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0162",
+    "bengali": "কেবলমাত্র",
+    "transliteration": "kebolmatro",
+    "english": "only / merely",
+    "pos": "adverb",
+    "frequency": 51,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0163",
+    "bengali": "মাঝেমধ্যে",
+    "transliteration": "majhemodhye",
+    "english": "occasionally / sometimes",
+    "pos": "adverb",
+    "frequency": 51,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0164",
+    "bengali": "এতদূর",
+    "transliteration": "etodur",
+    "english": "this far",
+    "pos": "adverb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0165",
+    "bengali": "বোধহয়",
+    "transliteration": "bodhhoy",
+    "english": "probably / it seems",
+    "pos": "adverb",
+    "frequency": 50,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0166",
+    "bengali": "ততদিন",
+    "transliteration": "totodin",
+    "english": "until that time / for so many days",
+    "pos": "adverb",
+    "frequency": 49,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0167",
+    "bengali": "নিশ্চিতভাবে",
+    "transliteration": "nishchitobhabe",
+    "english": "definitely / certainly",
+    "pos": "adverb",
+    "frequency": 48,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0168",
+    "bengali": "অনেকবার",
+    "transliteration": "onekbar",
+    "english": "many times",
+    "pos": "adverb",
+    "frequency": 48,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0169",
+    "bengali": "সময়মতো",
+    "transliteration": "somoymoto",
+    "english": "on time",
+    "pos": "adverb",
+    "frequency": 48,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0170",
+    "bengali": "রোজ",
+    "transliteration": "roj",
+    "english": "daily / every day",
+    "pos": "adverb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0171",
+    "bengali": "দুর্ভাগ্যবশত",
+    "transliteration": "durbhaggoboshto",
+    "english": "unfortunately",
+    "pos": "adverb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0172",
+    "bengali": "মোটামুটি",
+    "transliteration": "moṭamuṭi",
+    "english": "fairly / roughly / okay",
+    "pos": "adverb",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0173",
+    "bengali": "কতদূর",
+    "transliteration": "kotodur",
+    "english": "how far",
+    "pos": "adverb",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0174",
+    "bengali": "এতেই",
+    "transliteration": "etei",
+    "english": "in this itself",
+    "pos": "adverb",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0175",
+    "bengali": "তত",
+    "transliteration": "toto",
+    "english": "that much",
+    "pos": "adverb",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0176",
+    "bengali": "ব্যক্তিগতভাবে",
+    "transliteration": "byoktigotobhabe",
+    "english": "personally",
+    "pos": "adverb",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0177",
+    "bengali": "অন্যভাবে",
+    "transliteration": "onnobhabe",
+    "english": "differently / otherwise",
+    "pos": "adverb",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0178",
+    "bengali": "কোনদিক",
+    "transliteration": "kondik",
+    "english": "which direction",
+    "pos": "adverb",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0179",
+    "bengali": "একত্রে",
+    "transliteration": "ekottre",
+    "english": "together",
+    "pos": "adverb",
+    "frequency": 44,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0180",
+    "bengali": "আজীবন",
+    "transliteration": "ajibon",
+    "english": "lifelong",
+    "pos": "adverb",
+    "frequency": 44,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0181",
+    "bengali": "চিরকাল",
+    "transliteration": "chirokal",
+    "english": "forever / always",
+    "pos": "adverb",
+    "frequency": 43,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0182",
+    "bengali": "সোজাসুজি",
+    "transliteration": "sojasuji",
+    "english": "straightforwardly / directly",
+    "pos": "adverb",
+    "frequency": 41,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0183",
+    "bengali": "ততটা",
+    "transliteration": "totota",
+    "english": "that much",
+    "pos": "adverb",
+    "frequency": 41,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0184",
+    "bengali": "বেশিদিন",
+    "transliteration": "beshidin",
+    "english": "many days / a long time",
+    "pos": "adverb",
+    "frequency": 41,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0185",
+    "bengali": "গভীরভাবে",
+    "transliteration": "gobhirbhabe",
+    "english": "deeply",
+    "pos": "adverb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0186",
+    "bengali": "আদৌ",
+    "transliteration": "adou",
+    "english": "at all / ever",
+    "pos": "adverb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0187",
+    "bengali": "ঠিকমতো",
+    "transliteration": "thikmoto",
+    "english": "properly",
+    "pos": "adverb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0188",
+    "bengali": "সেজন্য",
+    "transliteration": "shejonno",
+    "english": "that's why / for that reason",
+    "pos": "adverb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0189",
+    "bengali": "ঐদিন",
+    "transliteration": "oidin",
+    "english": "that day",
+    "pos": "adverb",
+    "frequency": 40,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0190",
+    "bengali": "অতো",
+    "transliteration": "oto",
+    "english": "that much / so much",
+    "pos": "adverb",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0191",
+    "bengali": "এরচেয়ে",
+    "transliteration": "ercheye",
+    "english": "than this",
+    "pos": "adverb",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0192",
+    "bengali": "স্বেচ্ছায়",
+    "transliteration": "swecchay",
+    "english": "voluntarily / willingly",
+    "pos": "adverb",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0193",
+    "bengali": "প্রতিবার",
+    "transliteration": "protibar",
+    "english": "every time",
+    "pos": "adverb",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0194",
+    "bengali": "অলরেডি",
+    "transliteration": "olredi",
+    "english": "already",
+    "pos": "adverb",
+    "frequency": 38,
+    "is_loanword": true
+  },
+  {
+    "id": "adv_0195",
+    "bengali": "দয়া করে",
+    "transliteration": "doya kore",
+    "english": "please",
+    "pos": "adverb",
+    "frequency": 38,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0196",
+    "bengali": "দ্বিতীয়বার",
+    "transliteration": "ditiyobar",
+    "english": "second time",
+    "pos": "adverb",
+    "frequency": 38,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0197",
+    "bengali": "দ্বিতীয়ত",
+    "transliteration": "ditiyoto",
+    "english": "secondly",
+    "pos": "adverb",
+    "frequency": 38,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0198",
+    "bengali": "আজরাত",
+    "transliteration": "ajrat",
+    "english": "tonight",
+    "pos": "adverb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0199",
+    "bengali": "চিরতরে",
+    "transliteration": "chirotore",
+    "english": "forever / permanently",
+    "pos": "adverb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0200",
+    "bengali": "ইতোমধ্যে",
+    "transliteration": "itomodhe",
+    "english": "already / in the meantime",
+    "pos": "adverb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0201",
+    "bengali": "সঠিকভাবে",
+    "transliteration": "sothikbhabe",
+    "english": "correctly / properly",
+    "pos": "adverb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0202",
+    "bengali": "মাঝেমাঝে",
+    "transliteration": "majhemajhe",
+    "english": "sometimes / occasionally",
+    "pos": "adverb",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0203",
+    "bengali": "তন্ন",
+    "transliteration": "tonno",
+    "english": "thoroughly (in তন্ন তন্ন)",
+    "pos": "adverb",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0204",
+    "bengali": "অনেকক্ষণ",
+    "transliteration": "onekkhon",
+    "english": "for a long time",
+    "pos": "adverb",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0205",
+    "bengali": "কোনোদিন",
+    "transliteration": "konodin",
+    "english": "ever / any day",
+    "pos": "adverb",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0206",
+    "bengali": "জায়গামতো",
+    "transliteration": "jaygamoto",
+    "english": "in the right place",
+    "pos": "adverb",
+    "frequency": 35,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0207",
+    "bengali": "তেমনি",
+    "transliteration": "temni",
+    "english": "similarly / like that",
+    "pos": "adverb",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0208",
+    "bengali": "জাস্ট",
+    "transliteration": "jast",
+    "english": "just",
+    "pos": "adverb",
+    "frequency": 34,
+    "is_loanword": true
+  },
+  {
+    "id": "adv_0209",
+    "bengali": "কয়েকবার",
+    "transliteration": "koyekbar",
+    "english": "several times",
+    "pos": "adverb",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0210",
+    "bengali": "সুন্দরভাবে",
+    "transliteration": "shundorbhabe",
+    "english": "beautifully / nicely",
+    "pos": "adverb",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0211",
+    "bengali": "তিনবার",
+    "transliteration": "tinbar",
+    "english": "three times",
+    "pos": "adverb",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0212",
+    "bengali": "স্রেফ",
+    "transliteration": "sref",
+    "english": "simply / merely",
+    "pos": "adverb",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0213",
+    "bengali": "সহজভাবে",
+    "transliteration": "shohojbhabe",
+    "english": "easily / simply",
+    "pos": "adverb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0214",
+    "bengali": "স্পষ্টভাবে",
+    "transliteration": "sposhtobhabe",
+    "english": "clearly",
+    "pos": "adverb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0215",
+    "bengali": "মোটেই",
+    "transliteration": "motei",
+    "english": "at all / not in the least",
+    "pos": "adverb",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0216",
+    "bengali": "সবথেকে",
+    "transliteration": "sobtheke",
+    "english": "most / of all",
+    "pos": "adverb",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0217",
+    "bengali": "পরেরবার",
+    "transliteration": "porerbar",
+    "english": "next time",
+    "pos": "adverb",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0218",
+    "bengali": "পাশাপাশি",
+    "transliteration": "pashapashi",
+    "english": "side by side / alongside",
+    "pos": "adverb",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0219",
+    "bengali": "বহুদিন",
+    "transliteration": "bohudin",
+    "english": "for a long time / many days",
+    "pos": "adverb",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0220",
+    "bengali": "এরপরে",
+    "transliteration": "erpore",
+    "english": "after this / next",
+    "pos": "adverb",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0221",
+    "bengali": "সিরিয়াসলি",
+    "transliteration": "shiriyasli",
+    "english": "seriously",
+    "pos": "adverb",
+    "frequency": 30,
+    "is_loanword": true
+  },
+  {
+    "id": "adv_0222",
+    "bengali": "দুবার",
+    "transliteration": "dubar",
+    "english": "twice",
+    "pos": "adverb",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0223",
+    "bengali": "শেষমেশ",
+    "transliteration": "shesmesh",
+    "english": "at last / finally",
+    "pos": "adverb",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0224",
+    "bengali": "সবশেষে",
+    "transliteration": "shobsheshe",
+    "english": "finally / in the end",
+    "pos": "adverb",
+    "frequency": 29,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0225",
+    "bengali": "বিশেষভাবে",
+    "transliteration": "bisheshbhabe",
+    "english": "specially / particularly",
+    "pos": "adverb",
+    "frequency": 29,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0226",
+    "bengali": "প্রত্যেকদিন",
+    "transliteration": "prottekdin",
+    "english": "everyday",
+    "pos": "adverb",
+    "frequency": 29,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0227",
+    "bengali": "অযথা",
+    "transliteration": "ojotha",
+    "english": "unnecessarily / needlessly",
+    "pos": "adverb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0228",
+    "bengali": "ক্রম",
+    "transliteration": "krom",
+    "english": "gradually / in sequence",
+    "pos": "adverb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0229",
+    "bengali": "একইভাবে",
+    "transliteration": "ekhibhabe",
+    "english": "in the same way / similarly",
+    "pos": "adverb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0230",
+    "bengali": "সর্বত্র",
+    "transliteration": "shorbotro",
+    "english": "everywhere",
+    "pos": "adverb",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0231",
+    "bengali": "শেষপর্যন্ত",
+    "transliteration": "sheshporjonto",
+    "english": "in the end / finally",
+    "pos": "adverb",
+    "frequency": 27,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0232",
+    "bengali": "ইচ্ছামত",
+    "transliteration": "ichchamoto",
+    "english": "at will / as desired",
+    "pos": "adverb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0233",
+    "bengali": "প্রকৃতপক্ষে",
+    "transliteration": "prokritopokkhe",
+    "english": "actually / in fact",
+    "pos": "adverb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0234",
+    "bengali": "দেখেশুনে",
+    "transliteration": "dekeshune",
+    "english": "carefully / after examining",
+    "pos": "adverb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0235",
+    "bengali": "অবিলম্বে",
+    "transliteration": "obilimbe",
+    "english": "immediately / without delay",
+    "pos": "adverb",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0236",
+    "bengali": "খানিকটা",
+    "transliteration": "khanikta",
+    "english": "somewhat / a little bit",
+    "pos": "adverb",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0237",
+    "bengali": "অন্যকোথাও",
+    "transliteration": "onnokothao",
+    "english": "somewhere else",
+    "pos": "adverb",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0238",
+    "bengali": "ওতো",
+    "transliteration": "oto",
+    "english": "that much / so much",
+    "pos": "adverb",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0239",
+    "bengali": "কোনোভাবে",
+    "transliteration": "konobhabe",
+    "english": "somehow / in any way",
+    "pos": "adverb",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0240",
+    "bengali": "মাঝামাঝি",
+    "transliteration": "majhamaji",
+    "english": "midway / in the middle",
+    "pos": "adverb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0241",
+    "bengali": "একদা",
+    "transliteration": "ekoda",
+    "english": "once upon a time",
+    "pos": "adverb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0242",
+    "bengali": "যতবার",
+    "transliteration": "jotobar",
+    "english": "as many times as / whenever",
+    "pos": "adverb",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0243",
+    "bengali": "আগাম",
+    "transliteration": "agam",
+    "english": "in advance / beforehand",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0244",
+    "bengali": "একবারে",
+    "transliteration": "ekbare",
+    "english": "absolutely / completely",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0245",
+    "bengali": "কমসে কম",
+    "transliteration": "komse kom",
+    "english": "at least",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0246",
+    "bengali": "পরপর",
+    "transliteration": "porpor",
+    "english": "immediately after / in succession",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0247",
+    "bengali": "হুট",
+    "transliteration": "hut",
+    "english": "suddenly / abruptly",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0248",
+    "bengali": "এমনিতে",
+    "transliteration": "emnite",
+    "english": "otherwise / normally / anyway",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0249",
+    "bengali": "খারাপভাবে",
+    "transliteration": "kharapbhabe",
+    "english": "badly",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0250",
+    "bengali": "বড্ড",
+    "transliteration": "boddo",
+    "english": "too / very",
+    "pos": "adverb",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0251",
+    "bengali": "কোনোভাবেই",
+    "transliteration": "konobhabei",
+    "english": "in any way / by any means",
+    "pos": "adverb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0252",
+    "bengali": "শান্তভাবে",
+    "transliteration": "shantobhabe",
+    "english": "calmly / quietly",
+    "pos": "adverb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0253",
+    "bengali": "তৎক্ষণাৎ",
+    "transliteration": "totkshonat",
+    "english": "immediately / instantly",
+    "pos": "adverb",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0254",
+    "bengali": "ওইদিন",
+    "transliteration": "oidin",
+    "english": "that day",
+    "pos": "adverb",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0255",
+    "bengali": "সারাক্ষণ",
+    "transliteration": "sharakkhon",
+    "english": "all the time",
+    "pos": "adverb",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0256",
+    "bengali": "খোলাখুলি",
+    "transliteration": "kholakhuli",
+    "english": "openly / frankly",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0257",
+    "bengali": "নির্ঘাত",
+    "transliteration": "nirghat",
+    "english": "definitely / surely",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0258",
+    "bengali": "আলাদাভাবে",
+    "transliteration": "aladabhabe",
+    "english": "separately",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0259",
+    "bengali": "ওইদিক",
+    "transliteration": "oidik",
+    "english": "that way / over there",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0260",
+    "bengali": "সৌভাগ্যবশত",
+    "transliteration": "shoubhabgyoboshato",
+    "english": "fortunately",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0261",
+    "bengali": "একদিক",
+    "transliteration": "ekdik",
+    "english": "on one side",
+    "pos": "adverb",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0262",
+    "bengali": "একভাবে",
+    "transliteration": "ekbhabhe",
+    "english": "continuously / in one way",
+    "pos": "adverb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0263",
+    "bengali": "প্রতিনিয়ত",
+    "transliteration": "protiniyoto",
+    "english": "constantly / everyday",
+    "pos": "adverb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0264",
+    "bengali": "ইচ্ছেমত",
+    "transliteration": "icchemoto",
+    "english": "as one pleases / at will",
+    "pos": "adverb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0265",
+    "bengali": "সম্পূর্ণরূপে",
+    "transliteration": "shompurnorupe",
+    "english": "completely / fully",
+    "pos": "adverb",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0266",
+    "bengali": "জানামতে",
+    "transliteration": "janamote",
+    "english": "as far as one knows",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0267",
+    "bengali": "এরমধ্যে",
+    "transliteration": "eromodhye",
+    "english": "meanwhile / in this",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0268",
+    "bengali": "পরিষ্কারভাবে",
+    "transliteration": "porishkarbhabe",
+    "english": "clearly",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0269",
+    "bengali": "সবে",
+    "transliteration": "shobe",
+    "english": "just now / newly",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0270",
+    "bengali": "আচমকা",
+    "transliteration": "achomka",
+    "english": "suddenly",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0271",
+    "bengali": "সেক্ষেত্রে",
+    "transliteration": "shekhetre",
+    "english": "in that case",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0272",
+    "bengali": "যথাসাধ্য",
+    "transliteration": "jothashaddho",
+    "english": "as much as possible",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0273",
+    "bengali": "চিরজীবন",
+    "transliteration": "chirojibon",
+    "english": "all life / lifetime",
+    "pos": "adverb",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0274",
+    "bengali": "গতবার",
+    "transliteration": "gotobar",
+    "english": "last time",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0275",
+    "bengali": "সবখান",
+    "transliteration": "sobkhan",
+    "english": "everywhere",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0276",
+    "bengali": "ইচ্ছাকৃতভাবে",
+    "transliteration": "ichhakritobhabe",
+    "english": "intentionally / deliberately",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0277",
+    "bengali": "কথামতো",
+    "transliteration": "kothamoto",
+    "english": "as per word / according to instructions",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0278",
+    "bengali": "এক্ষেত্রে",
+    "transliteration": "ekhkhetre",
+    "english": "in this case",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0279",
+    "bengali": "পরিশেষে",
+    "transliteration": "porisheshe",
+    "english": "in conclusion / finally",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0280",
+    "bengali": "সাধ্যমতো",
+    "transliteration": "saddhomoto",
+    "english": "to the best of ability",
+    "pos": "adverb",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0281",
+    "bengali": "একান্ত",
+    "transliteration": "ekanto",
+    "english": "in private / confidentially",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0282",
+    "bengali": "প্রত্যেকবার",
+    "transliteration": "prottekbar",
+    "english": "every time",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0283",
+    "bengali": "আনুষ্ঠানিকভাবে",
+    "transliteration": "anushthanikbhabe",
+    "english": "officially / formally",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0284",
+    "bengali": "অনেকটা",
+    "transliteration": "onekta",
+    "english": "much / significantly",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0285",
+    "bengali": "সমানভাবে",
+    "transliteration": "shomanbhabe",
+    "english": "equally",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0286",
+    "bengali": "অতঃপর",
+    "transliteration": "otohpor",
+    "english": "thereafter / subsequently",
+    "pos": "adverb",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0287",
+    "bengali": "সেবার",
+    "transliteration": "shebar",
+    "english": "that time",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0288",
+    "bengali": "সদা",
+    "transliteration": "shoda",
+    "english": "always",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0289",
+    "bengali": "সদ্য",
+    "transliteration": "shoddo",
+    "english": "recently / freshly",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0290",
+    "bengali": "ঘুরঘুর",
+    "transliteration": "ghurghur",
+    "english": "loitering around",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0291",
+    "bengali": "সর্বোপরি",
+    "transliteration": "shorbopori",
+    "english": "above all",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0292",
+    "bengali": "এরপরেও",
+    "transliteration": "erporeo",
+    "english": "even after this / nevertheless",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0293",
+    "bengali": "যতটা",
+    "transliteration": "jotota",
+    "english": "as much as",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0294",
+    "bengali": "আজকে",
+    "transliteration": "ajke",
+    "english": "today",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "adv_0295",
+    "bengali": "স্বয়ংক্রিয়",
+    "transliteration": "swyongkrio",
+    "english": "automatically",
+    "pos": "adverb",
+    "frequency": 15,
+    "is_loanword": false
+  }
+]

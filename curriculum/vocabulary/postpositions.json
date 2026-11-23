@@ -1,0 +1,515 @@
+[
+  {
+    "id": "post_0001",
+    "bengali": "জন্য",
+    "transliteration": "jonno",
+    "english": "for",
+    "pos": "postposition",
+    "frequency": 15243,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0002",
+    "bengali": "থেকে",
+    "transliteration": "theke",
+    "english": "from",
+    "pos": "postposition",
+    "frequency": 11777,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0003",
+    "bengali": "সাথে",
+    "transliteration": "shathe",
+    "english": "with",
+    "pos": "postposition",
+    "frequency": 11066,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0004",
+    "bengali": "মতো",
+    "transliteration": "moto",
+    "english": "like / as",
+    "pos": "postposition",
+    "frequency": 6131,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0005",
+    "bengali": "মধ্যে",
+    "transliteration": "moddhe",
+    "english": "in / inside / among",
+    "pos": "postposition",
+    "frequency": 3178,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0006",
+    "bengali": "উপর",
+    "transliteration": "upor",
+    "english": "above / on top of",
+    "pos": "postposition",
+    "frequency": 2130,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0007",
+    "bengali": "পরে",
+    "transliteration": "pore",
+    "english": "later / after",
+    "pos": "postposition",
+    "frequency": 1973,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0008",
+    "bengali": "পর্যন্ত",
+    "transliteration": "porjonto",
+    "english": "until / up to",
+    "pos": "postposition",
+    "frequency": 1739,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0009",
+    "bengali": "সামনে",
+    "transliteration": "shamne",
+    "english": "in front of",
+    "pos": "postposition",
+    "frequency": 1711,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0010",
+    "bengali": "ছাড়া",
+    "transliteration": "chara",
+    "english": "except / without",
+    "pos": "postposition",
+    "frequency": 1640,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0011",
+    "bengali": "সম্পর্ক",
+    "transliteration": "shomporko",
+    "english": "about / regarding",
+    "pos": "postposition",
+    "frequency": 1473,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0012",
+    "bengali": "নিচে",
+    "transliteration": "niche",
+    "english": "below / under",
+    "pos": "postposition",
+    "frequency": 1381,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0013",
+    "bengali": "বাইরে",
+    "transliteration": "baire",
+    "english": "outside",
+    "pos": "postposition",
+    "frequency": 1170,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0014",
+    "bengali": "উপরে",
+    "transliteration": "upore",
+    "english": "above / on top of",
+    "pos": "postposition",
+    "frequency": 1042,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0015",
+    "bengali": "মাঝে",
+    "transliteration": "majhe",
+    "english": "in between / among",
+    "pos": "postposition",
+    "frequency": 1007,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0016",
+    "bengali": "চেয়ে",
+    "transliteration": "cheye",
+    "english": "than / compared to",
+    "pos": "postposition",
+    "frequency": 983,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0017",
+    "bengali": "সঙ্গে",
+    "transliteration": "shongge",
+    "english": "with / along with",
+    "pos": "postposition",
+    "frequency": 977,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0018",
+    "bengali": "পিছনে",
+    "transliteration": "pichone",
+    "english": "behind / back",
+    "pos": "postposition",
+    "frequency": 915,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0019",
+    "bengali": "হিসেবে",
+    "transliteration": "hishebe",
+    "english": "as / in the capacity of",
+    "pos": "postposition",
+    "frequency": 909,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0020",
+    "bengali": "প্রতি",
+    "transliteration": "proti",
+    "english": "towards / per",
+    "pos": "postposition",
+    "frequency": 880,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0021",
+    "bengali": "ভিতরে",
+    "transliteration": "bhitore",
+    "english": "inside",
+    "pos": "postposition",
+    "frequency": 878,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0022",
+    "bengali": "ভেতর",
+    "transliteration": "bhetor",
+    "english": "inside",
+    "pos": "postposition",
+    "frequency": 779,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0023",
+    "bengali": "পেছন",
+    "transliteration": "pechon",
+    "english": "behind / back",
+    "pos": "postposition",
+    "frequency": 575,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0024",
+    "bengali": "দ্বারা",
+    "transliteration": "dwara",
+    "english": "by / through",
+    "pos": "postposition",
+    "frequency": 541,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0025",
+    "bengali": "ওপর",
+    "transliteration": "opor",
+    "english": "on / above",
+    "pos": "postposition",
+    "frequency": 509,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0026",
+    "bengali": "পাশ",
+    "transliteration": "pash",
+    "english": "beside / next to",
+    "pos": "postposition",
+    "frequency": 458,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0027",
+    "bengali": "বিরুদ্ধে",
+    "transliteration": "biruddhe",
+    "english": "against",
+    "pos": "postposition",
+    "frequency": 426,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0028",
+    "bengali": "বদলে",
+    "transliteration": "bodle",
+    "english": "instead of / in exchange for",
+    "pos": "postposition",
+    "frequency": 412,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0029",
+    "bengali": "হিসাবে",
+    "transliteration": "hishabe",
+    "english": "as / according to",
+    "pos": "postposition",
+    "frequency": 329,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0030",
+    "bengali": "তে",
+    "transliteration": "te",
+    "english": "in / at / to",
+    "pos": "postposition",
+    "frequency": 317,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0031",
+    "bengali": "পিছু",
+    "transliteration": "pichu",
+    "english": "after / per",
+    "pos": "postposition",
+    "frequency": 255,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0032",
+    "bengali": "কাছে",
+    "transliteration": "kache",
+    "english": "near / close to",
+    "pos": "postposition",
+    "frequency": 228,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0033",
+    "bengali": "অনুযায়ী",
+    "transliteration": "onujayi",
+    "english": "according to",
+    "pos": "postposition",
+    "frequency": 214,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0034",
+    "bengali": "পক্ষ",
+    "transliteration": "pokkho",
+    "english": "in favor of / on behalf of",
+    "pos": "postposition",
+    "frequency": 205,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0035",
+    "bengali": "ওপরে",
+    "transliteration": "opore",
+    "english": "above / on top of",
+    "pos": "postposition",
+    "frequency": 153,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0036",
+    "bengali": "টা",
+    "transliteration": "ta",
+    "english": "classifier suffix / o'clock particle",
+    "pos": "postposition",
+    "frequency": 136,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0037",
+    "bengali": "সহ",
+    "transliteration": "shoho",
+    "english": "with / along with",
+    "pos": "postposition",
+    "frequency": 120,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0038",
+    "bengali": "সমেত",
+    "transliteration": "shomet",
+    "english": "along with / including",
+    "pos": "postposition",
+    "frequency": 118,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0039",
+    "bengali": "যাবৎ",
+    "transliteration": "jabot",
+    "english": "for / until / duration of",
+    "pos": "postposition",
+    "frequency": 118,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0040",
+    "bengali": "নিকট",
+    "transliteration": "nikot",
+    "english": "near / close to",
+    "pos": "postposition",
+    "frequency": 116,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0041",
+    "bengali": "নীচে",
+    "transliteration": "niche",
+    "english": "under / below",
+    "pos": "postposition",
+    "frequency": 98,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0042",
+    "bengali": "বাদ",
+    "transliteration": "bad",
+    "english": "except / after",
+    "pos": "postposition",
+    "frequency": 91,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0043",
+    "bengali": "মত",
+    "transliteration": "moto",
+    "english": "like / as",
+    "pos": "postposition",
+    "frequency": 88,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0044",
+    "bengali": "সত্ত্বেও",
+    "transliteration": "shotteo",
+    "english": "despite / in spite of",
+    "pos": "postposition",
+    "frequency": 82,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0045",
+    "bengali": "অধীন",
+    "transliteration": "odhin",
+    "english": "under / subject to",
+    "pos": "postposition",
+    "frequency": 81,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0046",
+    "bengali": "পরিবর্তে",
+    "transliteration": "poriborte",
+    "english": "instead of / in place of",
+    "pos": "postposition",
+    "frequency": 78,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0047",
+    "bengali": "সম্বন্ধে",
+    "transliteration": "shombondhe",
+    "english": "about / regarding",
+    "pos": "postposition",
+    "frequency": 72,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0048",
+    "bengali": "পাশে",
+    "transliteration": "pashe",
+    "english": "beside / next to",
+    "pos": "postposition",
+    "frequency": 67,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0049",
+    "bengali": "অনুসারে",
+    "transliteration": "onushare",
+    "english": "according to",
+    "pos": "postposition",
+    "frequency": 66,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0050",
+    "bengali": "বিপক্ষ",
+    "transliteration": "bipokkho",
+    "english": "against / opposite side",
+    "pos": "postposition",
+    "frequency": 61,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0051",
+    "bengali": "তার চেয়ে",
+    "transliteration": "tar cheye",
+    "english": "than that / compared to that",
+    "pos": "postposition",
+    "frequency": 37,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0052",
+    "bengali": "বিনা",
+    "transliteration": "bina",
+    "english": "without",
+    "pos": "postposition",
+    "frequency": 35,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0053",
+    "bengali": "মোতাবেক",
+    "transliteration": "motabek",
+    "english": "according to",
+    "pos": "postposition",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0054",
+    "bengali": "এরজন্য",
+    "transliteration": "erjonno",
+    "english": "for this",
+    "pos": "postposition",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0055",
+    "bengali": "বনাম",
+    "transliteration": "bonam",
+    "english": "versus",
+    "pos": "postposition",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0056",
+    "bengali": "ওয়াস্তে",
+    "transliteration": "waste",
+    "english": "for the sake of",
+    "pos": "postposition",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "post_0057",
+    "bengali": "অবধি",
+    "transliteration": "obodhi",
+    "english": "until / up to",
+    "pos": "postposition",
+    "frequency": 15,
+    "is_loanword": false
+  }
+]

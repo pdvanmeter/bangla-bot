@@ -1,0 +1,40 @@
+id,numeric_value,bengali_numeral,bengali_word,transliteration,english,frequency,notes
+num_0001,0,০,শূন্য,shunno,zero,59,Base cardinal 0
+num_0002,1,১,এক,ek,one,28799,Base cardinal 1
+num_0003,2,২,দুই,dui,two,3015,Base cardinal 2
+num_0004,3,৩,তিন,tin,three,1438,Base cardinal 3
+num_0005,4,৪,চার,char,four,703,Base cardinal 4
+num_0006,5,৫,পাঁচ,pãch,five,881,Base cardinal 5
+num_0007,6,৬,ছয়,chhoy,six,744,Base cardinal 6
+num_0008,7,৭,সাত,shaat,seven,395,Base cardinal 7
+num_0009,8,৮,আট,aat,eight,355,Base cardinal 8
+num_0010,9,৯,নয়,noy,nine,252,Base cardinal 9 (excludes bare নয়/নয় homograph 'is not' from frequency sum)
+num_0011,10,১০,দশ,dosh,ten,819,Base cardinal 10
+num_0012,11,১১,এগারো,egaro,eleven,102,Irregular teen (11-18 end in -o)
+num_0013,12,১২,বারো,baro,twelve,281,Irregular teen (excludes bare বার homograph 'time/turn')
+num_0014,13,১৩,তেরো,tero,thirteen,96,Irregular teen
+num_0015,14,১৪,চৌদ্দ,chouddo,fourteen,98,Irregular teen
+num_0016,15,১৫,পনেরো,ponero,fifteen,248,Irregular teen
+num_0017,16,১৬,ষোলো,sholo,sixteen,67,Irregular teen
+num_0018,17,১৭,সতেরো,shotero,seventeen,66,Irregular teen
+num_0019,18,১৮,আঠারো,atharo,eighteen,108,Irregular teen
+num_0020,19,১৯,উনিশ,unish,nineteen,45,Prefix un- (one less than twenty)
+num_0021,20,২০,কুড়ি,kuri,twenty (colloquial Kolkata),394,Colloquial Kolkata prefers 'kuri' (বিশ 'bish' used in compounds)
+num_0022,29,২৯,ঊনত্রিশ,unotrish,twenty-nine,24,Irregular un- prefix (one less than thirty)
+num_0023,30,৩০,তিরিশ,tirish,thirty,247,Tens value 30 (pronounced tirish in Kolkata)
+num_0024,39,৩৯,ঊনচল্লিশ,unochollish,thirty-nine,10,Irregular un- prefix (one less than forty)
+num_0025,40,৪০,চল্লিশ,chollish,forty,137,Tens value 40
+num_0026,49,৪৯,ঊনপঞ্চাশ,unoponchash,forty-nine,8,Irregular un- prefix (one less than fifty)
+num_0027,50,৫০,পঞ্চাশ,ponchash,fifty,224,Tens value 50
+num_0028,59,৫৯,ঊনষাট,unoshath,fifty-nine,7,Irregular un- prefix (one less than sixty)
+num_0029,60,৬০,ষাট,shaat,sixty,80,Tens value 60
+num_0030,69,৬৯,ঊনসত্তর,unoshattor,sixty-nine,0,Irregular un- prefix (one less than seventy)
+num_0031,70,৭০,সত্তর,shottor,seventy,48,Tens value 70
+num_0032,79,৭৯,ঊনআশি,unoashi,seventy-nine,2,Irregular un- prefix (one less than eighty)
+num_0033,80,৮০,আশি,ashi,eighty,60,Tens value 80
+num_0034,89,৮৯,ঊননব্বই,unonobboi,eighty-nine,3,Irregular un- prefix (one less than ninety)
+num_0035,90,৯০,নব্বই,nobboi,ninety,59,Tens value 90
+num_0036,100,১০০,একশো,eksho,one hundred,599,Power of ten (100)
+num_0037,1000,১০০০,হাজার,hajar,one thousand,679,"Power of ten (1,000)"
+num_0038,100000,১০০০০০,লাখ,lakh,one hundred thousand (1 lakh),279,South Asian numbering unit (10^5)
+num_0039,10000000,১০০০০০০০,কোটি,koti,ten million (1 crore),171,South Asian numbering unit (10^7)

@@ -2,3 +2,5 @@
 venv/
 __pycache__/
 progress.json
+data/bn_50k.txt
+data/checkpoints/

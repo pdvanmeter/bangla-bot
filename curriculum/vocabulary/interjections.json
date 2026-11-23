@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "intj_0001",
+    "bengali": "হ্যাঁ",
+    "transliteration": "hae",
+    "english": "yes",
+    "pos": "interjection",
+    "frequency": 10093,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0002",
+    "bengali": "ওহ",
+    "transliteration": "oh",
+    "english": "oh",
+    "pos": "interjection",
+    "frequency": 4039,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0003",
+    "bengali": "আচ্ছা",
+    "transliteration": "achcha",
+    "english": "okay / alright",
+    "pos": "interjection",
+    "frequency": 2657,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0004",
+    "bengali": "হেই",
+    "transliteration": "hei",
+    "english": "hey",
+    "pos": "interjection",
+    "frequency": 2081,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0005",
+    "bengali": "প্লিজ",
+    "transliteration": "plij",
+    "english": "please",
+    "pos": "interjection",
+    "frequency": 1916,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0006",
+    "bengali": "আরে",
+    "transliteration": "are",
+    "english": "hey / oh",
+    "pos": "interjection",
+    "frequency": 1596,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0007",
+    "bengali": "হ্যালো",
+    "transliteration": "hyalo",
+    "english": "hello",
+    "pos": "interjection",
+    "frequency": 1408,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0008",
+    "bengali": "জি",
+    "transliteration": "ji",
+    "english": "yes (polite)",
+    "pos": "interjection",
+    "frequency": 1051,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0009",
+    "bengali": "হুম",
+    "transliteration": "hum",
+    "english": "hmm / yeah",
+    "pos": "interjection",
+    "frequency": 972,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0010",
+    "bengali": "আহ",
+    "transliteration": "ah",
+    "english": "ah / oh",
+    "pos": "interjection",
+    "frequency": 741,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0011",
+    "bengali": "হাই",
+    "transliteration": "hai",
+    "english": "hi / hello",
+    "pos": "interjection",
+    "frequency": 734,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0012",
+    "bengali": "রে",
+    "transliteration": "re",
+    "english": "hey (informal address particle)",
+    "pos": "interjection",
+    "frequency": 696,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0013",
+    "bengali": "বিদায়",
+    "transliteration": "biday",
+    "english": "goodbye / farewell",
+    "pos": "interjection",
+    "frequency": 631,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0014",
+    "bengali": "তাই না",
+    "transliteration": "tai na",
+    "english": "isn't it?",
+    "pos": "interjection",
+    "frequency": 561,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0015",
+    "bengali": "স্বাগতম",
+    "transliteration": "shagotom",
+    "english": "welcome",
+    "pos": "interjection",
+    "frequency": 553,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0016",
+    "bengali": "হে",
+    "transliteration": "he",
+    "english": "O / hey (vocative particle)",
+    "pos": "interjection",
+    "frequency": 436,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0017",
+    "bengali": "এইতো",
+    "transliteration": "eito",
+    "english": "here it is / right here",
+    "pos": "interjection",
+    "frequency": 410,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0018",
+    "bengali": "ইয়াহ",
+    "transliteration": "iyah",
+    "english": "yeah",
+    "pos": "interjection",
+    "frequency": 377,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0019",
+    "bengali": "হায়",
+    "transliteration": "hay",
+    "english": "alas / hi",
+    "pos": "interjection",
+    "frequency": 361,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0020",
+    "bengali": "ধুর",
+    "transliteration": "dhur",
+    "english": "damn / expression of annoyance",
+    "pos": "interjection",
+    "frequency": 315,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0021",
+    "bengali": "ওরে",
+    "transliteration": "ore",
+    "english": "oh!",
+    "pos": "interjection",
+    "frequency": 301,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0022",
+    "bengali": "হাহ",
+    "transliteration": "hah",
+    "english": "huh / hah",
+    "pos": "interjection",
+    "frequency": 282,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0023",
+    "bengali": "ইয়া",
+    "transliteration": "ya",
+    "english": "yeah / huge",
+    "pos": "interjection",
+    "frequency": 248,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0024",
+    "bengali": "ওয়াও",
+    "transliteration": "wow",
+    "english": "wow",
+    "pos": "interjection",
+    "frequency": 248,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0025",
+    "bengali": "আ",
+    "transliteration": "a",
+    "english": "ah",
+    "pos": "interjection",
+    "frequency": 243,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0026",
+    "bengali": "বাই",
+    "transliteration": "bai",
+    "english": "bye",
+    "pos": "interjection",
+    "frequency": 239,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0027",
+    "bengali": "বাহ",
+    "transliteration": "bah",
+    "english": "bravo / wow",
+    "pos": "interjection",
+    "frequency": 236,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0028",
+    "bengali": "ওয়েল",
+    "transliteration": "owel",
+    "english": "well",
+    "pos": "interjection",
+    "frequency": 229,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0029",
+    "bengali": "এইযে",
+    "transliteration": "eije",
+    "english": "hey there / excuse me",
+    "pos": "interjection",
+    "frequency": 217,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0030",
+    "bengali": "উম",
+    "transliteration": "um",
+    "english": "um / hmm",
+    "pos": "interjection",
+    "frequency": 209,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0031",
+    "bengali": "ঠিক আছে",
+    "transliteration": "thik achhe",
+    "english": "all right / okay",
+    "pos": "interjection",
+    "frequency": 199,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0032",
+    "bengali": "ইয়েস",
+    "transliteration": "iyesh",
+    "english": "yes",
+    "pos": "interjection",
+    "frequency": 180,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0033",
+    "bengali": "না",
+    "transliteration": "na",
+    "english": "no / nah",
+    "pos": "interjection",
+    "frequency": 179,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0034",
+    "bengali": "ধেত্তেরি",
+    "transliteration": "dhetteri",
+    "english": "darn / damn it",
+    "pos": "interjection",
+    "frequency": 175,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0035",
+    "bengali": "সরি",
+    "transliteration": "sori",
+    "english": "sorry",
+    "pos": "interjection",
+    "frequency": 173,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0036",
+    "bengali": "স্যরি",
+    "transliteration": "syori",
+    "english": "sorry",
+    "pos": "interjection",
+    "frequency": 143,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0037",
+    "bengali": "প্লীজ",
+    "transliteration": "plij",
+    "english": "please",
+    "pos": "interjection",
+    "frequency": 142,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0038",
+    "bengali": "বাহ্",
+    "transliteration": "bah",
+    "english": "wow / wonderful",
+    "pos": "interjection",
+    "frequency": 128,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0039",
+    "bengali": "হু",
+    "transliteration": "hu",
+    "english": "hmm / yes",
+    "pos": "interjection",
+    "frequency": 116,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0040",
+    "bengali": "উহ",
+    "transliteration": "uh",
+    "english": "ouch / oh",
+    "pos": "interjection",
+    "frequency": 113,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0041",
+    "bengali": "স্বাগত",
+    "transliteration": "shagoto",
+    "english": "welcome",
+    "pos": "interjection",
+    "frequency": 99,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0042",
+    "bengali": "বটে",
+    "transliteration": "bote",
+    "english": "indeed / is that so",
+    "pos": "interjection",
+    "frequency": 99,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0043",
+    "bengali": "শাবাশ",
+    "transliteration": "shabash",
+    "english": "bravo / well done",
+    "pos": "interjection",
+    "frequency": 98,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0044",
+    "bengali": "ধ্যাত",
+    "transliteration": "dhyat",
+    "english": "darn / pshaw",
+    "pos": "interjection",
+    "frequency": 96,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0045",
+    "bengali": "আহ্",
+    "transliteration": "ah",
+    "english": "ah",
+    "pos": "interjection",
+    "frequency": 95,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0046",
+    "bengali": "নো",
+    "transliteration": "no",
+    "english": "no",
+    "pos": "interjection",
+    "frequency": 91,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0047",
+    "bengali": "ঐযে",
+    "transliteration": "oije",
+    "english": "there / look there",
+    "pos": "interjection",
+    "frequency": 89,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0048",
+    "bengali": "গো",
+    "transliteration": "go",
+    "english": "vocative particle / expression",
+    "pos": "interjection",
+    "frequency": 83,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0049",
+    "bengali": "হুহ",
+    "transliteration": "huh",
+    "english": "huh",
+    "pos": "interjection",
+    "frequency": 81,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0050",
+    "bengali": "ঔ",
+    "transliteration": "ow",
+    "english": "oh / ouch",
+    "pos": "interjection",
+    "frequency": 81,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0051",
+    "bengali": "বাপরে",
+    "transliteration": "bapre",
+    "english": "oh boy! / my goodness!",
+    "pos": "interjection",
+    "frequency": 78,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0052",
+    "bengali": "চিয়ার্স",
+    "transliteration": "chiyars",
+    "english": "cheers",
+    "pos": "interjection",
+    "frequency": 77,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0053",
+    "bengali": "আহা",
+    "transliteration": "aha",
+    "english": "ah / alas",
+    "pos": "interjection",
+    "frequency": 74,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0054",
+    "bengali": "ওপস",
+    "transliteration": "oops",
+    "english": "oops",
+    "pos": "interjection",
+    "frequency": 66,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0055",
+    "bengali": "শুভরাত্রি",
+    "transliteration": "shubhoratri",
+    "english": "good night",
+    "pos": "interjection",
+    "frequency": 66,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0056",
+    "bengali": "অহ",
+    "transliteration": "oh",
+    "english": "oh",
+    "pos": "interjection",
+    "frequency": 66,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0057",
+    "bengali": "হায়রে",
+    "transliteration": "hayre",
+    "english": "alas",
+    "pos": "interjection",
+    "frequency": 64,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0058",
+    "bengali": "ব্যাস",
+    "transliteration": "byas",
+    "english": "that's all / enough",
+    "pos": "interjection",
+    "frequency": 62,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0059",
+    "bengali": "ওহো",
+    "transliteration": "oho",
+    "english": "oh",
+    "pos": "interjection",
+    "frequency": 61,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0060",
+    "bengali": "আঃ",
+    "transliteration": "ah",
+    "english": "ah / oh",
+    "pos": "interjection",
+    "frequency": 60,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0061",
+    "bengali": "অ্যাঁ",
+    "transliteration": "ae",
+    "english": "huh / what",
+    "pos": "interjection",
+    "frequency": 58,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0062",
+    "bengali": "ধেৎ",
+    "transliteration": "dhet",
+    "english": "darn / expression of annoyance",
+    "pos": "interjection",
+    "frequency": 57,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0063",
+    "bengali": "শুভ সকাল",
+    "transliteration": "shubho shokal",
+    "english": "good morning",
+    "pos": "interjection",
+    "frequency": 52,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0064",
+    "bengali": "নমস্কার",
+    "transliteration": "nomoshkar",
+    "english": "hello / greetings",
+    "pos": "interjection",
+    "frequency": 52,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0065",
+    "bengali": "উফ",
+    "transliteration": "uf",
+    "english": "uf / ouch / oh",
+    "pos": "interjection",
+    "frequency": 52,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0066",
+    "bengali": "হো",
+    "transliteration": "ho",
+    "english": "hey / ho",
+    "pos": "interjection",
+    "frequency": 51,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0067",
+    "bengali": "ব্লা",
+    "transliteration": "bla",
+    "english": "blah",
+    "pos": "interjection",
+    "frequency": 50,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0068",
+    "bengali": "যত্তসব",
+    "transliteration": "jottosob",
+    "english": "what nonsense / rubbish",
+    "pos": "interjection",
+    "frequency": 49,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0069",
+    "bengali": "উমম",
+    "transliteration": "umm",
+    "english": "umm",
+    "pos": "interjection",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0070",
+    "bengali": "বুম",
+    "transliteration": "bum",
+    "english": "boom",
+    "pos": "interjection",
+    "frequency": 47,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0071",
+    "bengali": "আউ",
+    "transliteration": "au",
+    "english": "ouch",
+    "pos": "interjection",
+    "frequency": 47,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0072",
+    "bengali": "একি",
+    "transliteration": "eki",
+    "english": "what is this! / oh dear",
+    "pos": "interjection",
+    "frequency": 46,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0073",
+    "bengali": "হূ",
+    "transliteration": "hu",
+    "english": "hmm / uh-huh",
+    "pos": "interjection",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0074",
+    "bengali": "অ",
+    "transliteration": "o",
+    "english": "oh",
+    "pos": "interjection",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0075",
+    "bengali": "ওয়াহ",
+    "transliteration": "wah",
+    "english": "wow / bravo",
+    "pos": "interjection",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0076",
+    "bengali": "আমিন",
+    "transliteration": "amin",
+    "english": "amen",
+    "pos": "interjection",
+    "frequency": 45,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0077",
+    "bengali": "ছি",
+    "transliteration": "chi",
+    "english": "fie / shame",
+    "pos": "interjection",
+    "frequency": 43,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0078",
+    "bengali": "ইয়ে",
+    "transliteration": "iye",
+    "english": "um / well (filler word)",
+    "pos": "interjection",
+    "frequency": 41,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0079",
+    "bengali": "শুভসন্ধ্যা",
+    "transliteration": "shubhosondhya",
+    "english": "good evening",
+    "pos": "interjection",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0080",
+    "bengali": "উহু",
+    "transliteration": "uhu",
+    "english": "uh-uh / no",
+    "pos": "interjection",
+    "frequency": 39,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0081",
+    "bengali": "ব্যস",
+    "transliteration": "byas",
+    "english": "that's it / enough",
+    "pos": "interjection",
+    "frequency": 36,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0082",
+    "bengali": "কিরে",
+    "transliteration": "kire",
+    "english": "hey / what's up",
+    "pos": "interjection",
+    "frequency": 35,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0083",
+    "bengali": "ওয়েলকাম",
+    "transliteration": "oyelkam",
+    "english": "welcome",
+    "pos": "interjection",
+    "frequency": 35,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0084",
+    "bengali": "সাবাস",
+    "transliteration": "shabas",
+    "english": "bravo / well done",
+    "pos": "interjection",
+    "frequency": 35,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0085",
+    "bengali": "এহ",
+    "transliteration": "eh",
+    "english": "eh / expression of disgust or disbelief",
+    "pos": "interjection",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0086",
+    "bengali": "ধ্যাৎ",
+    "transliteration": "dhyat",
+    "english": "expression of annoyance or frustration",
+    "pos": "interjection",
+    "frequency": 34,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0087",
+    "bengali": "ওহে",
+    "transliteration": "ohe",
+    "english": "oh / hey",
+    "pos": "interjection",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0088",
+    "bengali": "হাহ্",
+    "transliteration": "hah",
+    "english": "hah",
+    "pos": "interjection",
+    "frequency": 33,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0089",
+    "bengali": "ইয়েহ",
+    "transliteration": "iyeh",
+    "english": "yeah",
+    "pos": "interjection",
+    "frequency": 33,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0090",
+    "bengali": "ওকে",
+    "transliteration": "oke",
+    "english": "okay",
+    "pos": "interjection",
+    "frequency": 33,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0091",
+    "bengali": "ব্রাভো",
+    "transliteration": "bravo",
+    "english": "bravo",
+    "pos": "interjection",
+    "frequency": 32,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0092",
+    "bengali": "হুঁ",
+    "transliteration": "hũ",
+    "english": "hmm / yes",
+    "pos": "interjection",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0093",
+    "bengali": "ঘোঁৎ",
+    "transliteration": "ghot",
+    "english": "grunt sound",
+    "pos": "interjection",
+    "frequency": 32,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0094",
+    "bengali": "উ",
+    "transliteration": "u",
+    "english": "uh / ooh",
+    "pos": "interjection",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0095",
+    "bengali": "ঘেউ",
+    "transliteration": "gheu",
+    "english": "barking sound (woof)",
+    "pos": "interjection",
+    "frequency": 31,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0096",
+    "bengali": "জিন্দাবাদ",
+    "transliteration": "jindabad",
+    "english": "long live",
+    "pos": "interjection",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0097",
+    "bengali": "ঐতো",
+    "transliteration": "oito",
+    "english": "there it is / right there",
+    "pos": "interjection",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0098",
+    "bengali": "হি",
+    "transliteration": "hi",
+    "english": "hee (giggle sound)",
+    "pos": "interjection",
+    "frequency": 30,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0099",
+    "bengali": "আমেন",
+    "transliteration": "amen",
+    "english": "amen",
+    "pos": "interjection",
+    "frequency": 29,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0100",
+    "bengali": "ছিঃ",
+    "transliteration": "chhih",
+    "english": "fie! / shame!",
+    "pos": "interjection",
+    "frequency": 28,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0101",
+    "bengali": "আউচ",
+    "transliteration": "auch",
+    "english": "ouch",
+    "pos": "interjection",
+    "frequency": 27,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0102",
+    "bengali": "ওম",
+    "transliteration": "om",
+    "english": "Om (sacred chant)",
+    "pos": "interjection",
+    "frequency": 27,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0103",
+    "bengali": "আমম",
+    "transliteration": "umm",
+    "english": "um / hmm",
+    "pos": "interjection",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0104",
+    "bengali": "শশশ",
+    "transliteration": "shh",
+    "english": "shh (silence command)",
+    "pos": "interjection",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0105",
+    "bengali": "আহারে",
+    "transliteration": "ahare",
+    "english": "alas! / poor thing!",
+    "pos": "interjection",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0106",
+    "bengali": "ইশ",
+    "transliteration": "ish",
+    "english": "oops / oh dear",
+    "pos": "interjection",
+    "frequency": 26,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0107",
+    "bengali": "লে",
+    "transliteration": "le",
+    "english": "take it! / here you go! (exclamation)",
+    "pos": "interjection",
+    "frequency": 25,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0108",
+    "bengali": "সাবাশ",
+    "transliteration": "shabash",
+    "english": "bravo / well done",
+    "pos": "interjection",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0109",
+    "bengali": "ইস",
+    "transliteration": "ish",
+    "english": "alas / oh dear",
+    "pos": "interjection",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0110",
+    "bengali": "আঁহ",
+    "transliteration": "aah",
+    "english": "ah / exclamation sound",
+    "pos": "interjection",
+    "frequency": 24,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0111",
+    "bengali": "খবরদার",
+    "transliteration": "khobordar",
+    "english": "beware / watch out",
+    "pos": "interjection",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0112",
+    "bengali": "ওগো",
+    "transliteration": "ogo",
+    "english": "oh (form of address)",
+    "pos": "interjection",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0113",
+    "bengali": "ধ্যাত্তেরি",
+    "transliteration": "dhyatteri",
+    "english": "darn / shoot (expression of annoyance)",
+    "pos": "interjection",
+    "frequency": 23,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0114",
+    "bengali": "সুপ্রভাত",
+    "transliteration": "shuprobhat",
+    "english": "good morning",
+    "pos": "interjection",
+    "frequency": 22,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0115",
+    "bengali": "গুডবাই",
+    "transliteration": "gudbai",
+    "english": "goodbye",
+    "pos": "interjection",
+    "frequency": 22,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0116",
+    "bengali": "থ্যাঙ্কিউ",
+    "transliteration": "thangkiu",
+    "english": "thank you",
+    "pos": "interjection",
+    "frequency": 21,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0117",
+    "bengali": "থ্যাংকস",
+    "transliteration": "thyanksh",
+    "english": "thanks",
+    "pos": "interjection",
+    "frequency": 21,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0118",
+    "bengali": "হ্যারা",
+    "transliteration": "hyara",
+    "english": "hey / hello (informal address)",
+    "pos": "interjection",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0119",
+    "bengali": "সাব্বাস",
+    "transliteration": "shabbash",
+    "english": "bravo / well done",
+    "pos": "interjection",
+    "frequency": 21,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0120",
+    "bengali": "অও",
+    "transliteration": "ao",
+    "english": "ow / exclamation",
+    "pos": "interjection",
+    "frequency": 20,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0121",
+    "bengali": "নিকুচি",
+    "transliteration": "nikuchi",
+    "english": "damn / to hell with",
+    "pos": "interjection",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0122",
+    "bengali": "ভৌ",
+    "transliteration": "bhou",
+    "english": "barking sound (bow-wow)",
+    "pos": "interjection",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0123",
+    "bengali": "ধুস",
+    "transliteration": "dhus",
+    "english": "damn / expression of annoyance",
+    "pos": "interjection",
+    "frequency": 19,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0124",
+    "bengali": "যাহ",
+    "transliteration": "jah",
+    "english": "oh no / damn / go away",
+    "pos": "interjection",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0125",
+    "bengali": "ওউ",
+    "transliteration": "ow",
+    "english": "ow / ouch",
+    "pos": "interjection",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0126",
+    "bengali": "এ্যা",
+    "transliteration": "eya",
+    "english": "huh / what",
+    "pos": "interjection",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0127",
+    "bengali": "এই",
+    "transliteration": "ei",
+    "english": "here it is / right here",
+    "pos": "interjection",
+    "frequency": 18,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0128",
+    "bengali": "হেইয়া",
+    "transliteration": "heiya",
+    "english": "heave-ho!",
+    "pos": "interjection",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0129",
+    "bengali": "ছু",
+    "transliteration": "chhu",
+    "english": "shoo / incantation sound",
+    "pos": "interjection",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0130",
+    "bengali": "মমম",
+    "transliteration": "mmm",
+    "english": "mmm (humming sound)",
+    "pos": "interjection",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0131",
+    "bengali": "হুররে",
+    "transliteration": "hurre",
+    "english": "hurrah / hooray",
+    "pos": "interjection",
+    "frequency": 17,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0132",
+    "bengali": "ওয়ে",
+    "transliteration": "oe",
+    "english": "hey / way",
+    "pos": "interjection",
+    "frequency": 17,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0133",
+    "bengali": "মাইরি",
+    "transliteration": "mairi",
+    "english": "swear (by God / honestly)",
+    "pos": "interjection",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0134",
+    "bengali": "শশ",
+    "transliteration": "shosh",
+    "english": "shh (hush)",
+    "pos": "interjection",
+    "frequency": 16,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0135",
+    "bengali": "থ্যাংক",
+    "transliteration": "thyangk",
+    "english": "thank",
+    "pos": "interjection",
+    "frequency": 16,
+    "is_loanword": true
+  },
+  {
+    "id": "intj_0136",
+    "bengali": "হাঃ",
+    "transliteration": "ha",
+    "english": "ha! (laughter/sigh)",
+    "pos": "interjection",
+    "frequency": 15,
+    "is_loanword": false
+  },
+  {
+    "id": "intj_0137",
+    "bengali": "বাব্বা",
+    "transliteration": "babba",
+    "english": "wow / oh boy!",
+    "pos": "interjection",
+    "frequency": 15,
+    "is_loanword": false
+  }
+]
