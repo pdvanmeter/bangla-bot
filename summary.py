@@ -1,132 +1,78 @@
-import json
-import os
-
-PROGRESS_FILE = "progress.json"
-VOCAB_FILE = os.path.join("curriculum", "vocabulary.json")
-GRAMMAR_FILE = os.path.join("curriculum", "grammar.json")
-
-
-def load_json(file_path: str):
-    if not os.path.exists(file_path):
-        return None
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+from curriculum_manager import load_grammar, load_vocabulary, select_review_words
+from progress_manager import (
+    PROGRESS_FILE,
+    SRS_INTERVAL_DAYS,
+    SRS_LEVEL_LABELS,
+    compute_progress_summary,
+    ensure_progress_file,
+    is_item_due,
+)
 
 
-def build_vocab_lookup(vocab_curriculum: dict | None) -> dict[str, dict]:
-    """Maps transliteration key -> {'bengali': ..., 'english': ..., 'category': ...}."""
-    lookup: dict[str, dict] = {}
-    if not vocab_curriculum:
-        return lookup
-    for level, categories in vocab_curriculum.items():
-        if not isinstance(categories, dict):
-            continue
-        for category, items in categories.items():
-            if not isinstance(items, list):
-                continue
-            for entry in items:
-                key = entry.get("transliteration")
-                if key:
-                    lookup[key] = {
-                        "bengali": entry.get("bengali", ""),
-                        "english": entry.get("english", ""),
-                        "category": category,
-                        "level": level,
-                    }
-    return lookup
+def generate_summary(progress_file: str = PROGRESS_FILE):
+    progress_data = ensure_progress_file(progress_file)
+    _, vocab_by_id, all_vocab = load_vocabulary()
+    grammar_list, grammar_by_id = load_grammar()
 
+    summary = compute_progress_summary(
+        progress_data, total_vocab=len(all_vocab), total_grammar=len(grammar_list)
+    )
 
-def count_grammar_curriculum(grammar_curriculum: dict | None) -> int:
-    if not grammar_curriculum:
-        return 0
-    total = 0
-    for items in grammar_curriculum.values():
-        if isinstance(items, list):
-            total += len(items)
-    return total
-
-
-def generate_summary(progress_data: dict | None):
-    if not progress_data:
-        print("No progress data found.")
-        return
-
-    vocab_curriculum = load_json(VOCAB_FILE)
-    grammar_curriculum = load_json(GRAMMAR_FILE)
-    vocab_lookup = build_vocab_lookup(vocab_curriculum)
-
-    vocab_progress = progress_data.get("vocabulary", {})
-    grammar_progress = progress_data.get("grammar", {})
-
-    total_curriculum_words = len(vocab_lookup) or len(vocab_progress)
-    practiced_words = [
-        (w, stats)
-        for w, stats in vocab_progress.items()
-        if stats.get("encounters", 0) > 0
-    ]
-    avg_vocab_mastery = (
-        sum(stats.get("mastery_score", 0.0) for _, stats in practiced_words)
-        / len(practiced_words)
-        if practiced_words
+    pct_vocab = (
+        (summary["learned_vocab"] / summary["total_vocab"]) * 100
+        if summary["total_vocab"] > 0
         else 0.0
     )
 
     print("=====================================================")
-    print(" Bengali Learning Progress Summary")
+    print(" Bengali Learning Progress Summary (5-Level SRS)")
     print("=====================================================")
-    print(f"Curriculum Vocabulary:  {total_curriculum_words} words")
-    if total_curriculum_words > 0:
-        pct = (len(practiced_words) / total_curriculum_words) * 100
-        print(f"Words Encountered:      {len(practiced_words)} ({pct:.1f}%)")
-    else:
-        print(f"Words Encountered:      {len(practiced_words)}")
-    print(f"Average Word Mastery:   {avg_vocab_mastery:.2f} / 1.00")
+    print(f"Curriculum Vocabulary:  {summary['total_vocab']:,} words")
+    print(f"Words Encountered:      {summary['learned_vocab']:,} ({pct_vocab:.1f}%)")
+    print(f"Words Due Today:        {summary['due_vocab']:,}")
+    print(f"Sessions Completed:     {summary['sessions_completed']:,}")
     print("-----------------------------------------------------")
+    print("Vocabulary by SRS Level:")
+    for lvl in range(1, 6):
+        cnt = summary["vocab_by_level"][lvl]
+        print(
+            f"  {SRS_LEVEL_LABELS[lvl]:<24} ({SRS_INTERVAL_DAYS[lvl]:>2}d): {cnt:>5,}"
+        )
 
-    weak_words = sorted(
-        [{"word": w, **stats} for w, stats in practiced_words],
-        key=lambda x: (x.get("mastery_score", 0.0), x.get("encounters", 0)),
-    )[:5]
-
-    if weak_words:
-        print("\nTop 5 Weakest Words (Focus Areas):")
-        for item in weak_words:
-            word = item["word"]
-            meta = vocab_lookup.get(word, {})
-            bengali = meta.get("bengali", "")
-            meaning = meta.get("english", "custom/unlisted")
-            label = f"{bengali} ({word} - {meaning})" if bengali else f"{word} ({meaning})"
+    focus_words = select_review_words(
+        progress_data, count=10, vocab_by_id=vocab_by_id
+    )
+    if focus_words:
+        print("\nTop Priority Review Words (Due / Lowest SRS):")
+        for item in focus_words:
+            due_tag = " [DUE]" if item["is_due"] else ""
             print(
-                f"- {label}: mastery {item.get('mastery_score', 0.0):.2f} "
-                f"({item.get('encounters', 0)} encounters)"
+                f"  - [{item['id']}] {item['bengali']} ({item['transliteration']} - {item['english']}): "
+                f"L{item['srs_level']}{due_tag} | First: {item['first_encountered'] or '-'} | "
+                f"Recent: {item['last_practiced'] or '-'}"
             )
     else:
-        print("\nPractice more to see weakest words!")
+        print("\nNo vocabulary practiced yet. Start a Learning session!")
 
-    total_grammar = count_grammar_curriculum(grammar_curriculum)
-    practiced_grammar = [
-        (g, stats)
-        for g, stats in grammar_progress.items()
-        if stats.get("encounters", 0) > 0
-    ]
     print("\nGrammar Concepts Status:")
-    print(f"- Total in Curriculum: {total_grammar}")
-    print(f"- Encountered:         {len(practiced_grammar)}")
-    if practiced_grammar:
-        for concept, stats in sorted(
-            practiced_grammar, key=lambda x: x[1].get("mastery_score", 0.0)
+    print(f"  Total in Curriculum:  {summary['total_grammar']}")
+    print(f"  Encountered:          {summary['learned_grammar']}")
+    print(f"  Due Today:            {summary['due_grammar']}")
+    grammar_records = progress_data.get("grammar", {})
+    if grammar_records:
+        for gid, rec in sorted(
+            grammar_records.items(),
+            key=lambda x: (x[1].get("srs_level", 1), x[1].get("next_review_due", "")),
         ):
+            concept = grammar_by_id.get(gid, {}).get("concept", gid)
+            due_tag = " [DUE]" if is_item_due(rec) else ""
             print(
-                f"  * {concept}: mastery {stats.get('mastery_score', 0.0):.2f} "
-                f"({stats.get('encounters', 0)} encounters)"
+                f"  * [{gid}] {concept}: L{rec.get('srs_level', 1)}{due_tag} "
+                f"(encounters: {rec.get('encounters', 1)}, due: {rec.get('next_review_due', '-')})"
             )
 
     print("=====================================================")
 
 
 if __name__ == "__main__":
-    if not os.path.exists(PROGRESS_FILE):
-        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
-            json.dump({"vocabulary": {}, "grammar": {}}, f, ensure_ascii=False, indent=2)
-    progress_data = load_json(PROGRESS_FILE)
-    generate_summary(progress_data)
+    generate_summary()

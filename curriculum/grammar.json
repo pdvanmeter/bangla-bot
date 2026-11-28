@@ -1,6 +1,7 @@
 {
   "beginner": [
     {
+      "id": "gram_0001",
       "concept": "Subject-Verb Agreement (Present Indefinite)",
       "description": "In the Kolkata dialect (Cholitobhasha), verbs are conjugated based on the person and the level of formality of the subject.",
       "rules": [
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "gram_0002",
       "concept": "Pronouns and Formality",
       "description": "Bengali uses three levels of formality for second-person pronouns. 'Tumi' is the most common for general use in Kolkata.",
       "levels": [
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "id": "gram_0003",
       "concept": "Sentence Structure (SOV)",
       "description": "Bengali follows a Subject-Object-Verb order.",
       "examples": [
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "id": "gram_0004",
       "concept": "Adjective Usage",
       "description": "Adjectives usually precede the noun they describe. They do not change based on gender or number of the noun.",
       "examples": [
@@ -37,6 +41,7 @@
       ]
     },
     {
+      "id": "gram_0005",
       "concept": "Negation (Present Indefinite)",
       "description": "To negate a sentence in the present indefinite, add 'na' after the verb.",
       "examples": [

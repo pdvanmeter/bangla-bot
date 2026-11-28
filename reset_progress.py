@@ -1,17 +1,11 @@
-import json
-import os
-
-PROGRESS_FILE = "progress.json"
+from progress_manager import PROGRESS_FILE, reset_progress_data
 
 
 def reset_progress(file_path: str = PROGRESS_FILE):
-    data = {"vocabulary": {}, "grammar": {}}
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
+    reset_progress_data(file_path)
     print("=====================================================")
-    print(f" Success: {file_path} has been reset.")
-    print(" All vocabulary and grammar mastery scores are cleared.")
+    print(f" Success: {file_path} has been reset (v2 SRS schema).")
+    print(" All vocabulary, grammar SRS levels, and history are cleared.")
     print("=====================================================")
 
 
